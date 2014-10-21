@@ -5,9 +5,38 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Moving Tiles">
+      <sprite>sprites\sprRightArrow</sprite>
+      <sprite>sprites\sprLeftArrow</sprite>
+      <sprite>sprites\sprUpArrow</sprite>
+      <sprite>sprites\sprDownArrow</sprite>
+    </sprites>
+    <sprites name="Solid Tiles">
+      <sprite>sprites\sprWall</sprite>
+      <sprite>sprites\sprDoor</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\DevNotes.gml</script>
+  </scripts>
+  <objects name="objects">
+    <objects name="Tiles">
+      <object>objects\objWall</object>
+      <object>objects\objDoor</object>
+      <object>objects\objRightArrow</object>
+      <object>objects\objLeftArrow</object>
+      <object>objects\objUpArrow</object>
+      <object>objects\objDownArrow</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <rooms name="Maps">
+      <room>rooms\room_Maze01</room>
+    </rooms>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
