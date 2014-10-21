@@ -6,4 +6,10 @@
 **
 **  Development Notes
 
+// 21 October, 2014 //
 
+Basic file structure created
+
+First room created (room_Maze01)
+
+Basic Tile set created
