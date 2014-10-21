@@ -22,7 +22,8 @@
   <scripts name="scripts">
     <script>scripts\DevNotes.gml</script>
     <scripts name="Player UI">
-      <script>scripts\scrClicknDrag.gml</script>
+      <script>scripts\scrArrowCreate.gml</script>
+      <script>scripts\scrArrowStep.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">

@@ -17,3 +17,5 @@ Basic Tile set created
 Second (test) room created
 
 Overlord Created
+
+Click & Drag mechanic implemented in Player UI
