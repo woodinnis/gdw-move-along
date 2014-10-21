@@ -21,19 +21,27 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\DevNotes.gml</script>
+    <scripts name="Player UI">
+      <script>scripts\scrClicknDrag.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
-    <objects name="Tiles">
+    <object>objects\objOverlord</object>
+    <objects name="Solid Tiles">
       <object>objects\objWall</object>
       <object>objects\objDoor</object>
-      <object>objects\objRightArrow</object>
-      <object>objects\objLeftArrow</object>
-      <object>objects\objUpArrow</object>
+    </objects>
+    <objects name="Moving Tiles">
       <object>objects\objDownArrow</object>
+      <object>objects\objUpArrow</object>
+      <object>objects\objLeftArrow</object>
+      <object>objects\objRightArrow</object>
+      <object>objects\objArrowParent</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="Maps">
+      <room>rooms\room_Maze02</room>
       <room>rooms\room_Maze01</room>
     </rooms>
   </rooms>
