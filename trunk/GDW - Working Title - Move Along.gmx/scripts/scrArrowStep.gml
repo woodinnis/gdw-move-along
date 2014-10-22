@@ -1,23 +1,49 @@
 // Mouse click and drag
 
+// Set local variables
+var targetX, targetY;
+var snapX, snapY;
+
+targetX = 0;
+targetY = 0;
+
+// If LMB is pressed inside an Arrow Tile bounding box
 if(mouse_check_button_pressed(mb_left) && instance_position(mouse_x, mouse_y, objArrowParent))
 {
+    // Set cursor
     window_set_cursor(cr_drag);
+    
+    // Set variables
     instance = instance_position(mouse_x, mouse_y, objArrowParent);
     drag = true;
     TileX = x;
     TileY = y;
 }
 
+// When LMB is released
 if(mouse_check_button_released(mb_left) && drag == true)
 {
+    // Set target coordinates for Arrow tile 
+    targetX = round( (mouse_x - 16)/ 32) * 32;
+    targetY = round( (mouse_y - 16)/ 32) * 32;
+    
+    // Move Arrow Tile
     with(instance)
     {
-        x = mouse_x - 16;
-        y = mouse_y - 16;
-        move_snap(32,32);
-        drag = false;        
+        // If target coordinates are empty, move tile.   
+        if(place_empty(targetX, targetY))
+        {
+            x = targetX;
+            y = targetY;
+                        
+            drag = false;
+        } 
+        else
+        {
+            drag = true;
+        }                               
     }
     
+    // Reset cursor
     window_set_cursor(cr_default);
 }

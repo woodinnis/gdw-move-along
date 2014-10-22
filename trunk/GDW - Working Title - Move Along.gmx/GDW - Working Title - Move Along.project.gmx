@@ -24,6 +24,7 @@
     <scripts name="Player UI">
       <script>scripts\scrArrowCreate.gml</script>
       <script>scripts\scrArrowStep.gml</script>
+      <script>scripts\scrArrowWallCollision.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">

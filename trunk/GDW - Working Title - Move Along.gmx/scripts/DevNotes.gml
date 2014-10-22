@@ -19,3 +19,5 @@ Second (test) room created
 Overlord Created
 
 Click & Drag mechanic implemented in Player UI
+
+Click & Drag mechanic touched up.
