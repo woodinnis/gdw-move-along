@@ -16,6 +16,7 @@
       <sprite>sprites\sprWall</sprite>
       <sprite>sprites\sprDoor</sprite>
     </sprites>
+    <sprite>sprites\sprPlayer</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
