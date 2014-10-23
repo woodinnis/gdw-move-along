@@ -21,3 +21,8 @@ Overlord Created
 Click & Drag mechanic implemented in Player UI
 
 Click & Drag mechanic touched up.
+
+// 22 October, 2014 //
+
+Created Player Sprite
+
