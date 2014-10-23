@@ -26,3 +26,6 @@ Click & Drag mechanic touched up.
 
 Created Player Sprite
 
+Basic Player Movement implemented
+- Player now moves
+- Player changes direction on contact with arrow tiles

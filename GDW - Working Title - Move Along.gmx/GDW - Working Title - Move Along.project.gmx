@@ -27,6 +27,10 @@
       <script>scripts\scrArrowStep.gml</script>
       <script>scripts\scrArrowWallCollision.gml</script>
     </scripts>
+    <scripts name="Player">
+      <script>scripts\scrPlayerCreate.gml</script>
+      <script>scripts\scrPlayerMovement.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>
@@ -41,6 +45,7 @@
       <object>objects\objRightArrow</object>
       <object>objects\objArrowParent</object>
     </objects>
+    <object>objects\objPlayer</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Maps">
