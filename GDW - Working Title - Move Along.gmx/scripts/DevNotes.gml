@@ -29,3 +29,8 @@ Created Player Sprite
 Basic Player Movement implemented
 - Player now moves
 - Player changes direction on contact with arrow tiles
+
+Attempted to resolve the issue of player/tile collision (Player doesn't move over top of tiles before changing direction)
+- (!place_empty) attempted in top if statement
+- move_towards_point attempted at lower level
+- lerp attempted at lower level
