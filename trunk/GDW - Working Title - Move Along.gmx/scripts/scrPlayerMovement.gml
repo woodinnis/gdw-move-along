@@ -22,14 +22,12 @@ switch(playerDirection)
     {
         y = y - moveSpeed;
         break;
-    }
-    
+    }    
     case 1:
     {
         x = x - moveSpeed;
         break;
-    }
-    
+    }    
     case 2:
     {
         y = y + moveSpeed;
@@ -40,25 +38,30 @@ switch(playerDirection)
         x = x + moveSpeed;
         break;
     }
-    
+    default:
+    {
+        moveSpeed = 0;
+        break;
+    }
 }
 
-// Change playerDirection to objArrow*
+// Change playerDirection to obj*Arrow
 if(place_meeting(x, y, objArrowParent))
 {
+    arrow = other;
     if(place_meeting(x, y, objUpArrow))
-    {
+    {        
         playerDirection = 0;
     }
     else if(place_meeting(x, y, objLeftArrow))
-    {
+    {      
         playerDirection = 1;
     }
     else if(place_meeting(x, y, objDownArrow))
     {
         playerDirection = 2;
     }
-    else
+    else if(place_meeting(x, y, objRightArrow))
     {
         playerDirection = 3;
     }
