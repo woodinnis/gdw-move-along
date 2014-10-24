@@ -20,6 +20,11 @@ if (place_meeting(nextXpos,nextYpos,objArrowParent))
         //show_message(otherArrow);
     }
 }
+// Check for a wall, stop if about to collide
+else if(place_meeting(nextXpos,nextYpos, objWall))
+{
+    speed = 0;
+}
 else
 {
     scanForArrow = true;
