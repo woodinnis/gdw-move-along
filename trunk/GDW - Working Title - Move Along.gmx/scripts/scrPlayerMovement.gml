@@ -17,7 +17,7 @@ if (place_meeting(nextXpos,nextYpos,objArrowParent))
     {
         scanForArrow = false;
         otherArrow = instance_position(nextXpos,nextYpos,objArrowParent);
-        show_message(otherArrow);
+        //show_message(otherArrow);
     }
 }
 else
@@ -25,7 +25,7 @@ else
     scanForArrow = true;
 }
 
-if (otherArrow >0)
+if (otherArrow > 0)
 {
     if (point_distance(x,y,otherArrow.x,otherArrow.y) <= speed+1)
     {
@@ -36,4 +36,3 @@ if (otherArrow >0)
         otherArrow = -4;
     }
 }
-

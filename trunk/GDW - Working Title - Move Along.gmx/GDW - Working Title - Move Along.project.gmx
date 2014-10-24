@@ -34,6 +34,7 @@
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
       <script>scripts\scrPlayerMovement.gml</script>
+      <script>scripts\scrPlayerClicked.gml</script>
     </scripts>
     <scripts name="Arrows">
       <script>scripts\scrArrowCreateDown.gml</script>
