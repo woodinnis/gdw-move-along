@@ -45,3 +45,5 @@ Placed Overlord into room
 Created a start button control system for player movement
 - Player no longer starts moving automatically at game start.
 - "Start" button must be pressed for player to start moving
+
+Player movement now overlaps arrow tiles

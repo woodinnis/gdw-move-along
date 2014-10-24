@@ -2,71 +2,38 @@
 
 // Set moveSpeed to playerSpeed or 0 based on True/False state of canWalk
 if(objOverlord.canWalk == true)
-    moveSpeed = (playerSpeed / room_speed); // True
+   speed = playerSpeed; // True
 else
-    moveSpeed = 0;  // False
+   speed = 0; // False
 
 
-/*
-
-playerDirection states
-
-playerDirection = 0: UP
-playerDirection = 1: LEFT
-playerDirection = 2: DOWN
-playerDirection = 3: RIGHT
-
-*/
-
-
-// Move player moveSpeed in playerDirection
-switch(playerDirection)
+nextXpos = x + lengthdir_x(speed,direction);
+nextYpos = y + lengthdir_y(speed,direction);
+   
+//if arrow present, store the id
+if (place_meeting(nextXpos,nextYpos,objArrowParent))
 {
-    case 0:
+    if (scanForArrow)
     {
-        y = y - moveSpeed;
-        break;
-    }    
-    case 1:
-    {
-        x = x - moveSpeed;
-        break;
-    }    
-    case 2:
-    {
-        y = y + moveSpeed;
-        break;
+        scanForArrow = false;
+        otherArrow = instance_position(nextXpos,nextYpos,objArrowParent);
+        show_message(otherArrow);
     }
-    case 3:
+}
+else
+{
+    scanForArrow = true;
+}
+
+if (otherArrow >0)
+{
+    if (point_distance(x,y,otherArrow.x,otherArrow.y) <= speed+1)
     {
-        x = x + moveSpeed;
-        break;
-    }
-    default:
-    {
-        moveSpeed = 0;
-        break;
+        x = otherArrow.x;
+        y = otherArrow.y;
+        direction = otherArrow.direction;
+        scanForArrow = false;
+        otherArrow = -4;
     }
 }
 
-// Change playerDirection to obj*Arrow
-if(place_meeting(x, y, objArrowParent))
-{
-    arrow = other;
-    if(place_meeting(x, y, objUpArrow))
-    {        
-        playerDirection = 0;
-    }
-    else if(place_meeting(x, y, objLeftArrow))
-    {      
-        playerDirection = 1;
-    }
-    else if(place_meeting(x, y, objDownArrow))
-    {
-        playerDirection = 2;
-    }
-    else if(place_meeting(x, y, objRightArrow))
-    {
-        playerDirection = 3;
-    }
-}

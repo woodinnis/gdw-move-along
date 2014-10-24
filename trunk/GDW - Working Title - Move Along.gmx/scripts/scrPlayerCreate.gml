@@ -1,5 +1,7 @@
 // Set player creation variables
 
-playerDirection = 0;
-
-playerSpeed = 30;
+direction= 90;
+playerSpeed = 5;
+speed = playerSpeed;
+otherArrow = -1;
+scanForArrow = true;
