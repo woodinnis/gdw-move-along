@@ -19,10 +19,12 @@
     <sprites name="GUI">
       <sprite>sprites\sprPlayer</sprite>
       <sprite>sprites\sprStartBtn</sprite>
+      <sprite>sprites\sprResetBtn</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgMaze01</background>
+    <background>background\bgMaze01_1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -30,6 +32,7 @@
     <script>scripts\scrOverlordCreate.gml</script>
     <scripts name="GUI">
       <script>scripts\scrStartBtnPressed.gml</script>
+      <script>scripts\scrResetBtnPressed.gml</script>
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
@@ -64,6 +67,7 @@
     <objects name="GUI">
       <object>objects\objPlayer</object>
       <object>objects\objStartBtn</object>
+      <object>objects\objResetBtn</object>
     </objects>
   </objects>
   <rooms name="rooms">
