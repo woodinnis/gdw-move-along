@@ -55,3 +55,6 @@ Replaced the scripts embedded in obj*Arrow tile create events
 - Filed correctly
 
 Reorganized certain files and folders to more accurately represent their contents
+
+Added a maze background
+- Redesign room_Maze01 using this layout

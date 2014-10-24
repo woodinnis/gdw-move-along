@@ -21,7 +21,9 @@
       <sprite>sprites\sprStartBtn</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bgMaze01</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\DevNotes.gml</script>
@@ -64,9 +66,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_Maze01</room>
     <rooms name="Maps">
       <room>rooms\room_Maze02</room>
-      <room>rooms\room_Maze01</room>
     </rooms>
   </rooms>
   <help>
