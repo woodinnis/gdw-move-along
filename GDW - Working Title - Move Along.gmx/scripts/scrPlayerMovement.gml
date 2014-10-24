@@ -41,3 +41,17 @@ if (otherArrow > 0)
         otherArrow = -4;
     }
 }
+
+// Click on player to change their initial movement direction 
+if((mouse_x >= x && mouse_y >= y) && (mouse_x <= x + sprite_width && mouse_y <= y + sprite_height))
+{
+    if(mouse_button == mb_left)
+    {
+        if(direction < 360)
+            direction += 90;
+        else
+            direction = 0;
+    
+        show_message(direction);
+    }
+}

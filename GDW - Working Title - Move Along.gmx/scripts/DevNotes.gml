@@ -70,3 +70,9 @@ Added wall collision condition to scrPlayerMovement
 
 Created Reset Button
 - Restarts room on LMB click
+
+Implemented system for adjusting player start direction.
+- Appended to scrPlayerMovement in Step Event
+
+Player still steems to walk through the occasional wall. No observable pattern.
+I think it's a speed or playerSpeed issue, and may just need some adjustment.
