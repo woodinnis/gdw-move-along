@@ -1,6 +1,10 @@
 // Set variables
 
-moveSpeed = (playerSpeed / room_speed);
+// Set moveSpeed to playerSpeed or 0 based on True/False state of canWalk
+if(objOverlord.canWalk == true)
+    moveSpeed = (playerSpeed / room_speed); // True
+else
+    moveSpeed = 0;  // False
 
 
 /*
