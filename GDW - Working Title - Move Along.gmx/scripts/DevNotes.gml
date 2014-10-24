@@ -58,3 +58,10 @@ Reorganized certain files and folders to more accurately represent their content
 
 Added a maze background
 - Redesign room_Maze01 using this layout
+
+Attempted to create a system to adjust player direction at start of level
+- Needed for mazes with multi-directional starts
+- Postponed temporarily in favour of more critical game features
+
+Right Arrows don't seem to work when player is moving down.
+
