@@ -25,17 +25,25 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\DevNotes.gml</script>
-    <scripts name="Player UI">
-      <script>scripts\scrArrowCreate.gml</script>
-      <script>scripts\scrArrowStep.gml</script>
-      <script>scripts\scrArrowWallCollision.gml</script>
+    <script>scripts\scrOverlordCreate.gml</script>
+    <scripts name="GUI">
+      <script>scripts\scrStartBtnPressed.gml</script>
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
       <script>scripts\scrPlayerMovement.gml</script>
     </scripts>
-    <script>scripts\scrOverlordCreate.gml</script>
-    <script>scripts\scrStartBtnPressed.gml</script>
+    <scripts name="Arrows">
+      <script>scripts\scrArrowCreateDown.gml</script>
+      <script>scripts\scrArrowCreateLeft.gml</script>
+      <script>scripts\scrArrowCreateUp.gml</script>
+      <script>scripts\scrArrowCreateRight.gml</script>
+      <script>scripts\scrArrowStep.gml</script>
+      <script>scripts\scrArrowParentCreate.gml</script>
+    </scripts>
+    <scripts name="OBSOLETE">
+      <script>scripts\scrArrowWallCollision.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>

@@ -47,3 +47,11 @@ Created a start button control system for player movement
 - "Start" button must be pressed for player to start moving
 
 Player movement now overlaps arrow tiles
+
+// 24 October, 2014 //
+
+Replaced the scripts embedded in obj*Arrow tile create events
+- Standardized naming
+- Filed correctly
+
+Reorganized certain files and folders to more accurately represent their contents
