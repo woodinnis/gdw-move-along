@@ -16,7 +16,10 @@
       <sprite>sprites\sprWall</sprite>
       <sprite>sprites\sprDoor</sprite>
     </sprites>
-    <sprite>sprites\sprPlayer</sprite>
+    <sprites name="GUI">
+      <sprite>sprites\sprPlayer</sprite>
+      <sprite>sprites\sprStartBtn</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,6 +34,8 @@
       <script>scripts\scrPlayerCreate.gml</script>
       <script>scripts\scrPlayerMovement.gml</script>
     </scripts>
+    <script>scripts\scrOverlordCreate.gml</script>
+    <script>scripts\scrStartBtnPressed.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>
@@ -45,7 +50,10 @@
       <object>objects\objRightArrow</object>
       <object>objects\objArrowParent</object>
     </objects>
-    <object>objects\objPlayer</object>
+    <objects name="GUI">
+      <object>objects\objPlayer</object>
+      <object>objects\objStartBtn</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="Maps">

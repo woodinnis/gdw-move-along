@@ -34,3 +34,14 @@ Attempted to resolve the issue of player/tile collision (Player doesn't move ove
 - (!place_empty) attempted in top if statement
 - move_towards_point attempted at lower level
 - lerp attempted at lower level
+
+// 23 October, 2014 //
+
+Created a "Start" button sprite
+Created a Start button object
+
+Placed Overlord into room
+
+Created a start button control system for player movement
+- Player no longer starts moving automatically at game start.
+- "Start" button must be pressed for player to start moving
