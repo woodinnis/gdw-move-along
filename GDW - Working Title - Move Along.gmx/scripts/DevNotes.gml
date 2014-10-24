@@ -65,3 +65,5 @@ Attempted to create a system to adjust player direction at start of level
 
 Right Arrows don't seem to work when player is moving down.
 
+Added wall collision condition to scrPlayerMovement
+- Player no longer walks through walls
