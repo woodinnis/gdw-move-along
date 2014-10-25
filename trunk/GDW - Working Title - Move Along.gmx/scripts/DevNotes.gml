@@ -88,3 +88,6 @@ Code added to Reset button to reset Surfaces in addition to maze.
 Added Reset button, and lighting elements to room_Maze02
 
 Doors now move player to the next room in the sequence
+room_exists() prevents player from moving to a non-existant room
+
+Added third room to create adequate playtesting environment
