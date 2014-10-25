@@ -86,3 +86,5 @@ http://host-a.net/u/robinsblade/LightingAttemptJustOrbgive_away.gm81
 Code added to Reset button to reset Surfaces in addition to maze.
 
 Added Reset button, and lighting elements to room_Maze02
+
+Doors now move player to the next room in the sequence
