@@ -91,3 +91,7 @@ Doors now move player to the next room in the sequence
 room_exists() prevents player from moving to a non-existant room
 
 Added third room to create adequate playtesting environment
+
+Refined walk mechanic.
+- Player no longer enters walls
+- Thanks Jason!
