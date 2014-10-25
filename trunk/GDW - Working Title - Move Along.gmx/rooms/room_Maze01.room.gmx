@@ -473,8 +473,8 @@
     <instance objName="objStartBtn" x="640" y="768" name="inst_EF12D30C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objOverlord" x="0" y="0" name="inst_2506DF9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResetBtn" x="544" y="768" name="inst_F837449E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLightVariable" x="32" y="0" name="inst_CB68F554" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLightOrb" x="64" y="0" name="inst_0440207D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLightVariable" x="64" y="0" name="inst_CB68F554" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLightOrb" x="96" y="0" name="inst_0440207D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="96" y="0" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_AC054059" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

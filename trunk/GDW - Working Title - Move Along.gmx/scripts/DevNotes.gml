@@ -95,3 +95,6 @@ Added third room to create adequate playtesting environment
 Refined walk mechanic.
 - Player no longer enters walls
 - Thanks Jason!
+
+Added a fourth room
+-Current levels: 2 small/simple, 2 large/complex
