@@ -24,7 +24,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bgMaze01</background>
-    <background>background\bgMaze01_1</background>
+    <background>background\bgMaze02</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -83,6 +83,7 @@
   </objects>
   <rooms name="rooms">
     <rooms name="Maps">
+      <room>rooms\room_Maze03</room>
       <room>rooms\room_Maze01</room>
       <room>rooms\room_Maze02</room>
     </rooms>
