@@ -33,6 +33,12 @@
     <scripts name="GUI">
       <script>scripts\scrStartBtnPressed.gml</script>
       <script>scripts\scrResetBtnPressed.gml</script>
+      <scripts name="Lights">
+        <script>scripts\scrLightCreate.gml</script>
+        <script>scripts\scrLightBeginStep.gml</script>
+        <script>scripts\scrLightOrbStep.gml</script>
+        <script>scripts\scrLightDraw.gml</script>
+      </scripts>
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
@@ -68,6 +74,10 @@
       <object>objects\objPlayer</object>
       <object>objects\objStartBtn</object>
       <object>objects\objResetBtn</object>
+      <objects name="Lights">
+        <object>objects\objLightVariable</object>
+        <object>objects\objLightOrb</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
