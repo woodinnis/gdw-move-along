@@ -76,3 +76,13 @@ Implemented system for adjusting player start direction.
 
 Player still steems to walk through the occasional wall. No observable pattern.
 I think it's a speed or playerSpeed issue, and may just need some adjustment.
+
+// 25 October, 2014 //
+
+Created Torch Light effect in mazes using sample code from:
+http://gmc.yoyogames.com/index.php?showtopic=574602
+http://host-a.net/u/robinsblade/LightingAttemptJustOrbgive_away.gm81
+
+Code added to Reset button to reset Surfaces in addition to maze.
+
+Added Reset button, and lighting elements to room_Maze02

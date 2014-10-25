@@ -81,8 +81,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_Maze01</room>
     <rooms name="Maps">
+      <room>rooms\room_Maze01</room>
       <room>rooms\room_Maze02</room>
     </rooms>
   </rooms>
