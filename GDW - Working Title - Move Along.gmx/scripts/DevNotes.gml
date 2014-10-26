@@ -98,3 +98,6 @@ Refined walk mechanic.
 
 Added a fourth room
 -Current levels: 2 small/simple, 2 large/complex
+
+Started work on keeping tiles visible during movement.
+- Used TargetX/Y code from scrArrowStep -> button_released

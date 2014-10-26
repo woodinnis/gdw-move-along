@@ -371,27 +371,27 @@
     <instance objName="objDoor" x="736" y="768" name="inst_EA88F95A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayer" x="736" y="736" name="inst_1C931643" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objUpArrow" x="32" y="128" name="inst_17AA3972" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="96" y="128" name="inst_089A8130" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objUpArrow" x="96" y="288" name="inst_BF4C9F12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRightArrow" x="32" y="288" name="inst_92DCF4C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objUpArrow" x="32" y="352" name="inst_E5A659B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="160" y="352" name="inst_ECE253FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDownArrow" x="160" y="320" name="inst_8339A48E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="288" y="320" name="inst_C2B98966" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objUpArrow" x="288" y="384" name="inst_D9AA789B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRightArrow" x="224" y="384" name="inst_9577EFF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objUpArrow" x="224" y="448" name="inst_56DD7FFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="256" y="448" name="inst_7FE88209" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="224" y="32" name="inst_089A8130" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUpArrow" x="736" y="96" name="inst_BF4C9F12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRightArrow" x="608" y="192" name="inst_92DCF4C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUpArrow" x="736" y="416" name="inst_E5A659B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="288" y="384" name="inst_ECE253FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDownArrow" x="288" y="192" name="inst_8339A48E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="480" y="64" name="inst_C2B98966" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUpArrow" x="96" y="512" name="inst_D9AA789B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRightArrow" x="704" y="320" name="inst_9577EFF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUpArrow" x="32" y="640" name="inst_56DD7FFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="32" y="288" name="inst_7FE88209" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objUpArrow" x="256" y="608" name="inst_A292D4E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLeftArrow" x="448" y="608" name="inst_A97F0A1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDownArrow" x="448" y="512" name="inst_15396738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="512" y="512" name="inst_5D3C6CB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objUpArrow" x="512" y="672" name="inst_EB9FD302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="576" y="672" name="inst_0A9E30D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDownArrow" x="576" y="544" name="inst_347F0DD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="640" y="544" name="inst_611C339E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objUpArrow" x="640" y="672" name="inst_EDF8CCF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="736" y="672" name="inst_A1F7A90C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDownArrow" x="608" y="32" name="inst_15396738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="320" y="448" name="inst_5D3C6CB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUpArrow" x="160" y="352" name="inst_EB9FD302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="512" y="736" name="inst_0A9E30D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDownArrow" x="448" y="288" name="inst_347F0DD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="704" y="544" name="inst_611C339E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUpArrow" x="736" y="672" name="inst_EDF8CCF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="448" y="448" name="inst_A1F7A90C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
