@@ -61,6 +61,7 @@
       <script>scripts\scrArrowWallCollision.gml</script>
       <script>scripts\scrPlayerClicked.gml</script>
     </scripts>
+    <script>scripts\scrOverlordAlarm0.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>

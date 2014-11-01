@@ -105,3 +105,8 @@ Started work on keeping tiles visible during movement.
 // 01 Nove, 2014 //
 
 Created a sound and added it to a collision event with all arrow tiles
+
+Added a five-second light to the exit door of each maze.
+- Tried to add lights to both doors, but lights would only spawn on 
+    the most recently placed door.
+- Moved some tiles around in Maze02 and Maze04 to accommodate for this problem
