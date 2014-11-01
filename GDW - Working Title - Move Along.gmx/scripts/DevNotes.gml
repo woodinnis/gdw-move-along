@@ -101,3 +101,7 @@ Added a fourth room
 
 Started work on keeping tiles visible during movement.
 - Used TargetX/Y code from scrArrowStep -> button_released
+
+// 01 Nove, 2014 //
+
+Created a sound and added it to a collision event with all arrow tiles
