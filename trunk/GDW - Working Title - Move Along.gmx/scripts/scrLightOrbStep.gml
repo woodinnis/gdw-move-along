@@ -10,6 +10,12 @@ draw_set_color(c_white)
 draw_set_alpha(1/60)
 for ( i = 0; i < 60; i += 1)
 {
+    // Show doors for five seconds at the beginning of each room
+    if(objOverlord.showDoors == true)
+    {
+        draw_circle(objDoor.x, objDoor.y,150*((i+1)/60),false);
+    }
+    
     // Follow mouse while setting tiles
     if(objOverlord.canWalk == false)
     {
