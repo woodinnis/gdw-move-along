@@ -110,3 +110,7 @@ Added a five-second light to the exit door of each maze.
 - Tried to add lights to both doors, but lights would only spawn on 
     the most recently placed door.
 - Moved some tiles around in Maze02 and Maze04 to accommodate for this problem
+
+Fixed level start door lighting
+- Both doors are now lit for five seconds
+- Levels can now have more than 2 doors and all will be lit on level start.
