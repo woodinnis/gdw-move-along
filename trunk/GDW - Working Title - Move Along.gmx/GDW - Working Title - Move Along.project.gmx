@@ -41,6 +41,7 @@
         <script>scripts\scrLightBeginStep.gml</script>
         <script>scripts\scrLightOrbStep.gml</script>
         <script>scripts\scrLightDraw.gml</script>
+        <script>scripts\scrLightOrbCreate.gml</script>
       </scripts>
     </scripts>
     <scripts name="Player">

@@ -13,7 +13,12 @@ for ( i = 0; i < 60; i += 1)
     // Show doors for five seconds at the beginning of each room
     if(objOverlord.showDoors == true)
     {
-        draw_circle(objDoor.x, objDoor.y,150*((i+1)/60),false);
+        for (j=0; j < totalDoors; j++)
+        {
+            draw_circle(door[j].x, door[j].y,150*((i+1)/60),false);
+        }
+
+        
     }
     
     // Follow mouse while setting tiles
