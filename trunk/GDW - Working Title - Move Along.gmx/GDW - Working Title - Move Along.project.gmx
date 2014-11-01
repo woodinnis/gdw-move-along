@@ -9,10 +9,14 @@
   </sounds>
   <sprites name="sprites">
     <sprites name="Moving Tiles">
-      <sprite>sprites\sprRightArrow</sprite>
-      <sprite>sprites\sprLeftArrow</sprite>
-      <sprite>sprites\sprUpArrow</sprite>
-      <sprite>sprites\sprDownArrow</sprite>
+      <sprites name="Single Arrows">
+        <sprite>sprites\sprDownArrow</sprite>
+        <sprite>sprites\sprUpArrow</sprite>
+        <sprite>sprites\sprLeftArrow</sprite>
+        <sprite>sprites\sprRightArrow</sprite>
+      </sprites>
+      <sprite>sprites\sprFourWayArrow</sprite>
+      <sprite>sprites\sprChangingArrow</sprite>
     </sprites>
     <sprites name="Solid Tiles">
       <sprite>sprites\sprWall</sprite>
