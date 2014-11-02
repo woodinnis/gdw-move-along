@@ -119,3 +119,9 @@ Created five more arrow sprites to test new room movement.
 
 Created a four-way arrow tile, which adds 90 degrees to the player's direction.
 - Tile can still be moved, trying to make it unmovable.
+
+Created a changing arrow tile which rotates for each player click
+- Currently only has a create event - Sets to index 0 (right) 
+- Needs a collision event based on the four-way tile
+- Collision event should probably use a switch
+

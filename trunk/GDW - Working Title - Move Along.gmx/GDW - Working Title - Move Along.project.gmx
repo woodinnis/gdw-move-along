@@ -64,6 +64,7 @@
       <script>scripts\scrArrowCollisionPlayer.gml</script>
       <script>scripts\scrArrowCreateFourWay.gml</script>
       <script>scripts\scrArrowCollisionFourWay.gml</script>
+      <script>scripts\scrArrowCreateChanging.gml</script>
     </scripts>
     <scripts name="OBSOLETE">
       <script>scripts\scrArrowWallCollision.gml</script>
@@ -77,14 +78,15 @@
       <object>objects\objDoor</object>
     </objects>
     <objects name="Moving Tiles">
-      <object>objects\objFourWayArrow</object>
-      <object>objects\objArrowParent</object>
       <objects name="Single Arrows">
         <object>objects\objRightArrow</object>
         <object>objects\objLeftArrow</object>
         <object>objects\objUpArrow</object>
         <object>objects\objDownArrow</object>
       </objects>
+      <object>objects\objArrowParent</object>
+      <object>objects\objFourWayArrow</object>
+      <object>objects\objChangingArrow</object>
     </objects>
     <objects name="GUI">
       <object>objects\objPlayer</object>

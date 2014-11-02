@@ -161,7 +161,7 @@
     <instance objName="objLightVariable" x="64" y="0" name="inst_E9E09342" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLightOrb" x="96" y="0" name="inst_28B20D1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayer" x="128" y="416" name="inst_B89CB716" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFourWayArrow" x="128" y="224" name="inst_578A1E5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objChangingArrow" x="128" y="224" name="inst_FB4FAA29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
