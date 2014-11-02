@@ -37,6 +37,7 @@
   <scripts name="scripts">
     <script>scripts\DevNotes.gml</script>
     <script>scripts\scrOverlordCreate.gml</script>
+    <script>scripts\scrOverlordAlarm0.gml</script>
     <scripts name="GUI">
       <script>scripts\scrStartBtnPressed.gml</script>
       <script>scripts\scrResetBtnPressed.gml</script>
@@ -61,12 +62,13 @@
       <script>scripts\scrArrowStep.gml</script>
       <script>scripts\scrArrowParentCreate.gml</script>
       <script>scripts\scrArrowCollisionPlayer.gml</script>
+      <script>scripts\scrArrowCreateFourWay.gml</script>
+      <script>scripts\scrArrowCollisionFourWay.gml</script>
     </scripts>
     <scripts name="OBSOLETE">
       <script>scripts\scrArrowWallCollision.gml</script>
       <script>scripts\scrPlayerClicked.gml</script>
     </scripts>
-    <script>scripts\scrOverlordAlarm0.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>
@@ -75,11 +77,14 @@
       <object>objects\objDoor</object>
     </objects>
     <objects name="Moving Tiles">
-      <object>objects\objDownArrow</object>
-      <object>objects\objUpArrow</object>
-      <object>objects\objLeftArrow</object>
-      <object>objects\objRightArrow</object>
+      <object>objects\objFourWayArrow</object>
       <object>objects\objArrowParent</object>
+      <objects name="Single Arrows">
+        <object>objects\objRightArrow</object>
+        <object>objects\objLeftArrow</object>
+        <object>objects\objUpArrow</object>
+        <object>objects\objDownArrow</object>
+      </objects>
     </objects>
     <objects name="GUI">
       <object>objects\objPlayer</object>
@@ -93,10 +98,10 @@
   </objects>
   <rooms name="rooms">
     <rooms name="Maps">
-      <room>rooms\room_Maze01</room>
-      <room>rooms\room_Maze02</room>
-      <room>rooms\room_Maze03</room>
       <room>rooms\room_Maze04</room>
+      <room>rooms\room_Maze02</room>
+      <room>rooms\room_Maze01</room>
+      <room>rooms\room_Maze03</room>
     </rooms>
   </rooms>
   <help>

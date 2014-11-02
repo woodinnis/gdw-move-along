@@ -6,4 +6,3 @@ speed = 0;
 otherArrow = -1;
 scanForArrow = true;
 buffer = playerSpeed / 2
-

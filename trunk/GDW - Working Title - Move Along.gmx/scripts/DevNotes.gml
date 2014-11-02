@@ -114,3 +114,8 @@ Added a five-second light to the exit door of each maze.
 Fixed level start door lighting
 - Both doors are now lit for five seconds
 - Levels can now have more than 2 doors and all will be lit on level start.
+
+Created five more arrow sprites to test new room movement.
+
+Created a four-way arrow tile, which adds 90 degrees to the player's direction.
+- Tile can still be moved, trying to make it unmovable.
