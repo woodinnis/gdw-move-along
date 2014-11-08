@@ -149,3 +149,6 @@ I've decided to repurpose the changing arrows
 - They will stay in one place
 - The will serve as a puzzle element, player will choose their orientation
 - The correct orientation will help the player make it through the maze
+
+Added a step event to the Four Way arrow tile
+- moveMe boolean is permanently set to false to prevent movement

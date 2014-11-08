@@ -60,6 +60,7 @@
         <script>scripts\scrArrowParentMouseLeave.gml</script>
         <script>scripts\scrArrowParentCreate.gml</script>
         <script>scripts\scrArrowStep.gml</script>
+        <script>scripts\scrArrowCollisionPlayer.gml</script>
       </scripts>
       <scripts name="Changing">
         <script>scripts\scrArrowStepChanging.gml</script>
@@ -69,11 +70,13 @@
       </scripts>
       <script>scripts\scrArrowCreateDown.gml</script>
       <script>scripts\scrArrowCreateLeft.gml</script>
+      <script>scripts\scrArrowCollisionFourWay.gml</script>
       <script>scripts\scrArrowCreateUp.gml</script>
       <script>scripts\scrArrowCreateRight.gml</script>
-      <script>scripts\scrArrowCollisionPlayer.gml</script>
       <script>scripts\scrArrowCreateFourWay.gml</script>
-      <script>scripts\scrArrowCollisionFourWay.gml</script>
+      <scripts name="Four Way">
+        <script>scripts\scrArrowStepFourWay.gml</script>
+      </scripts>
     </scripts>
     <scripts name="OBSOLETE">
       <script>scripts\scrArrowWallCollision.gml</script>
