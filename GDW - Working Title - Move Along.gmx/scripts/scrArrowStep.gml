@@ -10,12 +10,18 @@ targetY = 0;
 // If LMB is pressed inside an Arrow Tile bounding box
 if(mouse_check_button_pressed(mb_left) && instance_position(mouse_x, mouse_y, objArrowParent))
 {
+
+        
     // Set cursor
     window_set_cursor(cr_drag);
-            
-    // Set variables
-    instance = instance_position(mouse_x, mouse_y, objArrowParent);
-    drag = true;
+    
+    // Check to see if the tile is allowed to move
+    if(moveMe == true)
+    {        
+        // Set variables
+        instance = instance_position(mouse_x, mouse_y, objArrowParent);
+        drag = true;
+    }
     
     /* Set target coordinates for Arrow tile    
     targetX = round( (mouse_x - 16)/ 32) * 8;
@@ -50,4 +56,5 @@ if(mouse_check_button_released(mb_left) && drag == true)
     
     // Reset cursor
     window_set_cursor(cr_default);
+    
 }

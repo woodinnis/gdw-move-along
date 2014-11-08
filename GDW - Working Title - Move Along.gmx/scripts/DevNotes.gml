@@ -131,3 +131,12 @@ Removed the darkness in rooms for testing purposes.
 
 Changing (rotating) tiles are now functional.
 - Clicking and moving these tiles will now cause them to change direction
+
+Discovered that arrow tiles do not lose their connection to the mouse after being moved.
+After moving an arrow tile, clicking anywhere on the map will cause the arrow to move to
+that location.
+Only clicking another arrow tile will break the connection.
+
+Solved problem of arrow tiles following the mouse after being put down
+- Added moveMe boolean to scrParentCreate
+- Bool is set to false by default, and switches to true as the mouse enters an arrow tile

@@ -4,3 +4,5 @@ TileX = x;
 TileY = y;
 
 drag = false;
+
+moveMe = false;
