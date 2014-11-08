@@ -55,12 +55,16 @@
       <script>scripts\scrPlayerDoorCollision.gml</script>
     </scripts>
     <scripts name="Arrows">
-      <script>scripts\scrArrowCreateDown.gml</script>
+      <scripts name="Parent">
+        <script>scripts\scrArrowParentMouseEnter.gml</script>
+        <script>scripts\scrArrowParentMouseLeave.gml</script>
+        <script>scripts\scrArrowParentCreate.gml</script>
+        <script>scripts\scrArrowStep.gml</script>
+      </scripts>
       <script>scripts\scrArrowCreateLeft.gml</script>
+      <script>scripts\scrArrowCreateDown.gml</script>
       <script>scripts\scrArrowCreateUp.gml</script>
       <script>scripts\scrArrowCreateRight.gml</script>
-      <script>scripts\scrArrowStep.gml</script>
-      <script>scripts\scrArrowParentCreate.gml</script>
       <script>scripts\scrArrowCollisionPlayer.gml</script>
       <script>scripts\scrArrowCreateFourWay.gml</script>
       <script>scripts\scrArrowCollisionFourWay.gml</script>
