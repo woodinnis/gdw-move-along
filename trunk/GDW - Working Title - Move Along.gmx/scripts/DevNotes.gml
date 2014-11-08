@@ -143,3 +143,9 @@ Solved problem of arrow tiles following the mouse after being put down
 
 Trying to make the changing arrow tile only change after being moved, rather than any time
 it has been clicked ie: sitting in one spot clicking to rotate. So far no success.
+
+Cannot solve the click->move->turn/click->don't turn issue with changing arrow tiles
+I've decided to repurpose the changing arrows
+- They will stay in one place
+- The will serve as a puzzle element, player will choose their orientation
+- The correct orientation will help the player make it through the maze
