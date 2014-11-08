@@ -152,3 +152,5 @@ I've decided to repurpose the changing arrows
 
 Added a step event to the Four Way arrow tile
 - moveMe boolean is permanently set to false to prevent movement
+
+Four Way arrow tile now functions fully, changing the player's direction by 90 degrees with each touch
