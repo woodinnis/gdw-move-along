@@ -102,7 +102,7 @@ Added a fourth room
 Started work on keeping tiles visible during movement.
 - Used TargetX/Y code from scrArrowStep -> button_released
 
-// 01 Nove, 2014 //
+// 01 November, 2014 //
 
 Created a sound and added it to a collision event with all arrow tiles
 
@@ -125,3 +125,9 @@ Created a changing arrow tile which rotates for each player click
 - Needs a collision event based on the four-way tile
 - Collision event should probably use a switch
 
+// 08 November, 2014 //
+
+Removed the darkness in rooms for testing purposes.
+
+Changing (rotating) tiles are now functional.
+- Clicking and moving these tiles will now cause them to change direction
