@@ -1,13 +1,17 @@
 // Set direction to +90 degrees from current
 
-if(hasTouched = false)
+if(hasTouched == false)
 {
+    newDir = false;
     
     // Set tile to the player's current direction
     direction = objPlayer.direction;
     
+    show_debug_message(direction);
+    
+        
     // Add 90 degrees to the tile's direction
-    if(direction < 360)
+    if(direction < 359)
     {
         direction += 90;
     }
@@ -19,4 +23,6 @@ if(hasTouched = false)
     
     // Player has touched this tile
     hasTouched = true;
+    
+    alarm[0] = room_speed * 0.5;
 }
