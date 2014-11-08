@@ -140,3 +140,6 @@ Only clicking another arrow tile will break the connection.
 Solved problem of arrow tiles following the mouse after being put down
 - Added moveMe boolean to scrParentCreate
 - Bool is set to false by default, and switches to true as the mouse enters an arrow tile
+
+Trying to make the changing arrow tile only change after being moved, rather than any time
+it has been clicked ie: sitting in one spot clicking to rotate. So far no success.

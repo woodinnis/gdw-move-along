@@ -2,7 +2,7 @@
 event_inherited();
 
 // Set boolean to check if player has touched the tile
-hasTouched = false;
+hasMoved = false;
 
 direction = 0;
 
