@@ -154,3 +154,6 @@ Added a step event to the Four Way arrow tile
 - moveMe boolean is permanently set to false to prevent movement
 
 Four Way arrow tile now functions fully, changing the player's direction by 90 degrees with each touch
+
+Successfully created a one-way wall. So far the wall only works going left, and preventing return to the right
+Duplicates have not been successful.

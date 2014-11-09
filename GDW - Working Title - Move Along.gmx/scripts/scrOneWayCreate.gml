@@ -1,0 +1,2 @@
+hasTouched = false;
+isSolid = false;

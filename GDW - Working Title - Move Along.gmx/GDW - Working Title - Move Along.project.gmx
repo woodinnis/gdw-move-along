@@ -21,6 +21,10 @@
     <sprites name="Solid Tiles">
       <sprite>sprites\sprWall</sprite>
       <sprite>sprites\sprDoor</sprite>
+      <sprite>sprites\sprOneWay</sprite>
+      <sprite>sprites\sprOneWayUp</sprite>
+      <sprite>sprites\sprOneWayDown</sprite>
+      <sprite>sprites\sprOneWayRight</sprite>
     </sprites>
     <sprites name="GUI">
       <sprite>sprites\sprPlayer</sprite>
@@ -36,8 +40,15 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\DevNotes.gml</script>
-    <script>scripts\scrOverlordCreate.gml</script>
     <script>scripts\scrOverlordAlarm0.gml</script>
+    <script>scripts\scrOverlordCreate.gml</script>
+    <scripts name="One Way Walls">
+      <script>scripts\scrOneWayRightStep.gml</script>
+      <script>scripts\scrOneWayUpStep.gml</script>
+      <script>scripts\scrOneWayDownStep.gml</script>
+      <script>scripts\scrOneWayLeftStep.gml</script>
+      <script>scripts\scrOneWayCreate.gml</script>
+    </scripts>
     <scripts name="GUI">
       <script>scripts\scrStartBtnPressed.gml</script>
       <script>scripts\scrResetBtnPressed.gml</script>
@@ -89,6 +100,10 @@
     <objects name="Solid Tiles">
       <object>objects\objWall</object>
       <object>objects\objDoor</object>
+      <object>objects\objOneWayLeft</object>
+      <object>objects\objOneWayDown</object>
+      <object>objects\objOneWayRight</object>
+      <object>objects\objOneWayUp</object>
     </objects>
     <objects name="Moving Tiles">
       <objects name="Single Arrows">

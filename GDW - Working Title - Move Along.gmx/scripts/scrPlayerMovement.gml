@@ -26,7 +26,85 @@ if(objOverlord.canWalk == true)
         move_snap(32,32);
         objOverlord.canWalk = false;
    }
-
+   var onewayL = (instance_place(x,y,objOneWayLeft));
+   var onewayD = (instance_place(x,y,objOneWayDown));
+   var onewayR = (instance_place(x,y,objOneWayRight));
+   var onewayU = (instance_place(x,y,objOneWayUp));
+   
+   // If Player meets one-way walls
+   // Going left works, other walls do not work yet???
+   if(place_meeting(x,y,objOneWayLeft) && onewayL.isSolid)
+   {
+        shortWall = instance_place(x, y, objOneWayLeft);
+        
+        //show_debug_message(shortWall.hasTouched);
+          
+        if(shortWall.hasTouched == false)
+        {        
+            if(((x == (shortWall.x + 32)/2)+ buffer) && (y == shortWall.y))
+            {                
+                speed = 0;
+                objOverlord.canWalk = false;   
+            }
+            shortWall.hasTouched = true;
+        }
+   }
+   /*
+   // Going down
+   else if (place_meeting(x,y,objOneWayDown) && onewayD.isSolid)
+   {
+        shortWall = instance_place(x, y, objOneWayDown)
+        
+        show_debug_message(onewayD.isSolid);
+          
+        if(shortWall.hasTouched == false)
+        {        
+            if((x == (shortWall.x) && ((y == shortWall.y - (32 + buffer)))))// - 32)/2 - buffer)))
+            {                
+                speed = 0;
+                objOverlord.canWalk = false;   
+            }
+            shortWall.hasTouched = true;
+        }
+   }
+   
+   // Going right
+   else if (place_meeting(x,y,objOneWayRight) && onewayR.isSolid)
+   {
+        shortWall = instance_place(x, y, objOneWayRight)
+        
+        show_debug_message(shortWall.hasTouched);
+          
+        if(shortWall.hasTouched == false)
+        {        
+            if(x == (shortWall.x - buffer) && (y == shortWall.y))
+            {                
+                speed = 0;
+                objOverlord.canWalk = false;   
+            }
+            shortWall.hasTouched = true;
+        }
+   }
+   // Going up
+   else if(place_meeting(x,y,objOneWayUp) && onewayU.isSolid)
+   {
+        shortWall = instance_place(x, y, objOneWayUp)
+        
+        show_debug_message(shortWall.hasTouched);
+          
+        if(shortWall.hasTouched == false)
+        {        
+            if(x == (shortWall.x) && (y == shortWall.y + buffer))
+            {                
+                speed = 0;
+                objOverlord.canWalk = false;   
+            }
+            shortWall.hasTouched = true;
+        }
+   }
+    */
+    
+    
     // Scan in front of player and set variables for next X and Y positions
     /*nextXpos = x + lengthdir_x(1,direction);
     nextYpos = y + lengthdir_y(1,direction);
