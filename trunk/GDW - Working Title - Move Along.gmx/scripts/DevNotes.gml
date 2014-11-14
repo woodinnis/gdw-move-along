@@ -166,3 +166,5 @@ One way walls are now working.
 - Player stops on the wall, not next to it
 - Can likely be corrected relatively easily
 - Graphics may also be a solution
+
+Added first game art.
