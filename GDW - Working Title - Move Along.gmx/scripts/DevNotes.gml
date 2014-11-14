@@ -157,3 +157,12 @@ Four Way arrow tile now functions fully, changing the player's direction by 90 d
 
 Successfully created a one-way wall. So far the wall only works going left, and preventing return to the right
 Duplicates have not been successful.
+
+// 14 November, 2014 //
+
+Added a hole sprite and object to be used as a trap/obstacle
+
+One way walls are now working.
+- Player stops on the wall, not next to it
+- Can likely be corrected relatively easily
+- Graphics may also be a solution

@@ -31,78 +31,32 @@ if(objOverlord.canWalk == true)
    var onewayR = (instance_place(x,y,objOneWayRight));
    var onewayU = (instance_place(x,y,objOneWayUp));
    
-   // If Player meets one-way walls
-   // Going left works, other walls do not work yet???
-   if(place_meeting(x,y,objOneWayLeft) && onewayL.isSolid)
-   {
-        shortWall = instance_place(x, y, objOneWayLeft);
-        
-        //show_debug_message(shortWall.hasTouched);
-          
-        if(shortWall.hasTouched == false)
-        {        
-            if(((x == (shortWall.x + 32)/2)+ buffer) && (y == shortWall.y))
-            {                
-                speed = 0;
-                objOverlord.canWalk = false;   
-            }
-            shortWall.hasTouched = true;
-        }
-   }
-   /*
-   // Going down
-   else if (place_meeting(x,y,objOneWayDown) && onewayD.isSolid)
-   {
-        shortWall = instance_place(x, y, objOneWayDown)
-        
-        show_debug_message(onewayD.isSolid);
-          
-        if(shortWall.hasTouched == false)
-        {        
-            if((x == (shortWall.x) && ((y == shortWall.y - (32 + buffer)))))// - 32)/2 - buffer)))
-            {                
-                speed = 0;
-                objOverlord.canWalk = false;   
-            }
-            shortWall.hasTouched = true;
-        }
-   }
    
-   // Going right
-   else if (place_meeting(x,y,objOneWayRight) && onewayR.isSolid)
+   if (place_meeting(x,y,objOneWayParent))
    {
-        shortWall = instance_place(x, y, objOneWayRight)
+        shortWall = instance_place(x,y,objOneWayParent);
         
-        show_debug_message(shortWall.hasTouched);
-          
-        if(shortWall.hasTouched == false)
-        {        
-            if(x == (shortWall.x - buffer) && (y == shortWall.y))
-            {                
-                speed = 0;
-                objOverlord.canWalk = false;   
-            }
-            shortWall.hasTouched = true;
+        if (x < shortWall.x + buffer && x > shortWall.x - buffer)
+        {
+           if (y < shortWall.y + buffer && y > shortWall.y - buffer)
+            {
+
+                if(shortWall.hasTouched == false)
+                {
+                    move_snap(32,32);
+                    show_debug_message("jump!");
+                    shortWall.hasTouched = true;
+                }
+                else
+                {
+                    objOverlord.canWalk = false;
+                    speed = 0;
+                    show_debug_message("stop!");
+                }
+            } 
         }
    }
-   // Going up
-   else if(place_meeting(x,y,objOneWayUp) && onewayU.isSolid)
-   {
-        shortWall = instance_place(x, y, objOneWayUp)
-        
-        show_debug_message(shortWall.hasTouched);
-          
-        if(shortWall.hasTouched == false)
-        {        
-            if(x == (shortWall.x) && (y == shortWall.y + buffer))
-            {                
-                speed = 0;
-                objOverlord.canWalk = false;   
-            }
-            shortWall.hasTouched = true;
-        }
-   }
-    */
+
     
     if(place_meeting(x,y,objHole))
     {
@@ -120,9 +74,7 @@ if(objOverlord.canWalk == true)
                 
         //        direction = theArrow.direction;
             } 
-        }
-        
-        
+        } 
     }
     
 } 
