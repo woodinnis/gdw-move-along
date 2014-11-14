@@ -106,6 +106,7 @@
       <object>objects\objOneWayRight</object>
       <object>objects\objOneWayUp</object>
       <object>objects\objHole</object>
+      <object>objects\objOneWayParent</object>
     </objects>
     <objects name="Moving Tiles">
       <objects name="Single Arrows">
