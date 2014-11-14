@@ -19,12 +19,14 @@
       <sprite>sprites\sprChangingArrow</sprite>
     </sprites>
     <sprites name="Solid Tiles">
+      <sprites name="One Way Walls">
+        <sprite>sprites\sprOneWayRight</sprite>
+        <sprite>sprites\sprOneWayDown</sprite>
+        <sprite>sprites\sprOneWayUp</sprite>
+        <sprite>sprites\sprOneWay</sprite>
+      </sprites>
       <sprite>sprites\sprWall</sprite>
       <sprite>sprites\sprDoor</sprite>
-      <sprite>sprites\sprOneWay</sprite>
-      <sprite>sprites\sprOneWayUp</sprite>
-      <sprite>sprites\sprOneWayDown</sprite>
-      <sprite>sprites\sprOneWayRight</sprite>
       <sprite>sprites\sprHole</sprite>
     </sprites>
     <sprites name="GUI">
@@ -37,6 +39,7 @@
     <background>background\bgMaze01</background>
     <background>background\bgMaze02</background>
     <background>background\bgMaze03</background>
+    <background>background\bgTileset01</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -44,10 +47,6 @@
     <script>scripts\scrOverlordAlarm0.gml</script>
     <script>scripts\scrOverlordCreate.gml</script>
     <scripts name="One Way Walls">
-      <script>scripts\scrOneWayRightStep.gml</script>
-      <script>scripts\scrOneWayUpStep.gml</script>
-      <script>scripts\scrOneWayDownStep.gml</script>
-      <script>scripts\scrOneWayLeftStep.gml</script>
       <script>scripts\scrOneWayCreate.gml</script>
     </scripts>
     <scripts name="GUI">
@@ -94,19 +93,25 @@
     <scripts name="OBSOLETE">
       <script>scripts\scrArrowWallCollision.gml</script>
       <script>scripts\scrPlayerClicked.gml</script>
+      <script>scripts\scrOneWayLeftStep.gml</script>
+      <script>scripts\scrOneWayDownStep.gml</script>
+      <script>scripts\scrOneWayUpStep.gml</script>
+      <script>scripts\scrOneWayRightStep.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\objOverlord</object>
     <objects name="Solid Tiles">
+      <objects name="One Way Walls">
+        <object>objects\objOneWayParent</object>
+        <object>objects\objOneWayUp</object>
+        <object>objects\objOneWayRight</object>
+        <object>objects\objOneWayDown</object>
+        <object>objects\objOneWayLeft</object>
+      </objects>
       <object>objects\objWall</object>
       <object>objects\objDoor</object>
-      <object>objects\objOneWayLeft</object>
-      <object>objects\objOneWayDown</object>
-      <object>objects\objOneWayRight</object>
-      <object>objects\objOneWayUp</object>
       <object>objects\objHole</object>
-      <object>objects\objOneWayParent</object>
     </objects>
     <objects name="Moving Tiles">
       <objects name="Single Arrows">
