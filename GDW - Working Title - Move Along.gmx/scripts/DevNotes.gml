@@ -168,3 +168,7 @@ One way walls are now working.
 - Graphics may also be a solution
 
 Added first game art.
+
+Created rudimentary start menu
+- Currently standard mobile phone size
+- Resizing the game screen for play will be necessary
