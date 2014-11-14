@@ -104,43 +104,31 @@ if(objOverlord.canWalk == true)
    }
     */
     
-    
-    // Scan in front of player and set variables for next X and Y positions
-    /*nextXpos = x + lengthdir_x(1,direction);
-    nextYpos = y + lengthdir_y(1,direction);
-       
-    //if arrow present, store the id
-    if (place_meeting(nextXpos,nextYpos,objArrowParent))
+    if(place_meeting(x,y,objHole))
     {
-        if (scanForArrow)
+        theHole = instance_place(x,y,objHole)
+        
+        if (x < theHole.x + buffer && x > theHole.x - buffer)
         {
-            scanForArrow = false;
-            otherArrow = instance_position(nextXpos,nextYpos,objArrowParent);
-            //show_message(otherArrow);
+           if (y < theHole.y + buffer && y > theHole.y - buffer)
+            {
+                move_snap(32,32);
+                
+                surface_reset_target();
+        
+                room_restart();   
+                
+        //        direction = theArrow.direction;
+            } 
         }
-    }
-    // Check for a wall, stop if about to collide
-    else if(place_meeting(nextXpos,nextYpos, objWall))
-    {
-        speed = 0;
-    }
-    else
-    {
-        scanForArrow = true;
+        
+        
     }
     
-    if (otherArrow > 0)
-    {
-        if (point_distance(x,y,otherArrow.x,otherArrow.y) <= speed+1)
-        {
-            x = otherArrow.x;
-            y = otherArrow.y;
-            direction = otherArrow.direction;
-            scanForArrow = false;
-            otherArrow = -4;
-        }
-    }*/
-} else {
+} 
+
+else
+{
 
 // Click on player to change their initial movement direction 
     if((mouse_x >= x && mouse_y >= y) && (mouse_x <= x + sprite_width && mouse_y <= y + sprite_height))

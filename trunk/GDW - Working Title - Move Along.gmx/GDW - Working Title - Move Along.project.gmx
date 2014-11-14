@@ -25,6 +25,7 @@
       <sprite>sprites\sprOneWayUp</sprite>
       <sprite>sprites\sprOneWayDown</sprite>
       <sprite>sprites\sprOneWayRight</sprite>
+      <sprite>sprites\sprHole</sprite>
     </sprites>
     <sprites name="GUI">
       <sprite>sprites\sprPlayer</sprite>
@@ -104,6 +105,7 @@
       <object>objects\objOneWayDown</object>
       <object>objects\objOneWayRight</object>
       <object>objects\objOneWayUp</object>
+      <object>objects\objHole</object>
     </objects>
     <objects name="Moving Tiles">
       <objects name="Single Arrows">
