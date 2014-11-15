@@ -30,7 +30,8 @@ if(objOverlord.canWalk == true)
    var onewayD = (instance_place(x,y,objOneWayDown));
    var onewayR = (instance_place(x,y,objOneWayRight));
    var onewayU = (instance_place(x,y,objOneWayUp));
-   
+  
+    
    
    if (place_meeting(x,y,objOneWayParent))
    {
@@ -57,7 +58,7 @@ if(objOverlord.canWalk == true)
         }
    }
 
-    
+    // Player encounters a hole anywhere on the map
     if(place_meeting(x,y,objHole))
     {
         theHole = instance_place(x,y,objHole)
@@ -66,13 +67,16 @@ if(objOverlord.canWalk == true)
         {
            if (y < theHole.y + buffer && y > theHole.y - buffer)
             {
+                // Snap player to the x,y coordinates of the hole
                 move_snap(32,32);
                 
-                surface_reset_target();
-        
-                room_restart();   
-                
-        //        direction = theArrow.direction;
+                // Stop player movement, and set to invisible                
+                objPlayer.visible = false;
+                objOverlord.canWalk = false;
+                speed = 0;
+
+                // Begin room reset alarm
+                objResetBtn.alarm[0] = room_speed * 1;
             } 
         } 
     }

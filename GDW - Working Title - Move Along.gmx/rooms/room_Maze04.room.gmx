@@ -172,7 +172,7 @@
     <instance objName="objWall" x="128" y="448" name="inst_BCFAF9E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="160" y="448" name="inst_F69EDAF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="224" y="0" name="inst_D3BF4999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHole" x="192" y="224" name="inst_F22D1256" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHole" x="192" y="224" name="inst_132EC011" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgTileset01" x="32" y="32" w="32" h="32" xo="768" yo="352" id="10000002" name="inst_6B0E988B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

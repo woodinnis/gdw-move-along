@@ -60,6 +60,7 @@
         <script>scripts\scrLightDraw.gml</script>
         <script>scripts\scrLightOrbCreate.gml</script>
       </scripts>
+      <script>scripts\scrResetBtnAlarm0.gml</script>
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
@@ -100,6 +101,7 @@
       <script>scripts\scrOneWayRightStep.gml</script>
     </scripts>
   </scripts>
+  <shaders name="shaders"/>
   <objects name="objects">
     <object>objects\objOverlord</object>
     <objects name="Solid Tiles">

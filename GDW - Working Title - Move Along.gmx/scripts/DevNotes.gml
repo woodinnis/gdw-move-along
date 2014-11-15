@@ -177,3 +177,9 @@ Created rudimentary start menu
 
 Added more game art
 Adjusted colours on some art to more accurately reflect the atmosphere of the game
+
+Adjusted the room reset functions of the reset button and hole trap
+- Both now use the same alarm script (scrResetBtnAlarm0)
+- Pressing the reset button, or encountering the hole trap stops the game for ~1 second before
+    resetting a room
+- Hole Trap now makes the player invisible before resetting.
