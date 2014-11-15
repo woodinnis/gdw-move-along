@@ -183,3 +183,5 @@ Adjusted the room reset functions of the reset button and hole trap
 - Pressing the reset button, or encountering the hole trap stops the game for ~1 second before
     resetting a room
 - Hole Trap now makes the player invisible before resetting.
+
+Player will now step away from half walls by one tile.

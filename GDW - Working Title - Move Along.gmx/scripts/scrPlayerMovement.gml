@@ -17,6 +17,7 @@ if(objOverlord.canWalk == true)
             } 
         }
    }
+/*  No longer necessary
    
    if (place_meeting(x,y,objWall))
    {
@@ -30,28 +31,55 @@ if(objOverlord.canWalk == true)
    var onewayD = (instance_place(x,y,objOneWayDown));
    var onewayR = (instance_place(x,y,objOneWayRight));
    var onewayU = (instance_place(x,y,objOneWayUp));
-  
+*/  
     
-   
+    // Player encounters a One Way Wall  
    if (place_meeting(x,y,objOneWayParent))
    {
         shortWall = instance_place(x,y,objOneWayParent);
-        
+            
         if (x < shortWall.x + buffer && x > shortWall.x - buffer)
         {
            if (y < shortWall.y + buffer && y > shortWall.y - buffer)
             {
-
+                // If the wall has not already been touched
                 if(shortWall.hasTouched == false)
                 {
+                    // Snap player to x,y coordinates of the wall
                     move_snap(32,32);
-                    show_debug_message("jump!");
+                    //show_debug_message("jump!");
                     shortWall.hasTouched = true;
                 }
+                // If the wall has been touched
                 else
                 {
+                    // Stop player movement
                     objOverlord.canWalk = false;
                     speed = 0;
+                    // Move the player to the next tile away from the wall
+                    switch(direction)
+                    {
+                        case 0:
+                        {
+                            x -= 32;
+                            break;
+                        }
+                        case 90:
+                        {
+                            y += 32;
+                            break;
+                        }
+                        case 180:
+                        {
+                            x += 32;
+                            break;
+                        }
+                        case 270:
+                        {
+                            y -= 32;
+                            break;
+                        }
+                    }
                     show_debug_message("stop!");
                 }
             } 
