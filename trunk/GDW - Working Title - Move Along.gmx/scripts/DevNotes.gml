@@ -172,3 +172,8 @@ Added first game art.
 Created rudimentary start menu
 - Currently standard mobile phone size
 - Resizing the game screen for play will be necessary
+
+// 15 November, 2014 //
+
+Added more game art
+Adjusted colours on some art to more accurately reflect the atmosphere of the game

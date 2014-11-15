@@ -23,7 +23,7 @@
         <sprite>sprites\sprOneWayRight</sprite>
         <sprite>sprites\sprOneWayDown</sprite>
         <sprite>sprites\sprOneWayUp</sprite>
-        <sprite>sprites\sprOneWay</sprite>
+        <sprite>sprites\sprOneWayLeft</sprite>
       </sprites>
       <sprite>sprites\sprWall</sprite>
       <sprite>sprites\sprDoor</sprite>
