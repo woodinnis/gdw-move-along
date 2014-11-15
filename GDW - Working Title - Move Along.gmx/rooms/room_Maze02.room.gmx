@@ -168,7 +168,7 @@
     <instance objName="objWall" x="448" y="64" name="inst_035A3445" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDoor" x="320" y="448" name="inst_6CFE0B25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLeftArrow" x="320" y="320" name="inst_A2F0F121" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLeftArrow" x="160" y="192" name="inst_23FEA5BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="160" y="256" name="inst_23FEA5BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objUpArrow" x="160" y="320" name="inst_F513FFB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objUpArrow" x="32" y="256" name="inst_36854F71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayer" x="320" y="416" name="inst_A5CF9CA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

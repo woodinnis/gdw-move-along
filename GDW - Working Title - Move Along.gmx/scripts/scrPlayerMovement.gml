@@ -12,21 +12,21 @@ if(objOverlord.canWalk == true)
         {
            if (y < theArrow.y + buffer && y > theArrow.y - buffer)
             {
-                move_snap(32,32);
+                move_snap(16,16);
                 direction = theArrow.direction;
             } 
         }
    }
-/*  No longer necessary
    
    if (place_meeting(x,y,objWall))
    {
         speed = 0;
-        x= xprevious;
+        x = xprevious;
         y = yprevious;
-        move_snap(32,32);
+        move_snap(16,16);
         objOverlord.canWalk = false;
    }
+/*
    var onewayL = (instance_place(x,y,objOneWayLeft));
    var onewayD = (instance_place(x,y,objOneWayDown));
    var onewayR = (instance_place(x,y,objOneWayRight));
@@ -46,7 +46,7 @@ if(objOverlord.canWalk == true)
                 if(shortWall.hasTouched == false)
                 {
                     // Snap player to x,y coordinates of the wall
-                    move_snap(32,32);
+                    move_snap(16,16);
                     //show_debug_message("jump!");
                     shortWall.hasTouched = true;
                 }
@@ -61,22 +61,22 @@ if(objOverlord.canWalk == true)
                     {
                         case 0:
                         {
-                            x -= 32;
+                            x -= 16;
                             break;
                         }
                         case 90:
                         {
-                            y += 32;
+                            y += 16;
                             break;
                         }
                         case 180:
                         {
-                            x += 32;
+                            x += 16;
                             break;
                         }
                         case 270:
                         {
-                            y -= 32;
+                            y -= 16;
                             break;
                         }
                     }
@@ -96,7 +96,7 @@ if(objOverlord.canWalk == true)
            if (y < theHole.y + buffer && y > theHole.y - buffer)
             {
                 // Snap player to the x,y coordinates of the hole
-                move_snap(32,32);
+                move_snap(16,16);
                 
                 // Stop player movement, and set to invisible                
                 objPlayer.visible = false;
