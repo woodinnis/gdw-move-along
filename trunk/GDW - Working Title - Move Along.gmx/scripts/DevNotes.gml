@@ -185,3 +185,11 @@ Adjusted the room reset functions of the reset button and hole trap
 - Hole Trap now makes the player invisible before resetting.
 
 Player will now step away from half walls by one tile.
+
+Created an Android phone resolution map.
+- Resized sprites for new map.
+- Adjusted scripts for new sprite sizes.
+
+Reduced the size of all remaining sprites
+Changed player movement script to accommodate for variable tile sizes (32, 32) -> (spite_width, sprite_height)
+
