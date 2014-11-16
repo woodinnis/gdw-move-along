@@ -8,32 +8,34 @@
     <sound>sound\sndTileTest</sound>
   </sounds>
   <sprites name="sprites">
-    <sprites name="Moving Tiles">
-      <sprites name="Single Arrows">
-        <sprite>sprites\sprDownArrow</sprite>
-        <sprite>sprites\sprUpArrow</sprite>
-        <sprite>sprites\sprLeftArrow</sprite>
-        <sprite>sprites\sprRightArrow</sprite>
+    <sprites name="Small Sprites">
+      <sprites name="GUI">
+        <sprite>sprites\sprPlayer</sprite>
+        <sprite>sprites\sprStartBtn</sprite>
+        <sprite>sprites\sprGameStartBtn</sprite>
+        <sprite>sprites\sprResetBtn</sprite>
       </sprites>
-      <sprite>sprites\sprFourWayArrow</sprite>
-      <sprite>sprites\sprChangingArrow</sprite>
-    </sprites>
-    <sprites name="Solid Tiles">
-      <sprites name="One Way Walls">
-        <sprite>sprites\sprOneWayRight</sprite>
-        <sprite>sprites\sprOneWayDown</sprite>
-        <sprite>sprites\sprOneWayUp</sprite>
-        <sprite>sprites\sprOneWayLeft</sprite>
+      <sprites name="Solid Tiles">
+        <sprites name="One Way Walls">
+          <sprite>sprites\sprOneWayRight</sprite>
+          <sprite>sprites\sprOneWayDown</sprite>
+          <sprite>sprites\sprOneWayUp</sprite>
+          <sprite>sprites\sprOneWayLeft</sprite>
+        </sprites>
+        <sprite>sprites\sprWall</sprite>
+        <sprite>sprites\sprDoor</sprite>
+        <sprite>sprites\sprHole</sprite>
       </sprites>
-      <sprite>sprites\sprWall</sprite>
-      <sprite>sprites\sprDoor</sprite>
-      <sprite>sprites\sprHole</sprite>
-    </sprites>
-    <sprites name="GUI">
-      <sprite>sprites\sprPlayer</sprite>
-      <sprite>sprites\sprStartBtn</sprite>
-      <sprite>sprites\sprGameStartBtn</sprite>
-      <sprite>sprites\sprResetBtn</sprite>
+      <sprites name="Moving Tiles">
+        <sprites name="Single Arrows">
+          <sprite>sprites\sprDownArrow</sprite>
+          <sprite>sprites\sprUpArrow</sprite>
+          <sprite>sprites\sprLeftArrow</sprite>
+          <sprite>sprites\sprRightArrow</sprite>
+        </sprites>
+        <sprite>sprites\sprFourWayArrow</sprite>
+        <sprite>sprites\sprChangingArrow</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -141,8 +143,9 @@
   <rooms name="rooms">
     <room>rooms\room_Menu</room>
     <rooms name="Maps">
-      <room>rooms\room_Maze05</room>
       <room>rooms\room_Maze04</room>
+      <room>rooms\room_Maze05</room>
+      <room>rooms\room_menuLarge</room>
       <room>rooms\room_Maze02</room>
       <room>rooms\room_Maze01</room>
       <room>rooms\room_Maze03</room>
