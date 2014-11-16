@@ -12,7 +12,7 @@ if(objOverlord.canWalk == true)
         {
            if (y < theArrow.y + buffer && y > theArrow.y - buffer)
             {
-                move_snap(16,16);
+                move_snap(sprite_width,sprite_height);
                 direction = theArrow.direction;
             } 
         }
@@ -23,7 +23,7 @@ if(objOverlord.canWalk == true)
         speed = 0;
         x = xprevious;
         y = yprevious;
-        move_snap(16,16);
+        move_snap(sprite_width, sprite_height);
         objOverlord.canWalk = false;
    }
 /*
@@ -46,7 +46,7 @@ if(objOverlord.canWalk == true)
                 if(shortWall.hasTouched == false)
                 {
                     // Snap player to x,y coordinates of the wall
-                    move_snap(16,16);
+                    move_snap(sprite_width,sprite_height);
                     //show_debug_message("jump!");
                     shortWall.hasTouched = true;
                 }
@@ -57,29 +57,33 @@ if(objOverlord.canWalk == true)
                     objOverlord.canWalk = false;
                     speed = 0;
                     // Move the player to the next tile away from the wall
+                    // x = xprevious;
+                    // y = yprevious;
+                    
                     switch(direction)
                     {
                         case 0:
                         {
-                            x -= 16;
+                            x -= sprite_width;
                             break;
                         }
                         case 90:
                         {
-                            y += 16;
+                            y += sprite_height;
                             break;
                         }
                         case 180:
                         {
-                            x += 16;
+                            x += sprite_width;
                             break;
                         }
                         case 270:
                         {
-                            y -= 16;
+                            y -= sprite_height;
                             break;
                         }
                     }
+                    
                     show_debug_message("stop!");
                 }
             } 
@@ -96,7 +100,7 @@ if(objOverlord.canWalk == true)
            if (y < theHole.y + buffer && y > theHole.y - buffer)
             {
                 // Snap player to the x,y coordinates of the hole
-                move_snap(16,16);
+                move_snap(sprite_width,sprite_height);
                 
                 // Stop player movement, and set to invisible                
                 objPlayer.visible = false;
@@ -108,7 +112,6 @@ if(objOverlord.canWalk == true)
             } 
         } 
     }
-    
 } 
 
 else

@@ -231,6 +231,8 @@
     <instance objName="objPlayer" x="80" y="416" name="inst_28425388" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStartBtn" x="48" y="448" name="inst_D52DC196" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResetBtn" x="208" y="448" name="inst_BC9818A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objOneWayDown" x="80" y="384" name="inst_F0053D0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDownArrow" x="80" y="352" name="inst_4AFF6B44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgTileset01" x="0" y="128" w="32" h="32" xo="768" yo="352" id="10000144" name="inst_03ADE6A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
