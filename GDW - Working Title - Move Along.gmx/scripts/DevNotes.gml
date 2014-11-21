@@ -198,3 +198,7 @@ Added code to overlord, to adjust for varying map sizes and screen resolutions.
 // 21 November, 2014 //
 
 Added several Audio assets to the game in preparation for Beta
+
+Two music pieces sourced from freemusicarchive.org
+
+Applied temporary sounds to most audio assets

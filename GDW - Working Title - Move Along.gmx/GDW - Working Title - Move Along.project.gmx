@@ -14,6 +14,7 @@
     <sound>sound\sndWall</sound>
     <sound>sound\sndGameStart</sound>
     <sound>sound\sndPlayerStart</sound>
+    <sound>sound\sndReset</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Small Sprites">
