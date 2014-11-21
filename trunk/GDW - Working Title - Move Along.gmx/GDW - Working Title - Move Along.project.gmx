@@ -5,7 +5,15 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sndTileTest</sound>
+    <sound>sound\sndArrowClick</sound>
+    <sound>sound\sndArrowTouch</sound>
+    <sound>sound\sndBGMusicMenu</sound>
+    <sound>sound\sndBGMusicGame</sound>
+    <sound>sound\sndDoor</sound>
+    <sound>sound\sndHole</sound>
+    <sound>sound\sndWall</sound>
+    <sound>sound\sndGameStart</sound>
+    <sound>sound\sndPlayerStart</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Small Sprites">
@@ -103,7 +111,6 @@
       <script>scripts\scrOneWayRightStep.gml</script>
     </scripts>
   </scripts>
-  <shaders name="shaders"/>
   <objects name="objects">
     <object>objects\objOverlord</object>
     <objects name="Solid Tiles">

@@ -194,3 +194,7 @@ Reduced the size of all remaining sprites
 Changed player movement script to accommodate for variable tile sizes (32, 32) -> (spite_width, sprite_height)
 
 Added code to overlord, to adjust for varying map sizes and screen resolutions.
+
+// 21 November, 2014 //
+
+Added several Audio assets to the game in preparation for Beta
