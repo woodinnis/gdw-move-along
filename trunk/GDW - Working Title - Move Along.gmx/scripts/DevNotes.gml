@@ -232,3 +232,9 @@ Background music implemented
 
 All sounds now implemented
 - Most sounds still currently the same sound.
+
+Player continues moving after entering a room.
+- Have tried setting the speed to 0 in room create event
+- Have tried setting speed = 0 in door collision event
+- Have tried setting speed = 0 in Overlord Room Start
+- Have tried setting speed = 0 in Overlord Alarm 0
