@@ -209,3 +209,11 @@ Implemented a /really/ basic pause screen
 - Returns to previous room
 
 Made objOverlord persistent and removed superfluous overlords.
+
+// 22 November, 2014 //
+
+Alpha Day
+
+Sized up all sprites to 32x32px for larger room size
+- Will need new art for beta
+- Would like separate large and small art to use based on screen size
