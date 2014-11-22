@@ -157,12 +157,12 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menuLarge</room>
-    <room>rooms\room_Maze04</room>
     <rooms name="Maps">
-      <room>rooms\room_Maze05</room>
       <room>rooms\room_Maze02</room>
+      <room>rooms\room_Maze04</room>
       <room>rooms\room_Maze01</room>
       <room>rooms\room_Maze03</room>
+      <room>rooms\room_Maze05</room>
     </rooms>
     <room>rooms\room_Pause</room>
     <room>rooms\room_Menu</room>

@@ -25,15 +25,12 @@ if(objOverlord.canWalk == true)
         y = yprevious;
         move_snap(sprite_width, sprite_height);
         objOverlord.canWalk = false;
+        
+        // Play a sound        
+        audio_play_sound(sndWall,10,false);
    }
-/*
-   var onewayL = (instance_place(x,y,objOneWayLeft));
-   var onewayD = (instance_place(x,y,objOneWayDown));
-   var onewayR = (instance_place(x,y,objOneWayRight));
-   var onewayU = (instance_place(x,y,objOneWayUp));
-*/  
     
-    // Player encounters a One Way Wall  
+   // Player encounters a One Way Wall  
    if (place_meeting(x,y,objOneWayParent))
    {
         shortWall = instance_place(x,y,objOneWayParent);
@@ -54,11 +51,10 @@ if(objOverlord.canWalk == true)
                 else
                 {
                     // Stop player movement
-                    objOverlord.canWalk = false;
+                    objOverlord.canWalk = false;                    
                     speed = 0;
+                    
                     // Move the player to the next tile away from the wall
-                    // x = xprevious;
-                    // y = yprevious;
                     
                     switch(direction)
                     {
@@ -85,7 +81,10 @@ if(objOverlord.canWalk == true)
                     }
                     
                     show_debug_message("stop!");
-                }
+                    
+                    // Play a sound
+                    audio_play_sound(sndWall,10,false);
+                }             
             } 
         }
    }
@@ -100,12 +99,15 @@ if(objOverlord.canWalk == true)
            if (y < theHole.y + buffer && y > theHole.y - buffer)
             {
                 // Snap player to the x,y coordinates of the hole
-                move_snap(sprite_width,sprite_height);
+                move_snap(sprite_width,sprite_height);             
                 
                 // Stop player movement, and set to invisible                
                 objPlayer.visible = false;
                 objOverlord.canWalk = false;
                 speed = 0;
+                
+                // Play a sound
+                audio_play_sound(sndHole,10,false);
 
                 // Begin room reset alarm
                 objResetBtn.alarm[0] = room_speed * 1;

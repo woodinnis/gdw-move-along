@@ -229,3 +229,6 @@ Created and placed a main menu background
 Added the second stage of the main menu background, and implemented the button-pressed code
 
 Background music implemented
+
+All sounds now implemented
+- Most sounds still currently the same sound.
