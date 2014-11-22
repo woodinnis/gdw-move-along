@@ -67,8 +67,6 @@
       <script>scripts\scrOneWayCreate.gml</script>
     </scripts>
     <scripts name="GUI">
-      <script>scripts\scrStartBtnPressed.gml</script>
-      <script>scripts\scrResetBtnPressed.gml</script>
       <scripts name="Lights">
         <script>scripts\scrLightCreate.gml</script>
         <script>scripts\scrLightBeginStep.gml</script>
@@ -76,7 +74,11 @@
         <script>scripts\scrLightDraw.gml</script>
         <script>scripts\scrLightOrbCreate.gml</script>
       </scripts>
+      <script>scripts\scrStartBtnPressed.gml</script>
       <script>scripts\scrResetBtnAlarm0.gml</script>
+      <script>scripts\scrResetBtnPressed.gml</script>
+      <script>scripts\scrGameStartButtonAlarm0.gml</script>
+      <script>scripts\scrGameStartButtonLMB.gml</script>
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
