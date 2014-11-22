@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objOverlord" x="0" y="0" name="inst_C7A05F00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDownArrow" x="80" y="352" name="inst_4AFF6B44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLightVariable" x="32" y="0" name="inst_9BBAE98C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLightOrb" x="48" y="0" name="inst_BF9EA441" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="0" y="128" name="inst_CBE855FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -232,7 +232,6 @@
     <instance objName="objStartBtn" x="48" y="448" name="inst_D52DC196" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResetBtn" x="208" y="448" name="inst_BC9818A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objOneWayDown" x="80" y="384" name="inst_F0053D0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDownArrow" x="80" y="352" name="inst_4AFF6B44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgTileset01" x="0" y="128" w="32" h="32" xo="768" yo="352" id="10000144" name="inst_03ADE6A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

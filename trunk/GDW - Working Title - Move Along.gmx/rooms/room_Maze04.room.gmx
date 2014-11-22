@@ -53,7 +53,7 @@
   <instances>
     <instance objName="objStartBtn" x="352" y="448" name="inst_CD9C38B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResetBtn" x="256" y="448" name="inst_D28B932A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objOverlord" x="0" y="0" name="inst_AE3CA587" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWall" x="224" y="0" name="inst_D3BF4999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLightVariable" x="64" y="0" name="inst_E9E09342" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLightOrb" x="96" y="0" name="inst_28B20D1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="96" y="0" name="inst_335B73CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -171,7 +171,6 @@
     <instance objName="objWall" x="224" y="352" name="inst_33F60732" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="128" y="448" name="inst_BCFAF9E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="160" y="448" name="inst_F69EDAF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWall" x="224" y="0" name="inst_D3BF4999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgTileset01" x="32" y="32" w="32" h="32" xo="768" yo="352" id="10000002" name="inst_6B0E988B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

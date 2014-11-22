@@ -207,3 +207,5 @@ Implemented a /really/ basic pause screen
 - Called with spacebar
 - Only pops up and prevents further action
 - Returns to previous room
+
+Made objOverlord persistent and removed superfluous overlords.
