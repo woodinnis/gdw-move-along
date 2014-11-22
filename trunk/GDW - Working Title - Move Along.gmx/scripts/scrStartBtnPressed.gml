@@ -7,5 +7,9 @@ if((mouse_x >= x && mouse_y >= y) && (mouse_x <= x + sprite_width && mouse_y <= 
     if(mouse_button == mb_left)
     {
         objOverlord.canWalk = true;
+        
+        audio_play_sound(sndPlayerStart,10,false);
     }
 }
+
+

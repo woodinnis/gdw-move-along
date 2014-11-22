@@ -2,6 +2,7 @@
 
 if(room_exists(room_next(room)))
 {
+    audio_play_sound(sndDoor,10,false);
     room_goto_next();
 }
 // if no room exists, reload current room
