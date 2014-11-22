@@ -1,6 +1,6 @@
 // Play a sound when crossing over any arrow tile
 
-//if(audio_exists(sndTileTest))
+if(audio_exists(sndArrowTouch))
 {
-//    audio_play_sound(sndTileTest, 16, false);   
+    audio_play_sound(sndArrowTouch, 10, false);   
 }

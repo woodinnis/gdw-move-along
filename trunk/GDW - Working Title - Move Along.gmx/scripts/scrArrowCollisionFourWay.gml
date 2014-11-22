@@ -1,3 +1,5 @@
+event_inherited();
+
 // Set direction to +90 degrees from current
 
 if(hasTouched == false)
