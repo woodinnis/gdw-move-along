@@ -223,3 +223,5 @@ Moved view adjustment functions to a separate script (scrOverlordRoomStart)
 
 Corrected sound assignment in one-way arrow script
 Assigned sndArrowTouch to four way arrow
+
+Created and placed a main menu background
