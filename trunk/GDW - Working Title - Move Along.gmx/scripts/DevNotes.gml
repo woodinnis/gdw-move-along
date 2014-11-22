@@ -202,3 +202,8 @@ Added several Audio assets to the game in preparation for Beta
 Two music pieces sourced from freemusicarchive.org
 
 Applied temporary sounds to most audio assets
+
+Implemented a /really/ basic pause screen
+- Called with spacebar
+- Only pops up and prevents further action
+- Returns to previous room
