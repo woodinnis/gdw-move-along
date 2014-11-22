@@ -225,3 +225,5 @@ Corrected sound assignment in one-way arrow script
 Assigned sndArrowTouch to four way arrow
 
 Created and placed a main menu background
+
+Added the second stage of the main menu background, and implemented the button-pressed code
