@@ -220,3 +220,6 @@ Sized up all sprites to 32x32px for larger room size
 
 Moved view adjustment functions to a separate script (scrOverlordRoomStart)
 - View of maps now adjusts upon entering a new room.
+
+Corrected sound assignment in one-way arrow script
+Assigned sndArrowTouch to four way arrow
