@@ -53,6 +53,8 @@
     <background>background\bgMaze03</background>
     <background>background\bgTileset01</background>
     <background>background\bgMayaFace</background>
+    <background>background\bgMainPage_up</background>
+    <background>background\bgMainPage_down</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
