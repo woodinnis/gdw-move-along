@@ -59,6 +59,7 @@
     <script>scripts\DevNotes.gml</script>
     <script>scripts\scrOverlordStep.gml</script>
     <script>scripts\scrOverlordAlarm0.gml</script>
+    <script>scripts\scrOverlordRoomStart.gml</script>
     <script>scripts\scrOverlordCreate.gml</script>
     <scripts name="One Way Walls">
       <script>scripts\scrOneWayCreate.gml</script>

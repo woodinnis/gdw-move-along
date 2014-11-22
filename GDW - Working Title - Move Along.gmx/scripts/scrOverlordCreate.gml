@@ -1,9 +1,12 @@
 // Declare and set variables
 
-// Adjust room view depending on map and screen size
+/* Adjust room view depending on map and screen size
 view_wport[0] = view_wview[0];
 view_hport[0] = view_hview[0];
-//surface_resize(application_surface, view_wview[0], view_hview[0]);
+
+
+surface_resize(application_surface, view_wview[0], view_hview[0]);
+*/
 
 // showDoors is true for five seconds
 showDoors = true;

@@ -217,3 +217,6 @@ Alpha Day
 Sized up all sprites to 32x32px for larger room size
 - Will need new art for beta
 - Would like separate large and small art to use based on screen size
+
+Moved view adjustment functions to a separate script (scrOverlordRoomStart)
+- View of maps now adjusts upon entering a new room.
