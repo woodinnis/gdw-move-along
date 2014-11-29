@@ -238,3 +238,9 @@ Player continues moving after entering a room.
 - Have tried setting speed = 0 in door collision event
 - Have tried setting speed = 0 in Overlord Room Start
 - Have tried setting speed = 0 in Overlord Alarm 0
+
+// 29 November, 2014 //
+
+Resized room_menuLarge to 544x800
+- All rooms will now have this size
+- Standardizing rooms to this size will mean a 17x25 tile outer border and 15x23 tile inner area
