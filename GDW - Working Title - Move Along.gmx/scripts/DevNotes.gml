@@ -255,3 +255,6 @@ Resized all current mazes to 544x800
 - At least 3 new mazes should be built (totalling 8) before beta
 
 All 5 existing mazes have been rebuilt in 544x800
+
+Player now starts moving automatically 2 seconds after room start.
+- This is for testing purposes. Escalation may require increase/decrease of time.
