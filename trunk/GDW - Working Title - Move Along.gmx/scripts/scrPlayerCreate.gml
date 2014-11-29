@@ -1,6 +1,14 @@
 // Set player creation variables
 
-direction = 90;
+dirX = instance_nearest(x, y, objArrowParent).x;
+dirY = instance_nearest(x, y, objArrowParent).y;
+
+direction = ceil(point_direction(x, y, dirX, dirY))//*90;
+
+show_debug_message(direction);
+
+//direction = 90;
+
 playerSpeed = 8;
 speed = 0;
 otherArrow = -1;
