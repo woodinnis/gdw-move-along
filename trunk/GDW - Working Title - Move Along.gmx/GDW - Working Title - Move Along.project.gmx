@@ -56,6 +56,8 @@
     <background>background\bgMainPage_up</background>
     <background>background\bgMainPage_down</background>
     <background>background\bgMaze04</background>
+    <background>background\bgMaze05</background>
+    <background>background\bgMaze06</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -159,10 +161,10 @@
   <rooms name="rooms">
     <room>rooms\room_menuLarge</room>
     <rooms name="Maps">
-      <room>rooms\room_Maze02</room>
-      <room>rooms\room_Maze04</room>
       <room>rooms\room_Maze01</room>
+      <room>rooms\room_Maze02</room>
       <room>rooms\room_Maze03</room>
+      <room>rooms\room_Maze04</room>
       <room>rooms\room_Maze05</room>
     </rooms>
     <room>rooms\room_Pause</room>
