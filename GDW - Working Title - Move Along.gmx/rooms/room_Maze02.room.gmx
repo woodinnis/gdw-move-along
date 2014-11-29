@@ -273,6 +273,14 @@
     <instance objName="objWall" x="352" y="256" name="inst_BE245C8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="64" y="224" name="inst_87F1AF41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="32" y="256" name="inst_64B67B58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="480" y="512" name="inst_9E017998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRightArrow" x="288" y="512" name="inst_91967FCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUpArrow" x="32" y="736" name="inst_783BE854" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDownArrow" x="32" y="416" name="inst_F9DD6CC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDownArrow" x="480" y="32" name="inst_F71A7C27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUpArrow" x="480" y="352" name="inst_D37D8DDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRightArrow" x="32" y="288" name="inst_A7435F87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLeftArrow" x="288" y="288" name="inst_BF48D35E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgTileset01" x="0" y="256" w="32" h="32" xo="768" yo="352" id="10000388" name="inst_BB318382" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

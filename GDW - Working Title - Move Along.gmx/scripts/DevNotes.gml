@@ -258,3 +258,7 @@ All 5 existing mazes have been rebuilt in 544x800
 
 Player now starts moving automatically 2 seconds after room start.
 - This is for testing purposes. Escalation may require increase/decrease of time.
+
+Adjusted scrPlayerCreate to start player with a direction pointing towards the nearest arrow tile.
+
+room_Maze01-03 now have arrow layouts tile layouts using the new room size.
