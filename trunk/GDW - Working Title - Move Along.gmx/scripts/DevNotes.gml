@@ -254,3 +254,4 @@ Resized all current mazes to 544x800
 - Completely rebuilt room_Maze01 and room_Maze03
 - At least 3 new mazes should be built (totalling 8) before beta
 
+All 5 existing mazes have been rebuilt in 544x800

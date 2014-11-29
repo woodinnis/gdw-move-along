@@ -49,8 +49,6 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bgMaze01</background>
-    <background>background\bgMaze02</background>
-    <background>background\bgMaze03</background>
     <background>background\bgTileset01</background>
     <background>background\bgMayaFace</background>
     <background>background\bgMainPage_up</background>
@@ -58,6 +56,9 @@
     <background>background\bgMaze04</background>
     <background>background\bgMaze05</background>
     <background>background\bgMaze06</background>
+    <background>background\bgMaze03</background>
+    <background>background\bgMaze02</background>
+    <background>background\bgMaze07</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
