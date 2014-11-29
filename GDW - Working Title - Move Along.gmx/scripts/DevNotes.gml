@@ -249,3 +249,8 @@ Test built a new version of room_Maze02 at the new size.
 - Size looks good, and playable.
 - Views will need to be set to 544x800 for each room
 - Appropriate escalation will be needed. This room is too complex for early game.
+
+Resized all current mazes to 544x800
+- Completely rebuilt room_Maze01 and room_Maze03
+- At least 3 new mazes should be built (totalling 8) before beta
+
