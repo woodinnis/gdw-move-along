@@ -55,6 +55,7 @@
     <background>background\bgMayaFace</background>
     <background>background\bgMainPage_up</background>
     <background>background\bgMainPage_down</background>
+    <background>background\bgMaze04</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

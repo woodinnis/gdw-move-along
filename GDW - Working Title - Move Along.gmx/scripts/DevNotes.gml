@@ -244,3 +244,8 @@ Player continues moving after entering a room.
 Resized room_menuLarge to 544x800
 - All rooms will now have this size
 - Standardizing rooms to this size will mean a 17x25 tile outer border and 15x23 tile inner area
+
+Test built a new version of room_Maze02 at the new size.
+- Size looks good, and playable.
+- Views will need to be set to 544x800 for each room
+- Appropriate escalation will be needed. This room is too complex for early game.
