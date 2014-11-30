@@ -284,3 +284,10 @@ Fixed minor audio issue where Player crossed an arrow tile and sound not play co
 Fixed a minor issue where Player's starting direction would sometimes direct it to an empty space
 - Moved dirX, dirY assignment from PlayerCreate to PlayerAlarm0
 - Player starting direction is now assigned when player first starts moving in a level
+
+Started futher work on the pause function
+- room_Pause causes a full reset of whatever room is currently being played
+- Trying to solve this using room_set_persistent half solved the problem, but Player
+  did not continue moving once unpaused
+- A full graphical overlay which can stop and restart speeds may help
+- I have started building with the DrawGUI event to facilitate this
