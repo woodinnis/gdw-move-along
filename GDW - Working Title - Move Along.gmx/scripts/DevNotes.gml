@@ -280,3 +280,7 @@ Fixed minor audio issue where Player crossed an arrow tile and sound not play co
 - Moved audio_play_sound(sndArrowTouch) to scrPlayerMovement
 - Moved scrArrowCollisionPlayer to OBSOLETE
 - Eliminated ArrowParent -> Player collision event
+
+Fixed a minor issue where Player's starting direction would sometimes direct it to an empty space
+- Moved dirX, dirY assignment from PlayerCreate to PlayerAlarm0
+- Player starting direction is now assigned when player first starts moving in a level
