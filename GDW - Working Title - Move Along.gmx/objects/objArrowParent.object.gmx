@@ -134,6 +134,29 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="6" enumb="56">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>drag = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="6" enumb="11">
       <action>
         <libid>1</libid>
@@ -214,6 +237,43 @@
           <argument>
             <kind>0</kind>
             <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>drag = true;
+
+xoffset = x - mouse_x;
+yoffset = y - mouse_y;
+
+/*
+
+if mouse_check_button(mb_left) &amp;&amp; position_meeting(mouse_x,mouse_y,self)
+{
+    x = mouse_x;
+    y = mouse_y;
+    speed = 0;
+//    sprite_index = 
+}
+
+</string>
           </argument>
         </arguments>
       </action>

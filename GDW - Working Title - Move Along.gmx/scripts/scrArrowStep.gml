@@ -1,5 +1,38 @@
 // Mouse click and drag
 
+if(moveMe)
+{
+    
+}
+
+if(mouse_check_button(mb_left) && drag)
+{
+    x = mouse_x + xoffset;
+    y = mouse_y + yoffset;
+    
+    targetX = round( (mouse_x - 16)/ 32) * 32;
+    targetY = round( (mouse_y - 16)/ 32) * 32;
+    
+}
+
+if(!drag)
+{
+    if(place_empty(targetX, targetY))
+        {   
+            x = targetX;
+            y = targetY;
+                        
+            //drag = false;
+        } 
+}
+
+/*
+*   Obsolete as of 27 November, 2014
+*
+*
+*
+*
+
 // Set local variables
 var targetX, targetY;
 var snapX, snapY;
@@ -20,7 +53,7 @@ if(mouse_check_button_pressed(mb_left) && instance_position(mouse_x, mouse_y, ob
     if(moveMe == true)
     {        
         // Set variables
-        instance = instance_position(mouse_x, mouse_y, objArrowParent);
+        //instance = instance_position(mouse_x, mouse_y, objArrowParent);
         drag = true;
     }   
 }

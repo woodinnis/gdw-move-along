@@ -71,18 +71,12 @@
       <script>scripts\scrOneWayCreate.gml</script>
     </scripts>
     <scripts name="GUI">
-      <scripts name="Lights">
-        <script>scripts\scrLightCreate.gml</script>
-        <script>scripts\scrLightBeginStep.gml</script>
-        <script>scripts\scrLightOrbStep.gml</script>
-        <script>scripts\scrLightDraw.gml</script>
-        <script>scripts\scrLightOrbCreate.gml</script>
-      </scripts>
       <script>scripts\scrStartBtnPressed.gml</script>
       <script>scripts\scrResetBtnAlarm0.gml</script>
       <script>scripts\scrResetBtnPressed.gml</script>
       <script>scripts\scrGameStartButtonAlarm0.gml</script>
       <script>scripts\scrGameStartButtonLMB.gml</script>
+      <script>scripts\scrRandomArrowGenerator.gml</script>
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
@@ -122,6 +116,13 @@
       <script>scripts\scrOneWayDownStep.gml</script>
       <script>scripts\scrOneWayUpStep.gml</script>
       <script>scripts\scrOneWayRightStep.gml</script>
+      <scripts name="Lights">
+        <script>scripts\scrLightCreate.gml</script>
+        <script>scripts\scrLightBeginStep.gml</script>
+        <script>scripts\scrLightOrbStep.gml</script>
+        <script>scripts\scrLightDraw.gml</script>
+        <script>scripts\scrLightOrbCreate.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -165,8 +166,8 @@
     <rooms name="Maps">
       <room>rooms\room_Maze03</room>
       <room>rooms\room_Maze01</room>
-      <room>rooms\room_Maze02</room>
       <room>rooms\room_Maze04</room>
+      <room>rooms\room_Maze02</room>
       <room>rooms\room_Maze05</room>
     </rooms>
     <room>rooms\room_Pause</room>
