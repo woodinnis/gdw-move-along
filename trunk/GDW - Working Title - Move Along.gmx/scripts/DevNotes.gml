@@ -265,3 +265,7 @@ room_Maze01-03 now have arrow layouts tile layouts using the new room size.
 
 Arrow tiles are now visible while being moved.
 
+Attempted to set a radius limiting arrow tile movement.
+- Available code didn't have intended effect (flickered, and left tile in random place)
+- Some code has been added to ArrowStep to limit movement, but the if condition is incomplete.
+    This should be the first thing explored.
