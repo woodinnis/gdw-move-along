@@ -275,3 +275,8 @@ Attempted to set a radius limiting arrow tile movement.
 Player can now switch rooms successfully.
 - Player no longer continues moving upon entering a new room.
 - Player waits ~2 seconds and resumes moving in the new room.
+
+Fixed minor audio issue where Player crossed an arrow tile and sound not play correctly
+- Moved audio_play_sound(sndArrowTouch) to scrPlayerMovement
+- Moved scrArrowCollisionPlayer to OBSOLETE
+- Eliminated ArrowParent -> Player collision event
