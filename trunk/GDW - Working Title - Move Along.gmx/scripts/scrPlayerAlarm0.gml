@@ -1,2 +1,2 @@
 speed = playerSpeed;
-objOverlord. canWalk = true;
+objOverlord.canWalk = true;
