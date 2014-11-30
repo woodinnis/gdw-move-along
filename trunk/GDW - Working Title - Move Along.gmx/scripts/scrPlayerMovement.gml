@@ -14,6 +14,7 @@ if(objOverlord.canWalk == true)
             {
                 move_snap(sprite_width,sprite_height);
                 direction = theArrow.direction;
+                audio_play_sound(sndArrowTouch, 10, false);   
             } 
         }
    }
