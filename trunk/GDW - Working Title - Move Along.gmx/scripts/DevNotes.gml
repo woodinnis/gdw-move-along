@@ -262,3 +262,6 @@ Player now starts moving automatically 2 seconds after room start.
 Adjusted scrPlayerCreate to start player with a direction pointing towards the nearest arrow tile.
 
 room_Maze01-03 now have arrow layouts tile layouts using the new room size.
+
+Arrow tiles are now visible while being moved.
+

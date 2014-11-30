@@ -6,3 +6,9 @@ TileY = y;
 drag = false;
 
 moveMe = false;
+
+myX = x;
+myY = y;
+
+targetX = 0;
+targetY = 0;
