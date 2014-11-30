@@ -9,7 +9,7 @@ show_debug_message(direction);
 
 //direction = 90;
 
-playerSpeed = 8;
+playerSpeed = 2;
 speed = 0;
 otherArrow = -1;
 scanForArrow = true;

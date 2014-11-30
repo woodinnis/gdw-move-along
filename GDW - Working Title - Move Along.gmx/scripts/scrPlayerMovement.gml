@@ -118,7 +118,7 @@ if(objOverlord.canWalk == true)
     // It makes more sense to have the door collision code here, with the rest of the 
     // player movement code.
     // It currently has some minor bugs, which can be addressed post-alpha
-    /* 22 November, 2014
+    // 22 November, 2014
     if(place_meeting(x,y,objDoor))
     {
         move_snap(sprite_width,sprite_height);
@@ -127,7 +127,8 @@ if(objOverlord.canWalk == true)
         {
             audio_play_sound(sndDoor,10,false);
             
-            surface_reset_target();            
+            surface_reset_target();          
+            
             room_goto_next();
         }
         // if no room exists, reload current room
@@ -140,7 +141,7 @@ if(objOverlord.canWalk == true)
             room_restart()
         }
     }
-    */
+    
 } 
 
 else

@@ -263,6 +263,8 @@
     <instance objName="objWall" x="64" y="224" name="inst_4617A947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="96" y="224" name="inst_AE5A3A7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="512" y="256" name="inst_F4AB11F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDoor" x="0" y="192" name="inst_B1E0A9A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayer" x="480" y="288" name="inst_C43316F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgTileset01" x="64" y="0" w="32" h="32" xo="0" yo="0" id="10003073" name="inst_2C73A2D4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -632,7 +634,6 @@
     <tile bgName="bgTileset01" x="416" y="736" w="32" h="32" xo="768" yo="352" id="10003454" name="inst_E42CD22E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgTileset01" x="448" y="736" w="32" h="32" xo="768" yo="352" id="10003455" name="inst_BD7F09B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgTileset01" x="480" y="736" w="32" h="32" xo="768" yo="352" id="10003456" name="inst_8B85330C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgTileset01" x="0" y="192" w="32" h="32" xo="128" yo="960" id="10003457" name="inst_8668FE0A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgTileset01" x="512" y="288" w="32" h="32" xo="128" yo="960" id="10003458" name="inst_572E25BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>

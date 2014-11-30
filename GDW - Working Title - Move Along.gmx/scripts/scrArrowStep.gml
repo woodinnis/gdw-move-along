@@ -1,19 +1,20 @@
 // Mouse click and drag
 
-
-
-
 if(mouse_check_button(mb_left) && drag)
 {
          
     x = mouse_x + xoffset;
     y = mouse_y + yoffset;
    
-    //if(targetX == targetX + 160) || (targetX == targetX - 160)
-    targetX = round( (mouse_x - 16)/ 32) * 32;
-    //if(targetY == targetY + 160) || (targetY == targetY - 160)
+    // The solution to moving arrows within a fixed radius is probably here
+    // I am currently at a loss to figure it out.
+    // Until I can figure it out I will move on to other problems 30/11/2014
+    
+    targetX = round( (mouse_x - 16)/ 32) * 32;    
     targetY = round( (mouse_y - 16)/ 32) * 32;
     
+    //if(targetX >= startX - 160) && (targetX <= startX + 160)
+    //if(targetY >= startY - 160) && (targetY <= startY + 160)
     
     
 }

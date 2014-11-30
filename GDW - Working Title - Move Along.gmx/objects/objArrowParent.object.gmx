@@ -263,6 +263,8 @@
 xoffset = x - mouse_x;
 yoffset = y - mouse_y;
 
+startX = x;
+startY = y;
 /*
 
 if mouse_check_button(mb_left) &amp;&amp; position_meeting(mouse_x,mouse_y,self)

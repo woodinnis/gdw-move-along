@@ -269,3 +269,9 @@ Attempted to set a radius limiting arrow tile movement.
 - Available code didn't have intended effect (flickered, and left tile in random place)
 - Some code has been added to ArrowStep to limit movement, but the if condition is incomplete.
     This should be the first thing explored.
+    
+// 30 November, 2014 //
+
+Player can now switch rooms successfully.
+- Player no longer continues moving upon entering a new room.
+- Player waits ~2 seconds and resumes moving in the new room.
