@@ -15,3 +15,5 @@ alarm[0] = room_speed * 5;
 
 // canWalk begins as false, preventing the player from walking
 canWalk = false;
+
+
