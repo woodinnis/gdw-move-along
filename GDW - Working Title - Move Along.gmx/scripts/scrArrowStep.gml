@@ -1,17 +1,20 @@
 // Mouse click and drag
 
-if(moveMe)
-{
-    
-}
+
+
 
 if(mouse_check_button(mb_left) && drag)
 {
+         
     x = mouse_x + xoffset;
     y = mouse_y + yoffset;
-    
+   
+    //if(targetX == targetX + 160) || (targetX == targetX - 160)
     targetX = round( (mouse_x - 16)/ 32) * 32;
+    //if(targetY == targetY + 160) || (targetY == targetY - 160)
     targetY = round( (mouse_y - 16)/ 32) * 32;
+    
+    
     
 }
 
