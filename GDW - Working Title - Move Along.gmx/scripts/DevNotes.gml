@@ -308,3 +308,7 @@ Made several unsuccessful attempts at getting the Timer working
 - Found a script example on the GameMaker forum that was close to what I need, but not quite
     (http://gmc.yoyogames.com/index.php?showtopic=569523)
 - Have left "Time:" commented out in the GUI Draw event, along with some comments.
+
+Placed the Reset button using OverlordRoomStart
+- Reset button appears at bottom center of the maze
+- A new, thematically appropriate, sprite is needed

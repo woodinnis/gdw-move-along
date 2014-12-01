@@ -34,4 +34,13 @@ else
     }
 }
 
+// Create a Reset Button
 
+if(room != room_menuLarge)
+{
+    resetBtnX = room_width/2 - sprite_get_width(sprResetBtn)/2;
+        
+//    draw_set_valign(fa_bottom);
+//    draw_set_halign(fa_center);
+    instance_create(resetBtnX, room_height - 40 ,objResetBtn);
+}
