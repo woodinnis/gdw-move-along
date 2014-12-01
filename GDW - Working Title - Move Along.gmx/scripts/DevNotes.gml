@@ -291,3 +291,7 @@ Started futher work on the pause function
   did not continue moving once unpaused
 - A full graphical overlay which can stop and restart speeds may help
 - I have started building with the DrawGUI event to facilitate this
+
+// 01 December, 2014 //
+
+
