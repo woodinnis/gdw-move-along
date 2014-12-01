@@ -10,8 +10,9 @@ if(room != room_menuLarge)
         draw_set_font(font_Fruktur);
     }
     
-    // Set alingment and draw GUI text
-    draw_set_halign(fa_left)
+    // Set alignment and draw GUI text
+    draw_set_valign(fa_top);
+    draw_set_halign(fa_left);
 //    draw_set_alpha(1);
     draw_text(x + 20, y + 20, "Maze Number: " + string(room));
 
@@ -25,6 +26,11 @@ if(room != room_menuLarge)
     draw_set_halign(fa_right);
     draw_text(room_width - 20 ,y + 20, "Tiles Moved: " + string(tilesUsed));
     
+    
+    // Draw buttons
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_bottom);
+//    draw_sprite(sprResetBtn, 0, x + 20, room_height - 40);
 }
 
 
