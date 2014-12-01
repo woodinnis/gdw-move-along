@@ -14,8 +14,12 @@ if(room != room_menuLarge)
     draw_set_halign(fa_left)
 //    draw_set_alpha(1);
     draw_text(x + 20, y + 20, "Maze Number: " + string(room));
-    
-    draw_text(x + 20, y + 40, "Time: ");
+
+// Attempted to add a room timer. Could not get it working.
+// Will see if I can get it working later.
+
+//    draw_text(x + 20, y + 40, "Time: " + string(timeUsed));
+//    alarm[1] = room_speed * 1;
     
     // Set alignment and draw GUI text
     draw_set_halign(fa_right);

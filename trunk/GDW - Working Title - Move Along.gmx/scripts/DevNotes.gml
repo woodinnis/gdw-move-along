@@ -303,4 +303,8 @@ tilesUsed variable created in OverlordCreate
 - Increments with ArrowParent LeftPressed event.
 - Displays next to "Tiles Moved:" in GUI
 
-
+Made several unsuccessful attempts at getting the Timer working
+- Tried using alarms and the Step event
+- Found a script example on the GameMaker forum that was close to what I need, but not quite
+    (http://gmc.yoyogames.com/index.php?showtopic=569523)
+- Have left "Time:" commented out in the GUI Draw event, along with some comments.
