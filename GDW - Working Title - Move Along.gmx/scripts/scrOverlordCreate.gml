@@ -18,3 +18,6 @@ canWalk = false;
 
 // Number of tiles used/moved per level
 tilesUsed = 0;
+
+// Time spent in room
+timeUsed = 0;
