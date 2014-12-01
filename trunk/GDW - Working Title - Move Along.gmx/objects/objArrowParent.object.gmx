@@ -216,14 +216,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>drag = true;
+            <string>// Tile can be moved
+drag = true;
 
+// Increment number of tiles used
+objOverlord.tilesUsed++;
+
+// Set x and y offset for use calculating click &amp; drag coordinates
 xoffset = x - mouse_x;
 yoffset = y - mouse_y;
 
+
+/* Save starting coordinates for use calculating maximum range
 startX = x;
 startY = y;
-/*
+
 
 if mouse_check_button(mb_left) &amp;&amp; position_meeting(mouse_x,mouse_y,self)
 {
