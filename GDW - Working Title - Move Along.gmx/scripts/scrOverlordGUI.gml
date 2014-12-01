@@ -4,20 +4,22 @@ if(room != room_menuLarge)
     //draw_set_alpha(0.5);
     //draw_roundrect_colour(x, y, room_width, (room_height * 0.15), c_blue, c_blue, false);
     
+    // Check for and set display
     if(font_exists(font_Fruktur))
     {
         draw_set_font(font_Fruktur);
     }
     
+    // Set alingment and draw GUI text
     draw_set_halign(fa_left)
 //    draw_set_alpha(1);
     draw_text(x + 20, y + 20, "Maze Number: " + string(room));
     
     draw_text(x + 20, y + 40, "Time: ");
     
-    
+    // Set alignment and draw GUI text
     draw_set_halign(fa_right);
-    draw_text(room_width - 20 ,y + 20, "Tiles Moved: ");
+    draw_text(room_width - 20 ,y + 20, "Tiles Moved: " + string(tilesUsed));
     
 }
 

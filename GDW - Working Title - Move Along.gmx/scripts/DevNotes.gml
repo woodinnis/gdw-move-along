@@ -294,4 +294,13 @@ Started futher work on the pause function
 
 // 01 December, 2014 //
 
+Continuing work on GUI to increase legibility and usability
+- Added font_Fruktur to Font assets
+- Added "Tiles Moved:" and "Time:" to GUI (Appropriate variables will need to be added to Overlord)
+- Added left/right alignment to GUI
+
+tilesUsed variable created in OverlordCreate
+- Increments with ArrowParent LeftPressed event.
+- Displays next to "Tiles Moved:" in GUI
+
 
