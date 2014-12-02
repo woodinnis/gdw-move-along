@@ -325,4 +325,5 @@ New graphics for Pause and Reset buttons
 
 Created a Quit button
 - QuitBtn Sprite and Object created
-- Can be added to Pause screen as menu items
+- Added to Pause sceen
+- Mouse Left Pressed event triggers game_end()
