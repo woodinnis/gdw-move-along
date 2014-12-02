@@ -317,3 +317,8 @@ Pause screen is functional using PauseBtnPressed
 - Renamed all StartBtn sprites, scripts and objects to PauseBtn
 - Two implementations are coded, one uses instance_deactivate_object(), the other using several variables
 - bgMayaFace is the current pause screen. "Instruction" and "Exit" buttons should be added
+
+Fixed the issue where a player would walk at a weird angle towards the nearest arrow tile
+- PlayerAlarm0 now uses div 90 * 90 to set direction to closest 90-dgree bearing
+
+New graphics for Pause and Reset buttons
