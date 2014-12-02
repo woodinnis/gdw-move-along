@@ -322,3 +322,7 @@ Fixed the issue where a player would walk at a weird angle towards the nearest a
 - PlayerAlarm0 now uses div 90 * 90 to set direction to closest 90-dgree bearing
 
 New graphics for Pause and Reset buttons
+
+Created a Quit button
+- QuitBtn Sprite and Object created
+- Can be added to Pause screen as menu items
