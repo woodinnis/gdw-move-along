@@ -23,6 +23,7 @@
         <sprite>sprites\sprPauseBtn</sprite>
         <sprite>sprites\sprGameStartBtn</sprite>
         <sprite>sprites\sprResetBtn</sprite>
+        <sprite>sprites\sprQuitBtn</sprite>
       </sprites>
       <sprites name="Solid Tiles">
         <sprites name="One Way Walls">
@@ -159,6 +160,7 @@
     <objects name="GUI">
       <object>objects\objPlayer</object>
       <object>objects\objPauseBtn</object>
+      <object>objects\objQuitBtn</object>
       <object>objects\objGameStartBtn</object>
       <object>objects\objResetBtn</object>
       <objects name="Lights">

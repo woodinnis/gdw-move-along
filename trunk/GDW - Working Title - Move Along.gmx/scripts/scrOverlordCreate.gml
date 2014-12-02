@@ -24,3 +24,6 @@ timeUsed = 0;
 
 // Is the game paused?
 isPaused = false;
+
+// Declare colours
+colourText = make_colour_rgb(46, 18, 176);

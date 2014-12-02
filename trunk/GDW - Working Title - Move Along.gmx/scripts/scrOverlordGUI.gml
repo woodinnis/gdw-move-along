@@ -10,6 +10,9 @@ if(room != room_menuLarge)
         draw_set_font(font_Fruktur);
     }
     
+    // Set text colour
+//    draw_set_colour(colourText);
+    
     // Set alignment and draw GUI text
     draw_set_valign(fa_top);
     draw_set_halign(fa_left);
@@ -34,7 +37,8 @@ if(room != room_menuLarge)
 
     if(isPaused == true)
     {
-        draw_background(bgMayaFace, x + 50, y + 150);
+        // Draw background image
+        draw_background(bgMayaFace, x + 50, y + 100);
     }
 }
 
