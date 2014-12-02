@@ -312,3 +312,8 @@ Made several unsuccessful attempts at getting the Timer working
 Placed the Reset button using OverlordRoomStart
 - Reset button appears at bottom center of the maze
 - A new, thematically appropriate, sprite is needed
+
+Pause screen is functional using PauseBtnPressed
+- Renamed all StartBtn sprites, scripts and objects to PauseBtn
+- Two implementations are coded, one uses instance_deactivate_object(), the other using several variables
+- bgMayaFace is the current pause screen. "Instruction" and "Exit" buttons should be added

@@ -31,6 +31,11 @@ if(room != room_menuLarge)
     draw_set_halign(fa_left);
     draw_set_valign(fa_bottom);
 //    draw_sprite(sprResetBtn, 0, x + 20, room_height - 40);
+
+    if(isPaused == true)
+    {
+        draw_background(bgMayaFace, x + 50, y + 150);
+    }
 }
 
 

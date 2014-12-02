@@ -20,7 +20,7 @@
     <sprites name="Small Sprites">
       <sprites name="GUI">
         <sprite>sprites\sprPlayer</sprite>
-        <sprite>sprites\sprStartBtn</sprite>
+        <sprite>sprites\sprPauseBtn</sprite>
         <sprite>sprites\sprGameStartBtn</sprite>
         <sprite>sprites\sprResetBtn</sprite>
       </sprites>
@@ -74,7 +74,7 @@
       <script>scripts\scrOneWayCreate.gml</script>
     </scripts>
     <scripts name="GUI">
-      <script>scripts\scrStartBtnPressed.gml</script>
+      <script>scripts\scrPauseBtnPressed.gml</script>
       <script>scripts\scrResetBtnAlarm0.gml</script>
       <script>scripts\scrResetBtnPressed.gml</script>
       <script>scripts\scrGameStartButtonAlarm0.gml</script>
@@ -158,7 +158,7 @@
     </objects>
     <objects name="GUI">
       <object>objects\objPlayer</object>
-      <object>objects\objStartBtn</object>
+      <object>objects\objPauseBtn</object>
       <object>objects\objGameStartBtn</object>
       <object>objects\objResetBtn</object>
       <objects name="Lights">

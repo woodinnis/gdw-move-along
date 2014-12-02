@@ -20,6 +20,6 @@
   <width>64</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\sprStartBtn_0.png</frame>
+    <frame index="0">images\sprPauseBtn_0.png</frame>
   </frames>
 </sprite>

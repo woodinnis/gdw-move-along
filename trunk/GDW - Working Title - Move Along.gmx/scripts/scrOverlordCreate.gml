@@ -21,3 +21,6 @@ tilesUsed = 0;
 
 // Time spent in room
 timeUsed = 0;
+
+// Is the game paused?
+isPaused = false;
