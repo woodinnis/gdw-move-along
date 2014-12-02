@@ -1,5 +1,5 @@
 if(room != room_menuLarge)
-{
+{  
     // Draw a background to make GUI text and images more visible
     //draw_set_alpha(0.5);
     //draw_roundrect_colour(x, y, room_width, (room_height * 0.15), c_blue, c_blue, false);
