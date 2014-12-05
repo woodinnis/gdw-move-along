@@ -383,3 +383,11 @@ Tutorial levels now feature simple instructions
 - A switch statement in OverlordGUI determines the room number
 - The switch draws a 0.3 alpha rectangle onto the level
 - Based on the room number a different draw_text places appropriate instructions in the play area
+
+Created a new Menu screen
+- Created MenuGUI
+- Used MayaFace currently being used in pause menu
+- Edited GameStartBtn to resemble new MayaFace icons
+- Created a new LvlSelectBtn for implementation of a level select feature
+- Removed the earlier MainPage_up and _down from active use.
+- Commented out a section of code GameStartButtonLMB
