@@ -26,6 +26,11 @@
         <sprite>sprites\sprQuitBtn</sprite>
         <sprite>sprites\sprRestartBtn</sprite>
         <sprite>sprites\sprLvlSelectBtn</sprite>
+        <sprite>sprites\sprLvlSelect01</sprite>
+        <sprite>sprites\sprLvlSelect02</sprite>
+        <sprite>sprites\sprLvlSelect03</sprite>
+        <sprite>sprites\sprLvlSelect04</sprite>
+        <sprite>sprites\sprLvlSelect05</sprite>
       </sprites>
       <sprites name="Solid Tiles">
         <sprites name="One Way Walls">
