@@ -7,6 +7,12 @@ if(objOverlord.isPaused == false)
     // Create instance of a quit button
     quitBtn = instance_create(room_width/2 - sprite_get_width(sprQuitBtn)/2, room_height/2 + 150, objQuitBtn);
     
+    // Pause walking sound when game pauses
+    if(audio_is_playing(sndPlayerWalk))
+    {
+        audio_pause_sound(sndPlayerWalk)
+    }
+    
     // Set canWalk to false, and speed to 0
 //    objOverlord.canWalk = false;
 //    objPlayer.speed = 0;
@@ -22,6 +28,12 @@ else
     with(quitBtn)
     {
         instance_destroy()
+    }
+    
+    // Resume walking sound
+    if(audio_is_paused(sndPlayerWalk))
+    {
+        audio_resume_sound(sndPlayerWalk)
     }
     // Set canWalk to true, and speed to playerSpeed
 //    objOverlord.canWalk = true;
