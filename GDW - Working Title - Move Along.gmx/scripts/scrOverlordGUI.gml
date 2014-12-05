@@ -1,8 +1,17 @@
 if(room != room_menuLarge)
 {  
+    HUDBottom = (room_height * 0.08);
+    
     // Draw a background to make GUI text and images more visible
-    //draw_set_alpha(0.5);
-    //draw_roundrect_colour(x, y, room_width, (room_height * 0.15), c_blue, c_blue, false);
+    draw_set_alpha(0.3);
+    draw_rectangle_colour(x, y, room_width, HUDBottom, c_blue, c_blue, c_blue, c_blue, false);
+    
+    // reset alpha to 100%
+    draw_set_alpha(1);
+    
+    // Draw a black bar at the bottom of the HUD background
+    draw_set_colour(c_black);
+    draw_rectangle(x, HUDBottom, room_width, HUDBottom + 5, false);
     
     // Check for and set display
     if(font_exists(font_Fruktur))
@@ -11,7 +20,7 @@ if(room != room_menuLarge)
     }
     
     // Set text colour
-//    draw_set_colour(colourText);
+    draw_set_colour(c_white);
     
     // Set alignment and draw GUI text
     draw_set_valign(fa_top);
@@ -41,5 +50,4 @@ if(room != room_menuLarge)
         draw_background(bgMayaFace, x + 50, y + 100);
     }
 }
-
 
