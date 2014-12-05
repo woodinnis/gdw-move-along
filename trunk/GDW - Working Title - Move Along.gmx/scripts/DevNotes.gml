@@ -327,3 +327,14 @@ Created a Quit button
 - QuitBtn Sprite and Object created
 - Added to Pause sceen
 - Mouse Left Pressed event triggers game_end()
+
+// 04 December, 2014 //
+
+Began implementing sound assets
+- Used under the Attribution Licence 01
+- sndHole: 28839__junggle__btn029.wav
+    https://www.freesound.org/people/junggle/sounds/28839/
+- sndDoor: 83631__arithni__heavy-thud
+    https://www.freesound.org/people/arithni/sounds/83631/
+- sndWall: 165196__swimignorantfire__skull-crack-on-porcelain-tub
+    https://www.freesound.org/people/swimignorantfire/sounds/165196/
