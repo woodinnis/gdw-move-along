@@ -344,3 +344,13 @@ Began implementing sound assets
     http://www.freesound.org/people/Fantozzi/sounds/166301/
     
 Pausing game now also pauses the walking sound
+
+Addressed background colour issue that hasbeen raised by multiple testers.
+- Replaced grass tile, with desaturated green solid B/G
+- Desaturated the brick wall tiles
+
+Addressed issue where arrow tiles were difficult to distinguish from the environment
+- Changed the colour of the arrow
+- Flatened the background colour of the tile
+- Changed the shape from a square to a round tile
+- Replaced wall tiles with a more unique, and easily distinguishable pattern
