@@ -391,3 +391,11 @@ Created a new Menu screen
 - Created a new LvlSelectBtn for implementation of a level select feature
 - Removed the earlier MainPage_up and _down from active use.
 - Commented out a section of code GameStartButtonLMB
+
+Created Level Select screen
+- Scripts LvlSelectBtnLMB, LvlSelectBtnAlarm0 used to move player from main menu
+- Renamed room_Menu, repurposing it to room_LvlSelect
+- Created objLvlSelect01 - 05 buttons
+- Created Fruktur_med to display a "Level Select" room heading
+- LvlSelectGUI script displays buttons
+- Button objects currently execute all their on room_goto() codes

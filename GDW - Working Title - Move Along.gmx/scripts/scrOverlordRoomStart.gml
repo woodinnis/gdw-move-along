@@ -9,7 +9,7 @@ tilesUsed = 0;
 
 
 // Check current room
-if((room == room_menuLarge) || (room == room_Menu))
+if(room == room_menuLarge)
 {
     // Stop all audio that may be playing
     audio_stop_all();
