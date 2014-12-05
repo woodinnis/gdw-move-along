@@ -73,6 +73,7 @@
       <script>scripts\scrOverlordStep.gml</script>
       <script>scripts\scrOverlordGUI.gml</script>
       <script>scripts\scrMenuGUI.gml</script>
+      <script>scripts\scrLvlSelectGUI.gml</script>
     </scripts>
     <scripts name="One Way Walls">
       <script>scripts\scrOneWayCreate.gml</script>
@@ -82,8 +83,10 @@
       <script>scripts\scrResetBtnAlarm0.gml</script>
       <script>scripts\scrResetBtnPressed.gml</script>
       <script>scripts\scrGameStartButtonAlarm0.gml</script>
+      <script>scripts\scrLvlSelectBtnAlarm0.gml</script>
       <script>scripts\scrGameStartButtonLMB.gml</script>
       <script>scripts\scrRandomArrowGenerator.gml</script>
+      <script>scripts\scrLvlSelectBtnLMB.gml</script>
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
@@ -134,6 +137,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_Fruktur</font>
+    <font>fonts\font_Fruktur_med</font>
   </fonts>
   <objects name="objects">
     <object>objects\objOverlord</object>
@@ -172,6 +176,11 @@
       </objects>
       <object>objects\objRestartBtn</object>
       <object>objects\objLvlSelectBtn</object>
+      <object>objects\objLvlSelect01</object>
+      <object>objects\objLvlSelect02</object>
+      <object>objects\objLvlSelect03</object>
+      <object>objects\objLvlSelect04</object>
+      <object>objects\objLvlSelect05</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -184,7 +193,7 @@
       <room>rooms\room_Maze05</room>
     </rooms>
     <room>rooms\room_Pause</room>
-    <room>rooms\room_Menu</room>
+    <room>rooms\room_LvlSelect</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
