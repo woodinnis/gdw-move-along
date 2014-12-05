@@ -51,3 +51,60 @@ if(room != room_menuLarge)
     }
 }
 
+msgPaneX = (room_width/3);
+msgPaneY = (room_height/3);
+
+msgX = (room_width/2);
+msgY = (room_height/2);
+
+switch(room)
+{
+    case room_Maze01:
+    {   
+        draw_set_valign(fa_top);
+        draw_set_alpha(0.3);
+        draw_rectangle(msgPaneX, msgPaneY, msgPaneX * 2, msgPaneY * 1.5, false);
+        
+        draw_set_alpha(1);
+        draw_set_colour(c_black);
+        draw_set_halign(fa_center);
+        draw_text(msgX, msgY, "Place the arrow# to create a path# to the door");
+        break;
+    }
+    case room_Maze02:
+    {
+        draw_set_valign(fa_top);
+        draw_set_alpha(0.3);
+        draw_rectangle(msgPaneX - 20, msgPaneY, (msgPaneX * 2) + 20, msgPaneY * 1.5, false);
+        
+        draw_set_alpha(1);
+        draw_set_colour(c_black);
+        draw_set_halign(fa_center);
+        draw_text(msgX, msgY, "Use several arrows# to get around walls");
+        break;
+    }
+    case room_Maze03:
+    {
+        draw_set_valign(fa_top);
+        draw_set_alpha(0.3);
+        draw_rectangle(msgPaneX, msgPaneY, msgPaneX * 2, msgPaneY * 1.5, false);
+        
+        draw_set_alpha(1);
+        draw_set_colour(c_black);
+        draw_set_halign(fa_center);
+        draw_text(msgX, msgY, "Avoid obstacles,# like holes");
+        break;
+    }
+    case room_Maze04:
+    {
+        draw_set_valign(fa_top);
+        draw_set_alpha(0.3);
+        draw_rectangle(msgPaneX, msgPaneY, msgPaneX * 2, msgPaneY * 1.5, false);
+        
+        draw_set_alpha(1);
+        draw_set_colour(c_black);
+        draw_set_halign(fa_center);
+        draw_text(msgX, msgY, "Good Luck!");
+        break;
+    }
+}

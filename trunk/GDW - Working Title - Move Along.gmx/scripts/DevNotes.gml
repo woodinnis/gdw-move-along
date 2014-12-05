@@ -378,3 +378,8 @@ Set a background panel for the HUD
 - Placed a black bar at the bottom of the rectangle to clearly distinguish it from the main play area
 
 Renamed rooms to acurately reflect their gameplay order
+
+Tutorial levels now feature simple instructions
+- A switch statement in OverlordGUI determines the room number
+- The switch draws a 0.3 alpha rectangle onto the level
+- Based on the room number a different draw_text places appropriate instructions in the play area
