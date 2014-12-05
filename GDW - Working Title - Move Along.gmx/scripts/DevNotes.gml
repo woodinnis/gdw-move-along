@@ -376,3 +376,5 @@ Set a background panel for the HUD
 - Rectangle behind HUD text has been put back at 0.3 alpha
 - Resized rectangle to 0.08 screen height
 - Placed a black bar at the bottom of the rectangle to clearly distinguish it from the main play area
+
+Renamed rooms to acurately reflect their gameplay order
