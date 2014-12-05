@@ -358,3 +358,7 @@ Addressed issue where arrow tiles were difficult to distinguish from the environ
 Created a restart button, which has been added to the pause menu
 - Used the Mayan Face Icon
 - Restarts the current room
+
+Game now pauses when player hits a wall or falls into a hole
+- PlayerMovement executes the PauseBtnPressed script
+- Eliminates the possibility of a player stopping and examining the map
