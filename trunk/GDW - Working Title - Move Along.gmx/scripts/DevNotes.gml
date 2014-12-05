@@ -369,3 +369,10 @@ Verified that background audio is not looping, or restarting at beginning of lev
 Addressed escalation issue
 - First three levels are now "tutorial" levels
 - Final two levels are full mazes
+
+// 05 December, 2015 // 
+
+Set a background panel for the HUD
+- Rectangle behind HUD text has been put back at 0.3 alpha
+- Resized rectangle to 0.08 screen height
+- Placed a black bar at the bottom of the rectangle to clearly distinguish it from the main play area
