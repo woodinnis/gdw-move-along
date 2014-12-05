@@ -342,3 +342,5 @@ Began implementing sound assets
 - Used under Creative Commons 01
 - sndPlayerWalk: 166301__fantozzi__mco-walk-h01
     http://www.freesound.org/people/Fantozzi/sounds/166301/
+    
+Pausing game now also pauses the walking sound
