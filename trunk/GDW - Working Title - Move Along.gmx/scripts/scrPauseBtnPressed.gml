@@ -32,5 +32,4 @@ else
 }
 
 // Play the Pause sound
-audio_play_sound(sndPlayerStart,10,false);
-
+// audio_play_sound(sndPlayerStart,10,false);
