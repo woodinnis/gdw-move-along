@@ -399,3 +399,6 @@ Created Level Select screen
 - Created Fruktur_med to display a "Level Select" room heading
 - LvlSelectGUI script displays buttons
 - Button objects currently execute all their on room_goto() codes
+
+Created new button sprites for Level Select screen
+- LvlSelect01 - 05 sprites
