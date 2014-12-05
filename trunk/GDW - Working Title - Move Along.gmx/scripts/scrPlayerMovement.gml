@@ -62,7 +62,7 @@ if(objOverlord.canWalk == true)
                 audio_play_sound(sndHole,10,false);
                 
                 // Begin room reset alarm
-                objResetBtn.alarm[0] = room_speed * 1;
+                //objResetBtn.alarm[0] = room_speed * 1;
                 
                 // Pause the game 
                 with(objPauseBtn)

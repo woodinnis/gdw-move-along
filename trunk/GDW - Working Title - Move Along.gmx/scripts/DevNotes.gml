@@ -362,3 +362,10 @@ Created a restart button, which has been added to the pause menu
 Game now pauses when player hits a wall or falls into a hole
 - PlayerMovement executes the PauseBtnPressed script
 - Eliminates the possibility of a player stopping and examining the map
+
+Verified that background audio is not looping, or restarting at beginning of level
+- B/g Music does however have a repetitive track, and should be replaced
+
+Addressed escalation issue
+- First three levels are now "tutorial" levels
+- Final two levels are full mazes
