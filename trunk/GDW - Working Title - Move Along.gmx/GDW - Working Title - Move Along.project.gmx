@@ -25,6 +25,7 @@
         <sprite>sprites\sprResetBtn</sprite>
         <sprite>sprites\sprQuitBtn</sprite>
         <sprite>sprites\sprRestartBtn</sprite>
+        <sprite>sprites\sprLvlSelectBtn</sprite>
       </sprites>
       <sprites name="Solid Tiles">
         <sprites name="One Way Walls">
@@ -71,6 +72,7 @@
       <script>scripts\scrOverlordRoomStart.gml</script>
       <script>scripts\scrOverlordStep.gml</script>
       <script>scripts\scrOverlordGUI.gml</script>
+      <script>scripts\scrMenuGUI.gml</script>
     </scripts>
     <scripts name="One Way Walls">
       <script>scripts\scrOneWayCreate.gml</script>
@@ -169,6 +171,7 @@
         <object>objects\objLightOrb</object>
       </objects>
       <object>objects\objRestartBtn</object>
+      <object>objects\objLvlSelectBtn</object>
     </objects>
   </objects>
   <rooms name="rooms">
