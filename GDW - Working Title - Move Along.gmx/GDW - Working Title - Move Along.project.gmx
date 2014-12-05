@@ -13,7 +13,7 @@
     <sound>sound\sndHole</sound>
     <sound>sound\sndWall</sound>
     <sound>sound\sndGameStart</sound>
-    <sound>sound\sndPlayerStart</sound>
+    <sound>sound\sndPlayerWalk</sound>
     <sound>sound\sndReset</sound>
   </sounds>
   <sprites name="sprites">

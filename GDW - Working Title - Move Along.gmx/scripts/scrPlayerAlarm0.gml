@@ -8,3 +8,6 @@ direction = (ceil(point_direction(x, y, dirX, dirY)) div 90) * 90;
 // Set speed and start walking
 speed = playerSpeed;
 objOverlord.canWalk = true;
+
+// Play walking sound
+audio_play_sound(sndPlayerWalk, 10, true);
