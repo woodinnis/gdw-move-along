@@ -21,19 +21,86 @@ if(objOverlord.canWalk == true)
          }
     }
    
+    // If player hits a wall
     if (place_meeting(x,y,objWall))
     {
-         speed = 0;
-         x = xprevious;
-         y = yprevious;
-         move_snap(sprite_width, sprite_height);
-         objOverlord.canWalk = false;
-         
-         // Play a sound        
-         audio_play_sound(sndWall,10,false);
+        // Stop player movement        
+        speed = 0;
+        x = xprevious;
+        y = yprevious;
+        move_snap(sprite_width, sprite_height);
+        objOverlord.canWalk = false;
+        
+        // Play a sound        
+        audio_play_sound(sndWall,10,false);
+        
+        // Pause the game
+        with(objPauseBtn)
+        {
+           event_user(0);
+        }     
     }
     
-    // Player encounters a One Way Wall  
+    // Player encounters a hole anywhere on the map
+    if(place_meeting(x,y,objHole))
+    {
+        theHole = instance_place(x,y,objHole)
+        
+        if (x < theHole.x + buffer && x > theHole.x - buffer)
+        {
+            if (y < theHole.y + buffer && y > theHole.y - buffer)
+            {
+                // Snap player to the x,y coordinates of the hole
+                move_snap(sprite_width,sprite_height);             
+                
+                // Stop player movement, and set to invisible                
+                objPlayer.visible = false;
+                objOverlord.canWalk = false;
+                speed = 0;
+                
+                // Play a sound
+                audio_play_sound(sndHole,10,false);
+                
+                // Begin room reset alarm
+                objResetBtn.alarm[0] = room_speed * 1;
+                
+                // Pause the game 
+                with(objPauseBtn)
+                {
+                    event_user(0);
+                }                   
+            } 
+        } 
+    }
+    
+    // It makes more sense to have the door collision code here, with the rest of the 
+    // player movement code.
+    // It currently has some minor bugs, which can be addressed post-alpha
+    // 22 November, 2014
+    if(place_meeting(x,y,objDoor))
+    {
+        move_snap(sprite_width,sprite_height);
+        
+        if(room_exists(room_next(room)))
+        {
+            audio_play_sound(sndDoor,10,false);
+            
+            surface_reset_target();          
+            
+            room_goto_next();
+        }
+        // if no room exists, reload current room
+        else
+        {    
+            // Reset blend mode and target
+            draw_set_blend_mode(bm_normal)
+            surface_reset_target()
+            
+            room_restart()
+        }
+    }
+    
+    /* Player encounters a One Way Wall  
     if (place_meeting(x,y,objOneWayParent))
     {
          shortWall = instance_place(x,y,objOneWayParent);
@@ -90,61 +157,7 @@ if(objOverlord.canWalk == true)
                  }             
              } 
          }
-    }
-
-    // Player encounters a hole anywhere on the map
-    if(place_meeting(x,y,objHole))
-    {
-        theHole = instance_place(x,y,objHole)
-        
-        if (x < theHole.x + buffer && x > theHole.x - buffer)
-        {
-           if (y < theHole.y + buffer && y > theHole.y - buffer)
-            {
-                // Snap player to the x,y coordinates of the hole
-                move_snap(sprite_width,sprite_height);             
-                
-                // Stop player movement, and set to invisible                
-                objPlayer.visible = false;
-                objOverlord.canWalk = false;
-                speed = 0;
-                
-                // Play a sound
-                audio_play_sound(sndHole,10,false);
-
-                // Begin room reset alarm
-                objResetBtn.alarm[0] = room_speed * 1;
-            } 
-        } 
-    }
-    
-    // It makes more sense to have the door collision code here, with the rest of the 
-    // player movement code.
-    // It currently has some minor bugs, which can be addressed post-alpha
-    // 22 November, 2014
-    if(place_meeting(x,y,objDoor))
-    {
-        move_snap(sprite_width,sprite_height);
-        
-        if(room_exists(room_next(room)))
-        {
-            audio_play_sound(sndDoor,10,false);
-            
-            surface_reset_target();          
-            
-            room_goto_next();
-        }
-        // if no room exists, reload current room
-        else
-        {    
-            // Reset blend mode and target
-            draw_set_blend_mode(bm_normal)
-            surface_reset_target()
-            
-            room_restart()
-        }
-    }
-    
+    }*/
 } 
 
 else
@@ -164,3 +177,50 @@ else
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
