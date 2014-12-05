@@ -21,16 +21,14 @@ if((room == room_menuLarge) || (room == room_Menu))
     }
 }
 else
-{
-    // Check to see if game music is playing.
-    // If not stop all audio that may be playing
-    if(!audio_is_playing(sndBGMusicGame))
-        audio_stop_all();
-    
+{    
     // If game music is available to play, begin playing it
     if(sound_exists(sndBGMusicGame))
     {
-        audio_play_sound(sndBGMusicGame,2,true);
+        if(!audio_is_playing(sndBGMusicGame))
+        {            
+            audio_play_sound(sndBGMusicGame,2,true);
+        }
     }
 }
 
