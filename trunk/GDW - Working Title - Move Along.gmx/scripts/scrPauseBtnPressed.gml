@@ -5,7 +5,10 @@ if(objOverlord.isPaused == false)
     instance_deactivate_object(objPlayer)
     
     // Create instance of a quit button
-    quitBtn = instance_create(room_width/2 - sprite_get_width(sprQuitBtn)/2, room_height/2 + 150, objQuitBtn);
+    quitBtn = instance_create(room_width/3 - sprite_get_width(sprQuitBtn)/2, room_height/2 + 150, objQuitBtn);
+
+    // Create instance of a restart button
+    restartBtn = instance_create((room_width/3 * 2) - sprite_get_width(sprQuitBtn)/2, room_height/2 + 150, objRestartBtn);
     
     // Pause walking sound when game pauses
     if(audio_is_playing(sndPlayerWalk))
@@ -27,7 +30,13 @@ else
     // Destroy the quit button
     with(quitBtn)
     {
-        instance_destroy()
+        instance_destroy();
+    }
+    
+    // Destroy the restart button
+    with(restartBtn)
+    {
+        instance_destroy();
     }
     
     // Resume walking sound

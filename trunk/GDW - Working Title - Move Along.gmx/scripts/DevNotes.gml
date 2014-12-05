@@ -354,3 +354,7 @@ Addressed issue where arrow tiles were difficult to distinguish from the environ
 - Flatened the background colour of the tile
 - Changed the shape from a square to a round tile
 - Replaced wall tiles with a more unique, and easily distinguishable pattern
+
+Created a restart button, which has been added to the pause menu
+- Used the Mayan Face Icon
+- Restarts the current room

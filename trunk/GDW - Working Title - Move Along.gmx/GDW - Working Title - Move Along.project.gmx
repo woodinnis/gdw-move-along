@@ -24,6 +24,7 @@
         <sprite>sprites\sprGameStartBtn</sprite>
         <sprite>sprites\sprResetBtn</sprite>
         <sprite>sprites\sprQuitBtn</sprite>
+        <sprite>sprites\sprRestartBtn</sprite>
       </sprites>
       <sprites name="Solid Tiles">
         <sprites name="One Way Walls">
@@ -167,6 +168,7 @@
         <object>objects\objLightVariable</object>
         <object>objects\objLightOrb</object>
       </objects>
+      <object>objects\objRestartBtn</object>
     </objects>
   </objects>
   <rooms name="rooms">
