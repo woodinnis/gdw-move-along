@@ -419,3 +419,16 @@ Added "Move Along" to menuLarge
 
 Minor organizational changes
 - Found more obsolete assets
+
+// 06 December, 2014 //
+
+Added new sounds for game start and tile clicking
+- Activated sound for clicking tiles in objArrowParent -> LeftMouseClicked Event
+
+Modified Pause button
+- Added new sprite
+- Changed position of pause button to bottom(same X) middle (room_width/2)
+
+Removed reset button from main gameplay screen
+- Reset is an option in the pause screen and isn't necessary on the gameplay screen
+

@@ -226,6 +226,8 @@ objOverlord.tilesUsed++;
 xoffset = x - mouse_x;
 yoffset = y - mouse_y;
 
+// Play sound
+audio_play_sound(sndArrowClick, 10, false);
 
 /* Save starting coordinates for use calculating maximum range
 startX = x;
