@@ -93,12 +93,9 @@
     </scripts>
     <scripts name="GUI">
       <script>scripts\scrPauseBtnPressed.gml</script>
-      <script>scripts\scrResetBtnAlarm0.gml</script>
-      <script>scripts\scrResetBtnPressed.gml</script>
       <script>scripts\scrGameStartButtonAlarm0.gml</script>
-      <script>scripts\scrLvlSelectBtnAlarm0.gml</script>
       <script>scripts\scrGameStartButtonLMB.gml</script>
-      <script>scripts\scrRandomArrowGenerator.gml</script>
+      <script>scripts\scrLvlSelectBtnAlarm0.gml</script>
       <script>scripts\scrLvlSelectBtnLMB.gml</script>
     </scripts>
     <scripts name="Player">
@@ -135,13 +132,6 @@
       <scripts name="One Way Walls">
         <script>scripts\scrOneWayCreate.gml</script>
       </scripts>
-      <script>scripts\scrArrowCollisionPlayer.gml</script>
-      <script>scripts\scrOneWayLeftStep.gml</script>
-      <script>scripts\scrPlayerClicked.gml</script>
-      <script>scripts\scrArrowWallCollision.gml</script>
-      <script>scripts\scrOneWayDownStep.gml</script>
-      <script>scripts\scrOneWayUpStep.gml</script>
-      <script>scripts\scrOneWayRightStep.gml</script>
       <scripts name="Lights">
         <script>scripts\scrLightCreate.gml</script>
         <script>scripts\scrLightBeginStep.gml</script>
@@ -149,6 +139,16 @@
         <script>scripts\scrLightDraw.gml</script>
         <script>scripts\scrLightOrbCreate.gml</script>
       </scripts>
+      <script>scripts\scrOneWayLeftStep.gml</script>
+      <script>scripts\scrArrowCollisionPlayer.gml</script>
+      <script>scripts\scrPlayerClicked.gml</script>
+      <script>scripts\scrRandomArrowGenerator.gml</script>
+      <script>scripts\scrArrowWallCollision.gml</script>
+      <script>scripts\scrOneWayDownStep.gml</script>
+      <script>scripts\scrOneWayUpStep.gml</script>
+      <script>scripts\scrOneWayRightStep.gml</script>
+      <script>scripts\scrResetBtnAlarm0.gml</script>
+      <script>scripts\scrResetBtnPressed.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -186,7 +186,6 @@
     <objects name="GUI">
       <object>objects\objPlayer</object>
       <object>objects\objPauseBtn</object>
-      <object>objects\objResetBtn</object>
     </objects>
     <objects name="OBSOLETE">
       <objects name="Moving Tiles">
@@ -204,6 +203,7 @@
         <object>objects\objOneWayDown</object>
         <object>objects\objOneWayLeft</object>
       </objects>
+      <object>objects\objResetBtn</object>
     </objects>
   </objects>
   <rooms name="rooms">
