@@ -406,3 +406,13 @@ Created new button sprites for Level Select screen
 Added sprites for the player
 - Four new sprites representing each direction
 - Sprite changes based on the direction of the player
+
+Reorganized assets
+- New folder structure created
+- Sprites, backgrounds, scripts, objects all reorganized
+- OBSOLETE folder created for each asset type
+- Unused assets placed in OBSOLETE folder to be removed for Gold Master (Week 11)
+
+Added "Move Along" to menuLarge 
+- Created font_Fruktur_lrg (100pt)
+- MenuGUI script draws the game title
