@@ -17,59 +17,67 @@
     <sound>sound\sndReset</sound>
   </sounds>
   <sprites name="sprites">
-    <sprites name="Small Sprites">
-      <sprites name="GUI">
-        <sprite>sprites\sprPlayerUp</sprite>
-        <sprite>sprites\sprPauseBtn</sprite>
-        <sprite>sprites\sprGameStartBtn</sprite>
-        <sprite>sprites\sprResetBtn</sprite>
-        <sprite>sprites\sprQuitBtn</sprite>
-        <sprite>sprites\sprRestartBtn</sprite>
-        <sprite>sprites\sprLvlSelectBtn</sprite>
+    <sprites name="Menu">
+      <sprites name="Level Select">
         <sprite>sprites\sprLvlSelect01</sprite>
         <sprite>sprites\sprLvlSelect02</sprite>
         <sprite>sprites\sprLvlSelect03</sprite>
         <sprite>sprites\sprLvlSelect04</sprite>
         <sprite>sprites\sprLvlSelect05</sprite>
-        <sprite>sprites\sprPlayerRight</sprite>
-        <sprite>sprites\sprPlayerDown</sprite>
-        <sprite>sprites\sprPlayerLeft</sprite>
       </sprites>
-      <sprites name="Solid Tiles">
-        <sprites name="One Way Walls">
-          <sprite>sprites\sprOneWayRight</sprite>
-          <sprite>sprites\sprOneWayDown</sprite>
-          <sprite>sprites\sprOneWayUp</sprite>
-          <sprite>sprites\sprOneWayLeft</sprite>
-        </sprites>
-        <sprite>sprites\sprWall</sprite>
-        <sprite>sprites\sprDoor</sprite>
-        <sprite>sprites\sprHole</sprite>
-      </sprites>
+      <sprite>sprites\sprLvlSelectBtn</sprite>
+      <sprite>sprites\sprQuitBtn</sprite>
+      <sprite>sprites\sprRestartBtn</sprite>
+      <sprite>sprites\sprGameStartBtn</sprite>
+    </sprites>
+    <sprites name="Tiles">
+      <sprite>sprites\sprWall</sprite>
+      <sprite>sprites\sprDoor</sprite>
+      <sprite>sprites\sprHole</sprite>
+    </sprites>
+    <sprites name="GUI">
+      <sprite>sprites\sprPauseBtn</sprite>
+      <sprite>sprites\sprResetBtn</sprite>
+    </sprites>
+    <sprites name="Arrows">
+      <sprite>sprites\sprDownArrow</sprite>
+      <sprite>sprites\sprUpArrow</sprite>
+      <sprite>sprites\sprLeftArrow</sprite>
+      <sprite>sprites\sprRightArrow</sprite>
+    </sprites>
+    <sprites name="Player">
+      <sprite>sprites\sprPlayerLeft</sprite>
+      <sprite>sprites\sprPlayerUp</sprite>
+      <sprite>sprites\sprPlayerRight</sprite>
+      <sprite>sprites\sprPlayerDown</sprite>
+    </sprites>
+    <sprites name="OBSOLETE">
       <sprites name="Moving Tiles">
-        <sprites name="Single Arrows">
-          <sprite>sprites\sprDownArrow</sprite>
-          <sprite>sprites\sprUpArrow</sprite>
-          <sprite>sprites\sprLeftArrow</sprite>
-          <sprite>sprites\sprRightArrow</sprite>
-        </sprites>
         <sprite>sprites\sprFourWayArrow</sprite>
         <sprite>sprites\sprChangingArrow</sprite>
+      </sprites>
+      <sprites name="One Way Walls">
+        <sprite>sprites\sprOneWayRight</sprite>
+        <sprite>sprites\sprOneWayDown</sprite>
+        <sprite>sprites\sprOneWayUp</sprite>
+        <sprite>sprites\sprOneWayLeft</sprite>
       </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\bgMaze01</background>
     <background>background\bgTileset01</background>
     <background>background\bgMayaFace</background>
-    <background>background\bgMainPage_up</background>
-    <background>background\bgMainPage_down</background>
-    <background>background\bgMaze04</background>
-    <background>background\bgMaze05</background>
-    <background>background\bgMaze06</background>
-    <background>background\bgMaze03</background>
-    <background>background\bgMaze02</background>
-    <background>background\bgMaze07</background>
+    <backgrounds name="OBSOLETE">
+      <background>background\bgMaze07</background>
+      <background>background\bgMaze03</background>
+      <background>background\bgMainPage_up</background>
+      <background>background\bgMainPage_down</background>
+      <background>background\bgMaze04</background>
+      <background>background\bgMaze06</background>
+      <background>background\bgMaze05</background>
+      <background>background\bgMaze02</background>
+      <background>background\bgMaze01</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -145,11 +153,50 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_Fruktur</font>
+    <font>fonts\font_Fruktur_lrg</font>
     <font>fonts\font_Fruktur_med</font>
   </fonts>
   <objects name="objects">
     <object>objects\objOverlord</object>
-    <objects name="Solid Tiles">
+    <objects name="Menu">
+      <objects name="Level Select">
+        <object>objects\objLvlSelect01</object>
+        <object>objects\objLvlSelect02</object>
+        <object>objects\objLvlSelect03</object>
+        <object>objects\objLvlSelect04</object>
+        <object>objects\objLvlSelect05</object>
+      </objects>
+      <object>objects\objLvlSelectBtn</object>
+      <object>objects\objQuitBtn</object>
+      <object>objects\objRestartBtn</object>
+      <object>objects\objGameStartBtn</object>
+    </objects>
+    <objects name="Arrows">
+      <object>objects\objArrowParent</object>
+      <object>objects\objRightArrow</object>
+      <object>objects\objLeftArrow</object>
+      <object>objects\objUpArrow</object>
+      <object>objects\objDownArrow</object>
+    </objects>
+    <objects name="Tiles">
+      <object>objects\objWall</object>
+      <object>objects\objDoor</object>
+      <object>objects\objHole</object>
+    </objects>
+    <objects name="GUI">
+      <object>objects\objPlayer</object>
+      <object>objects\objPauseBtn</object>
+      <object>objects\objResetBtn</object>
+    </objects>
+    <objects name="OBSOLETE">
+      <objects name="Moving Tiles">
+        <object>objects\objFourWayArrow</object>
+        <object>objects\objChangingArrow</object>
+      </objects>
+      <objects name="Lights">
+        <object>objects\objLightVariable</object>
+        <object>objects\objLightOrb</object>
+      </objects>
       <objects name="One Way Walls">
         <object>objects\objOneWayParent</object>
         <object>objects\objOneWayUp</object>
@@ -157,38 +204,6 @@
         <object>objects\objOneWayDown</object>
         <object>objects\objOneWayLeft</object>
       </objects>
-      <object>objects\objWall</object>
-      <object>objects\objDoor</object>
-      <object>objects\objHole</object>
-    </objects>
-    <objects name="Moving Tiles">
-      <objects name="Single Arrows">
-        <object>objects\objRightArrow</object>
-        <object>objects\objLeftArrow</object>
-        <object>objects\objUpArrow</object>
-        <object>objects\objDownArrow</object>
-      </objects>
-      <object>objects\objArrowParent</object>
-      <object>objects\objFourWayArrow</object>
-      <object>objects\objChangingArrow</object>
-    </objects>
-    <objects name="GUI">
-      <object>objects\objPlayer</object>
-      <object>objects\objPauseBtn</object>
-      <object>objects\objQuitBtn</object>
-      <object>objects\objGameStartBtn</object>
-      <object>objects\objResetBtn</object>
-      <objects name="Lights">
-        <object>objects\objLightVariable</object>
-        <object>objects\objLightOrb</object>
-      </objects>
-      <object>objects\objRestartBtn</object>
-      <object>objects\objLvlSelectBtn</object>
-      <object>objects\objLvlSelect01</object>
-      <object>objects\objLvlSelect02</object>
-      <object>objects\objLvlSelect03</object>
-      <object>objects\objLvlSelect04</object>
-      <object>objects\objLvlSelect05</object>
     </objects>
   </objects>
   <rooms name="rooms">
