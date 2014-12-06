@@ -14,3 +14,6 @@ objOverlord.canWalk = true;
 
 // Play walking sound
 audio_play_sound(sndPlayerWalk, 10, true);
+
+// Set animation speed
+image_speed = 0.07
