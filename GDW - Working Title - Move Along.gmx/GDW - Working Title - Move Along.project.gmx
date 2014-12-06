@@ -91,9 +91,6 @@
       <script>scripts\scrMenuGUI.gml</script>
       <script>scripts\scrLvlSelectGUI.gml</script>
     </scripts>
-    <scripts name="One Way Walls">
-      <script>scripts\scrOneWayCreate.gml</script>
-    </scripts>
     <scripts name="GUI">
       <script>scripts\scrPauseBtnPressed.gml</script>
       <script>scripts\scrResetBtnAlarm0.gml</script>
@@ -117,6 +114,12 @@
         <script>scripts\scrArrowParentCreate.gml</script>
         <script>scripts\scrArrowStep.gml</script>
       </scripts>
+      <script>scripts\scrArrowCreateLeft.gml</script>
+      <script>scripts\scrArrowCreateDown.gml</script>
+      <script>scripts\scrArrowCreateUp.gml</script>
+      <script>scripts\scrArrowCreateRight.gml</script>
+    </scripts>
+    <scripts name="OBSOLETE">
       <scripts name="Changing">
         <script>scripts\scrArrowStepChanging.gml</script>
         <script>scripts\scrArrowCreateChanging.gml</script>
@@ -129,16 +132,13 @@
         <script>scripts\scrArrowCollisionFourWay.gml</script>
         <script>scripts\scrArrowAlarm0FourWay.gml</script>
       </scripts>
-      <script>scripts\scrArrowCreateLeft.gml</script>
-      <script>scripts\scrArrowCreateDown.gml</script>
-      <script>scripts\scrArrowCreateUp.gml</script>
-      <script>scripts\scrArrowCreateRight.gml</script>
-    </scripts>
-    <scripts name="OBSOLETE">
-      <script>scripts\scrArrowWallCollision.gml</script>
+      <scripts name="One Way Walls">
+        <script>scripts\scrOneWayCreate.gml</script>
+      </scripts>
       <script>scripts\scrArrowCollisionPlayer.gml</script>
-      <script>scripts\scrPlayerClicked.gml</script>
       <script>scripts\scrOneWayLeftStep.gml</script>
+      <script>scripts\scrPlayerClicked.gml</script>
+      <script>scripts\scrArrowWallCollision.gml</script>
       <script>scripts\scrOneWayDownStep.gml</script>
       <script>scripts\scrOneWayUpStep.gml</script>
       <script>scripts\scrOneWayRightStep.gml</script>
