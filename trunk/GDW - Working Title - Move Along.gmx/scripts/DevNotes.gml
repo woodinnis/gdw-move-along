@@ -438,3 +438,7 @@ Started work on the walk animation-walk sound syncronization
 - image_speed to 0.07 in PlayerAlarm0
 - Sound and walk animation aren't quite syncronous
 - The animation, sound, or walk speed may have to be changed entirely to properly deal with the sync problems
+
+Changed the Pause menu -> Restart button sound
+- Is now the same Door sound as the Game Start button.
+- Activated the Restart sound in objRestartBtn -> LeftMousePressed Event
