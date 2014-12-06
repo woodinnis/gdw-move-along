@@ -402,3 +402,7 @@ Created Level Select screen
 
 Created new button sprites for Level Select screen
 - LvlSelect01 - 05 sprites
+
+Added sprites for the player
+- Four new sprites representing each direction
+- Sprite changes based on the direction of the player
