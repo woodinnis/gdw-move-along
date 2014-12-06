@@ -416,3 +416,6 @@ Reorganized assets
 Added "Move Along" to menuLarge 
 - Created font_Fruktur_lrg (100pt)
 - MenuGUI script draws the game title
+
+Minor organizational changes
+- Found more obsolete assets
