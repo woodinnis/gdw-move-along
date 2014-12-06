@@ -19,7 +19,7 @@
   <sprites name="sprites">
     <sprites name="Small Sprites">
       <sprites name="GUI">
-        <sprite>sprites\sprPlayer</sprite>
+        <sprite>sprites\sprPlayerUp</sprite>
         <sprite>sprites\sprPauseBtn</sprite>
         <sprite>sprites\sprGameStartBtn</sprite>
         <sprite>sprites\sprResetBtn</sprite>
@@ -31,6 +31,9 @@
         <sprite>sprites\sprLvlSelect03</sprite>
         <sprite>sprites\sprLvlSelect04</sprite>
         <sprite>sprites\sprLvlSelect05</sprite>
+        <sprite>sprites\sprPlayerRight</sprite>
+        <sprite>sprites\sprPlayerDown</sprite>
+        <sprite>sprites\sprPlayerLeft</sprite>
       </sprites>
       <sprites name="Solid Tiles">
         <sprites name="One Way Walls">
