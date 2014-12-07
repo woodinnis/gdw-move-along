@@ -448,3 +448,5 @@ Upgraded menu sprites with better graphics
 - QuitBtn
 - RestartBtn
 - GameStartBtn
+
+Upgraded Level Select sprites with better graphics
