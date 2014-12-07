@@ -442,3 +442,9 @@ Started work on the walk animation-walk sound syncronization
 Changed the Pause menu -> Restart button sound
 - Is now the same Door sound as the Game Start button.
 - Activated the Restart sound in objRestartBtn -> LeftMousePressed Event
+
+Upgraded menu sprites with better graphics
+- LvlSelectBtn
+- QuitBtn
+- RestartBtn
+- GameStartBtn
