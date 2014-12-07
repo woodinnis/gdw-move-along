@@ -450,3 +450,9 @@ Upgraded menu sprites with better graphics
 - GameStartBtn
 
 Upgraded Level Select sprites with better graphics
+
+Added a button to the pause menu
+- "Menu" button returns players to the main menu
+- Added MenuBtn sprite and object
+- PauseBtnPressed script creates and destroys instance of MenuBtn
+- objMenuBtn restarts game using game_restart()

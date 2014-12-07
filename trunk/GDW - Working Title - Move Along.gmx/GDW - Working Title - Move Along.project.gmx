@@ -29,6 +29,7 @@
       <sprite>sprites\sprQuitBtn</sprite>
       <sprite>sprites\sprRestartBtn</sprite>
       <sprite>sprites\sprGameStartBtn</sprite>
+      <sprite>sprites\sprMenuBtn</sprite>
     </sprites>
     <sprites name="Tiles">
       <sprite>sprites\sprWall</sprite>
@@ -170,6 +171,7 @@
       <object>objects\objQuitBtn</object>
       <object>objects\objRestartBtn</object>
       <object>objects\objGameStartBtn</object>
+      <object>objects\objMenuBtn</object>
     </objects>
     <objects name="Arrows">
       <object>objects\objArrowParent</object>
