@@ -469,3 +469,8 @@ Fixed minor UI issues
 - Changed depth of all Menu objects to -1000
 - Added condition to OverlordGUI to only display tutorial messages during active play
 - Checks with if(!isPaused)
+
+Rearranged the Level Select screen
+- All done in LvlSelectGUI
+- Adjested the display to a 2-column layout.
+- Added a menu button at the bottom middle
