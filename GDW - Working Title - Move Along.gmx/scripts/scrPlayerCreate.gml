@@ -17,4 +17,4 @@ buffer = playerSpeed / 2
 image_speed = 0
 
 // Set initialization timer
-alarm[0] = room_speed * 2;
+alarm[0] = room_speed * 3;

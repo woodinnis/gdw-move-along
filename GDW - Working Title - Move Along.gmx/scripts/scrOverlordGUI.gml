@@ -19,6 +19,15 @@ if((room != room_menuLarge) && (room != room_LvlSelect))
         draw_set_font(font_Fruktur);
     }
     
+    // Draw a countdown timer for the player to start walking
+    if(canWalk == false && newStart == true && isPaused == false)
+    {   
+        draw_set_halign(fa_center);
+        draw_set_valign(fa_top);
+        
+        draw_text(room_width/2, (room_height/4) * 3, "Start In " + string(ceil(objPlayer.alarm[0]/room_speed)));
+    }
+    
     // Set text colour
     draw_set_colour(c_white);
     
@@ -49,6 +58,8 @@ if((room != room_menuLarge) && (room != room_LvlSelect))
         // Draw background image
         draw_background(bgMayaFace, x + 50, y + 100);
     }
+    
+    
 }
 
 msgPaneX = (room_width/3);

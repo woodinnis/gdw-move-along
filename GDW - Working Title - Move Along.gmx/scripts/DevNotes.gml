@@ -456,3 +456,10 @@ Added a button to the pause menu
 - Added MenuBtn sprite and object
 - PauseBtnPressed script creates and destroys instance of MenuBtn
 - objMenuBtn restarts game using game_restart()
+
+// 09 December, 2014 //
+
+Added a countdown timer for player walk.
+- New variable newStart set to true in OverlordCreate
+- newStart set to true in OverlordRoomStart
+- 
