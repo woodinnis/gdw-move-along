@@ -474,3 +474,6 @@ Rearranged the Level Select screen
 - All done in LvlSelectGUI
 - Adjested the display to a 2-column layout.
 - Added a menu button at the bottom middle
+
+Implemented a visible grid in the play area
+- Created a tileable background for levels with a dark edge, creating a grid when tiled
