@@ -11,6 +11,7 @@ direction = 90;
 // Set speed and start walking
 speed = playerSpeed;
 objOverlord.canWalk = true;
+objOverlord.newStart = false;
 
 // Play walking sound
 audio_play_sound(sndPlayerWalk, 10, true);
