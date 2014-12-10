@@ -35,6 +35,7 @@
       <sprite>sprites\sprWall</sprite>
       <sprite>sprites\sprDoor</sprite>
       <sprite>sprites\sprHole</sprite>
+      <sprite>sprites\sprBGTile</sprite>
     </sprites>
     <sprites name="GUI">
       <sprite>sprites\sprPauseBtn</sprite>
@@ -79,6 +80,7 @@
       <background>background\bgMaze02</background>
       <background>background\bgMaze01</background>
     </backgrounds>
+    <background>background\bgBGTile</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -140,6 +142,7 @@
         <script>scripts\scrLightDraw.gml</script>
         <script>scripts\scrLightOrbCreate.gml</script>
       </scripts>
+      <script>scripts\scrDrawLine.gml</script>
       <script>scripts\scrOneWayLeftStep.gml</script>
       <script>scripts\scrArrowCollisionPlayer.gml</script>
       <script>scripts\scrPlayerClicked.gml</script>
