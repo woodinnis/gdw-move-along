@@ -464,3 +464,8 @@ Added a countdown timer for player walk.
 - newStart set to true in OverlordRoomStart
 - newStart set to false in PlayerAlarm0
 - OverlordGUI checks for canWalk, newStart, and isPaused boolean status and draws countdown to HUD
+
+Fixed minor UI issues
+- Changed depth of all Menu objects to -1000
+- Added condition to OverlordGUI to only display tutorial messages during active play
+- Checks with if(!isPaused)
