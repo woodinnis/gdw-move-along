@@ -462,4 +462,5 @@ Added a button to the pause menu
 Added a countdown timer for player walk.
 - New variable newStart set to true in OverlordCreate
 - newStart set to true in OverlordRoomStart
-- 
+- newStart set to false in PlayerAlarm0
+- OverlordGUI checks for canWalk, newStart, and isPaused boolean status and draws countdown to HUD
