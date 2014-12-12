@@ -5,7 +5,7 @@
 
 //direction = ceil(point_direction(x, y, dirX, dirY))//*90;
 
-//direction = 90;
+direction = 90;
 
 playerSpeed = 2;
 speed = 0;
