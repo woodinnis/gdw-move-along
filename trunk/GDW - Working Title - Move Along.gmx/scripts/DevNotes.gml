@@ -483,3 +483,9 @@ Implemented a visible grid in the play area
 Fixed main menu colour issue
 - Added draw_set_colour(c_black) to MenuGUI
 - "Move Along" no longer appears white when returning to main menu from gameplay
+
+Changed default reaction to wall impact
+- Added switch(direction) in PlayerMovement
+- Player now reverses direction upon impact with a wall
+- sprite_index changes still need to be addressed
+- This may be implemented as an optional "Easy Mode" leaving the original pause-on-impact mode as default
