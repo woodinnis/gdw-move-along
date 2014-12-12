@@ -489,3 +489,7 @@ Changed default reaction to wall impact
 - Player now reverses direction upon impact with a wall
 - sprite_index changes still need to be addressed
 - This may be implemented as an optional "Easy Mode" leaving the original pause-on-impact mode as default
+
+Created PlayerStep Script
+- Player sprite_index is now tied to Player.direction
+- Removed objPlayer Collision -> ArrowParent event
