@@ -477,3 +477,9 @@ Rearranged the Level Select screen
 
 Implemented a visible grid in the play area
 - Created a tileable background for levels with a dark edge, creating a grid when tiled
+
+// 12 December, 2014 //
+
+Fixed main menu colour issue
+- Added draw_set_colour(c_black) to MenuGUI
+- "Move Along" no longer appears white when returning to main menu from gameplay
