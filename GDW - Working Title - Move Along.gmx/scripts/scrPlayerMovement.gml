@@ -25,19 +25,44 @@ if(objOverlord.canWalk == true)
     if (place_meeting(x,y,objWall))
     {
         // Stop player movement        
-        speed = 0;
+//        speed = 0;
         x = xprevious;
         y = yprevious;
         move_snap(sprite_width, sprite_height);
-        objOverlord.canWalk = false;
+//        objOverlord.canWalk = false;
         
         // Play a sound        
         audio_play_sound(sndWall,10,false);
-        
+  
+        // Reverse direction on impact
+        switch(direction)
+        {
+            case 0:
+            {
+                direction = 180;
+                break;
+            }
+            case 90:
+            {
+                direction = 270;
+                break;
+            }
+            case 180:
+            {
+                direction = 0;
+                break;
+            }
+            case 270:
+            {
+                direction = 90;
+                break;
+            }
+        }
+              
         // Pause the game
         with(objPauseBtn)
         {
-           event_user(0);
+//           event_user(0);
         }     
     }
     
@@ -177,7 +202,6 @@ else
         }
     }
 }
-
 
 
 
