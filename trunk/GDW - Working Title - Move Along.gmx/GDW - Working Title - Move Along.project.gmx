@@ -93,6 +93,8 @@
       <script>scripts\scrOverlordGUI.gml</script>
       <script>scripts\scrMenuGUI.gml</script>
       <script>scripts\scrLvlSelectGUI.gml</script>
+      <script>scripts\scrDrawTransition.gml</script>
+      <script>scripts\scrOverlordRoomEnd.gml</script>
     </scripts>
     <scripts name="GUI">
       <script>scripts\scrPauseBtnPressed.gml</script>

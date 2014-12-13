@@ -2,8 +2,8 @@
 
 if(room_exists(room_next(room)))
 {
+    objOverlord.gameState = 2;
     audio_play_sound(sndDoor,10,false);
-    room_goto_next();
 }
 // if no room exists, reload current room
 else
