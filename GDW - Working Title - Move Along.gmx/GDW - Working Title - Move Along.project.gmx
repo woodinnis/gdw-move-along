@@ -100,6 +100,9 @@
       <script>scripts\scrGameStartButtonLMB.gml</script>
       <script>scripts\scrLvlSelectBtnAlarm0.gml</script>
       <script>scripts\scrLvlSelectBtnLMB.gml</script>
+      <script>scripts\scrLvlSelectParentLMB.gml</script>
+      <script>scripts\scrLvlSelectParentCreate.gml</script>
+      <script>scripts\scrLvlSelectParentAlarm0.gml</script>
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
@@ -170,6 +173,7 @@
         <object>objects\objLvlSelect03</object>
         <object>objects\objLvlSelect04</object>
         <object>objects\objLvlSelect05</object>
+        <object>objects\objLvlSelectParent</object>
       </objects>
       <object>objects\objLvlSelectBtn</object>
       <object>objects\objQuitBtn</object>
