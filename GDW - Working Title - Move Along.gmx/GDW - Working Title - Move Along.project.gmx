@@ -35,7 +35,6 @@
       <sprite>sprites\sprWall</sprite>
       <sprite>sprites\sprDoor</sprite>
       <sprite>sprites\sprHole</sprite>
-      <sprite>sprites\sprBGTile</sprite>
     </sprites>
     <sprites name="GUI">
       <sprite>sprites\sprPauseBtn</sprite>
@@ -63,6 +62,7 @@
         <sprite>sprites\sprOneWayUp</sprite>
         <sprite>sprites\sprOneWayLeft</sprite>
       </sprites>
+      <sprite>sprites\sprBGTile</sprite>
       <sprite>sprites\sprResetBtn</sprite>
     </sprites>
   </sprites>
@@ -167,6 +167,9 @@
     <font>fonts\font_Fruktur</font>
     <font>fonts\font_Fruktur_lrg</font>
     <font>fonts\font_Fruktur_med</font>
+    <font>fonts\font_Fiesta</font>
+    <font>fonts\font_Fiesta_lrg</font>
+    <font>fonts\font_Fiesta_med</font>
   </fonts>
   <objects name="objects">
     <object>objects\objOverlord</object>

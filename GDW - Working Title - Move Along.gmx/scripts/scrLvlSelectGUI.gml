@@ -7,7 +7,7 @@ if(room == room_LvlSelect)
     draw_set_halign(fa_center);
     
     // Set font and draw title
-    draw_set_font(font_Fruktur_med);
+    draw_set_font(font_Fiesta_med);
     draw_text(room_width/2, 50, "Level Select");
     
     // Create level select buttons
