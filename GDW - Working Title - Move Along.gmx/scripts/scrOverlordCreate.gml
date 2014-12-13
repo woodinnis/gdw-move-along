@@ -12,6 +12,12 @@ surface_resize(application_surface, view_wview[0], view_hview[0]);
 showDoors = true;
 
 alarm[0] = room_speed * 5;
+// Set game state
+// 0 = Intro
+// 1 = Playing
+// 2 = Outro
+gameState = 1;
+
 
 // canWalk begins as false, preventing the player from walking
 canWalk = false;
@@ -30,3 +36,6 @@ colourText = make_colour_rgb(46, 18, 176);
 
 // Declaring a new start to the room
 newStart = true;
+
+// Declare guiAlpha as 1 for use in room transitions
+guiAlpha = 0;

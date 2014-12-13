@@ -112,7 +112,12 @@ if(objOverlord.canWalk == true)
             
             surface_reset_target();          
             
-            room_goto_next();
+            // Perform room transition
+            objOverlord.gameState = 2;
+            objOverlord.canWalk = false;
+            image_speed = 0;
+            
+            //room_goto_next();
         }
         // if no room exists, reload current room
         else

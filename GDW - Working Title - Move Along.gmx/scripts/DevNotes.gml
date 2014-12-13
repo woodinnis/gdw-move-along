@@ -507,3 +507,9 @@ Fixed a long-standing minor error where clicking on the Player would bring up a 
 - Caused by a piece of code left in from an early revision of the game
 - Commented out the code
 
+Rooms now fade out and back in
+- Added gameState in OverlordCreate (Intro,Playing,Outro)
+- Added guiAlpha to OverlordCreate
+- Added switch(gameState) to OverlordStep
+- Moved room_goto_next from PlayerMovement to OverlordStep
+- Removed Player Collision -> Door
