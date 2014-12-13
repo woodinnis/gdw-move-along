@@ -500,3 +500,10 @@ Centralized the level selection scripts
 - Added Create, LMBPresed, Alarm0 Events in LvlSelectParent
 - All room_goto(level #) is now handled by Alarm0
 - LMBPressed delays the transition
+
+Adjusted the depth of Arrow objects
+
+Fixed a long-standing minor error where clicking on the Player would bring up a message window
+- Caused by a piece of code left in from an early revision of the game
+- Commented out the code
+

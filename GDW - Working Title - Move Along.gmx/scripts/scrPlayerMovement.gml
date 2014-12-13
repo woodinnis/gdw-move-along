@@ -188,7 +188,7 @@ if(objOverlord.canWalk == true)
 else
 {
 
-// Click on player to change their initial movement direction 
+/* Click on player to change their initial movement direction 
     if((mouse_x >= x && mouse_y >= y) && (mouse_x <= x + sprite_width && mouse_y <= y + sprite_height))
     {
         if(mouse_button == mb_left)
@@ -201,6 +201,8 @@ else
             show_message(direction);
         }
     }
+*/
+
 }
 
 
