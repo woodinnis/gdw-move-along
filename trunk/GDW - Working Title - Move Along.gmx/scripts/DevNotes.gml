@@ -493,3 +493,10 @@ Changed default reaction to wall impact
 Created PlayerStep Script
 - Player sprite_index is now tied to Player.direction
 - Removed objPlayer Collision -> ArrowParent event
+
+Centralized the level selection scripts
+- Created LvlSelectParent
+- Removed all LMBPressed Events from LvlSelect01-05
+- Added Create, LMBPresed, Alarm0 Events in LvlSelectParent
+- All room_goto(level #) is now handled by Alarm0
+- LMBPressed delays the transition
