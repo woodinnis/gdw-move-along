@@ -525,3 +525,10 @@ Changed visual feedback
 
 Implemented new font
 - font_Fiesta, med, lrg
+
+// 13 December, 2014 //
+
+Changed all button images to a single image
+- All buttons now use the same source sprite
+- All buttons are now labeled through script
+- All buttons now use a series of similar scripts for Create, LMBPressed, Alarm Events

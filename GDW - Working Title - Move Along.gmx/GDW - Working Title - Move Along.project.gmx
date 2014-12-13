@@ -25,11 +25,11 @@
         <sprite>sprites\sprLvlSelect04</sprite>
         <sprite>sprites\sprLvlSelect05</sprite>
       </sprites>
-      <sprite>sprites\sprLvlSelectBtn</sprite>
       <sprite>sprites\sprQuitBtn</sprite>
       <sprite>sprites\sprRestartBtn</sprite>
       <sprite>sprites\sprGameStartBtn</sprite>
       <sprite>sprites\sprMenuBtn</sprite>
+      <sprite>sprites\sprMenu</sprite>
     </sprites>
     <sprites name="Tiles">
       <sprite>sprites\sprWall</sprite>
@@ -97,11 +97,36 @@
       <script>scripts\scrOverlordRoomEnd.gml</script>
     </scripts>
     <scripts name="GUI">
-      <script>scripts\scrPauseBtnPressed.gml</script>
-      <script>scripts\scrGameStartButtonAlarm0.gml</script>
-      <script>scripts\scrGameStartButtonLMB.gml</script>
-      <script>scripts\scrLvlSelectBtnAlarm0.gml</script>
-      <script>scripts\scrLvlSelectBtnLMB.gml</script>
+      <scripts name="LvlSelectBtn">
+        <script>scripts\scrLvlSelectBtnCreate.gml</script>
+        <script>scripts\scrLvlSelectBtnLMB.gml</script>
+        <script>scripts\scrLvlSelectBtnAlarm0.gml</script>
+      </scripts>
+      <scripts name="QuitBtn">
+        <script>scripts\scrQuitBtnCreate.gml</script>
+        <script>scripts\scrQuitBtnLabel.gml</script>
+        <script>scripts\scrQuitBtnLMB.gml</script>
+        <script>scripts\scrQuitBtnAlarm0.gml</script>
+      </scripts>
+      <scripts name="RestartBtn">
+        <script>scripts\scrRestartBtnLMBPressed.gml</script>
+        <script>scripts\scrRestartBtnCreate.gml</script>
+        <script>scripts\scrRestartBtnAlarm0.gml</script>
+      </scripts>
+      <scripts name="MenuBtn">
+        <script>scripts\scrMenuBtnCreate.gml</script>
+        <script>scripts\scrMenuBtnAlarm0.gml</script>
+        <script>scripts\scrMenuBtnLMB.gml</script>
+      </scripts>
+      <scripts name="GameStartBtn">
+        <script>scripts\scrGameStartBtnCreate.gml</script>
+        <script>scripts\scrGameStartBtnAlarm0.gml</script>
+        <script>scripts\scrGameStartBtnLMB.gml</script>
+      </scripts>
+      <scripts name="PauseBtn">
+        <script>scripts\scrPauseBtnPressed.gml</script>
+        <script>scripts\scrPauseBtnLabels.gml</script>
+      </scripts>
       <script>scripts\scrLvlSelectParentLMB.gml</script>
       <script>scripts\scrLvlSelectParentCreate.gml</script>
       <script>scripts\scrLvlSelectParentAlarm0.gml</script>
@@ -170,23 +195,24 @@
     <font>fonts\font_Fiesta</font>
     <font>fonts\font_Fiesta_lrg</font>
     <font>fonts\font_Fiesta_med</font>
+    <font>fonts\font_Fiesta_sml</font>
   </fonts>
   <objects name="objects">
     <object>objects\objOverlord</object>
     <objects name="Menu">
       <objects name="Level Select">
+        <object>objects\objLvlSelectParent</object>
         <object>objects\objLvlSelect01</object>
         <object>objects\objLvlSelect02</object>
         <object>objects\objLvlSelect03</object>
         <object>objects\objLvlSelect04</object>
         <object>objects\objLvlSelect05</object>
-        <object>objects\objLvlSelectParent</object>
       </objects>
       <object>objects\objLvlSelectBtn</object>
       <object>objects\objQuitBtn</object>
+      <object>objects\objMenuBtn</object>
       <object>objects\objRestartBtn</object>
       <object>objects\objGameStartBtn</object>
-      <object>objects\objMenuBtn</object>
     </objects>
     <objects name="Arrows">
       <object>objects\objArrowParent</object>

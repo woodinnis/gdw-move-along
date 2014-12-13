@@ -1,6 +1,9 @@
 // Set background visibility to represent button-down
 // background_visible[1] = true; // not needed after implementation of new menu screen
 
+// Show Button press
+image_index = 1;
+
 // Play game start sound
 audio_play_sound(sndGameStart,10,false);
 

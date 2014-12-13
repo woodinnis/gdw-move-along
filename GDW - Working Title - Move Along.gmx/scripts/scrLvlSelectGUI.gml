@@ -1,7 +1,7 @@
 if(room == room_LvlSelect)
 {
     // Set coordinates of buttons
-    lvlIconX = sprite_get_width(sprLvlSelectBtn);
+    lvlIconX = sprite_get_width(sprMenu);
     
     // Align text
     draw_set_halign(fa_center);
