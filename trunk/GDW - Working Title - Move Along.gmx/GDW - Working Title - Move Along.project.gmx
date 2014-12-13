@@ -124,6 +124,8 @@
       <script>scripts\scrArrowCreateDown.gml</script>
       <script>scripts\scrArrowCreateUp.gml</script>
       <script>scripts\scrArrowCreateRight.gml</script>
+      <script>scripts\scrArrowParentLMBReleased.gml</script>
+      <script>scripts\scrArrowParentLMBPressed.gml</script>
     </scripts>
     <scripts name="OBSOLETE">
       <scripts name="Changing">

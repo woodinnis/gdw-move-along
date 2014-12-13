@@ -513,3 +513,12 @@ Rooms now fade out and back in
 - Added switch(gameState) to OverlordStep
 - Moved room_goto_next from PlayerMovement to OverlordStep
 - Removed Player Collision -> Door
+
+Minor adjustment to the colour of Player sprites
+
+Added minor visual feedback (drop shadows) to Arrows
+
+Created ArrowParentLMBPressed, Released to replace Event code
+
+Changed visual feedback
+- All arrows drop to 50% opacity when picked up by the player
