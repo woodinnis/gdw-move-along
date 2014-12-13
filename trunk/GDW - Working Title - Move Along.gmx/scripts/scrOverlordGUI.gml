@@ -14,9 +14,9 @@ if((room != room_menuLarge) && (room != room_LvlSelect))
     draw_rectangle(x, HUDBottom, room_width, HUDBottom + 5, false);
     
     // Check for and set display
-    if(font_exists(font_Fruktur))
+    if(font_exists(font_Fiesta))
     {
-        draw_set_font(font_Fruktur);
+        draw_set_font(font_Fiesta);
     }
     
     // Draw a countdown timer for the player to start walking

@@ -522,3 +522,6 @@ Created ArrowParentLMBPressed, Released to replace Event code
 
 Changed visual feedback
 - All arrows drop to 50% opacity when picked up by the player
+
+Implemented new font
+- font_Fiesta, med, lrg
