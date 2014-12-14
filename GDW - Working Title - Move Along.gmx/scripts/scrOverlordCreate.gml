@@ -25,6 +25,8 @@ canWalk = false;
 // Number of tiles used/moved per level
 tilesUsed = 0;
 
+totalTiles = 0;
+
 // Time spent in room
 timeUsed = 0;
 
@@ -39,3 +41,5 @@ newStart = true;
 
 // Declare guiAlpha as 1 for use in room transitions
 guiAlpha = 0;
+
+thisRoom = string(room);

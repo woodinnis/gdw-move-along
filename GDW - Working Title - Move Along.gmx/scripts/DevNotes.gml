@@ -543,4 +543,10 @@ Added a new tileset for background art
 Added new background to Level Select
 - Edited new Main Menu BG for Level Select
 
+Minor adjustment to fade in/out speed in OverlordStep
 
+Transition between rooms now displays number of tiles moved during the level
+- Removed HUD with tiles moved from gameplay area
+- draw_text() added to DrawTransition to display tiles moved info
+- Added variables totalTiles and thisRoom
+    - Used in OverlordStep to keep track of tile count and previous room for display
