@@ -558,3 +558,7 @@ Brought Level Select menu buttons into sync with other menu buttons
 // 14 Decemeber, 2014 //
 
 Added new sprite art for all arrows
+
+Added a gradient to the menu text for visibility
+- Used draw_text_colour()
+- Created a colourText2 in OverlordCreate
