@@ -83,6 +83,7 @@
     <background>background\bgBGTile</background>
     <background>background\bgMainMenu</background>
     <background>background\bgMayaGlyph</background>
+    <background>background\bgLvlSelect</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
