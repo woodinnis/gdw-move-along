@@ -146,6 +146,8 @@
     <tile bgName="bgBGTile" x="224" y="32" w="32" h="32" xo="0" yo="0" id="10000011" name="inst_AB870819" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgBGTile" x="256" y="32" w="32" h="32" xo="0" yo="0" id="10000012" name="inst_D9B8D29B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgBGTile" x="288" y="32" w="32" h="32" xo="0" yo="0" id="10000013" name="inst_1A2BEC7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMayaGlyph" x="64" y="64" w="110" h="118" xo="88" yo="26" id="10000015" name="inst_F9B54E89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMayaGlyph" x="352" y="512" w="110" h="118" xo="208" yo="26" id="10000016" name="inst_1AB17DE2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
