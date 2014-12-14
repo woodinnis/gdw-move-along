@@ -35,6 +35,7 @@ isPaused = false;
 
 // Declare colours
 colourText = make_colour_rgb(1, 115, 136);
+colourText2 = make_colour_rgb(88, 255, 151);
 
 // Declaring a new start to the room
 newStart = true;
