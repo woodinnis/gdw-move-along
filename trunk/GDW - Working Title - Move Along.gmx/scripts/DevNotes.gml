@@ -550,3 +550,7 @@ Transition between rooms now displays number of tiles moved during the level
 - draw_text() added to DrawTransition to display tiles moved info
 - Added variables totalTiles and thisRoom
     - Used in OverlordStep to keep track of tile count and previous room for display
+    
+Brought Level Select menu buttons into sync with other menu buttons
+- Now use sprMenu
+- Text is drawn in LvlSelectGUI
