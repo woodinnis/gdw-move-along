@@ -81,6 +81,8 @@
       <background>background\bgMaze01</background>
     </backgrounds>
     <background>background\bgBGTile</background>
+    <background>background\bgMainMenu</background>
+    <background>background\bgMayaGlyph</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

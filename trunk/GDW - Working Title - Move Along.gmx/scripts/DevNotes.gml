@@ -532,3 +532,10 @@ Changed all button images to a single image
 - All buttons now use the same source sprite
 - All buttons are now labeled through script
 - All buttons now use a series of similar scripts for Create, LMBPressed, Alarm Events
+
+Changed main menu
+- Jason Elliot built a new main menu background
+    - This needs to be implemented across all submenus
+
+Added a new tileset for background art
+- Mayan hieroglyphs
