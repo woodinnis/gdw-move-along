@@ -8,15 +8,15 @@ draw_set_alpha(1);
 if(guiAlpha > 0 && guiAlpha < 1)
 {
     // Set text colour
-    draw_set_colour(colourText);
+//    draw_set_colour(colourText);
     
     // Set alignment and draw GUI text
     draw_set_valign(fa_middle);
     draw_set_halign(fa_center);
     
-    draw_text(room_width/2, room_height/2 - 16, "Level " + thisRoom + ":");
+    draw_text_colour(room_width/2, room_height/2 - 16, "Level " + thisRoom + ":", colourText, colourText, colourText2, colourText2, 1);
     
-    draw_text(room_width/2, room_height/2 + 16, "Tiles Moved: " + string(totalTiles));
+    draw_text_colour(room_width/2, room_height/2 + 16, "Tiles Moved: " + string(totalTiles),colourText, colourText, colourText2, colourText2, 1);
 
     
     draw_set_colour(c_black);

@@ -14,7 +14,7 @@ if((room != room_menuLarge) && (room != room_LvlSelect))
         draw_set_halign(fa_center);
         draw_set_valign(fa_top);
         
-        draw_text(room_width/2, (room_height/4) * 3, "Start In " + string(ceil(objPlayer.alarm[0]/room_speed)));
+        draw_text_colour(room_width/2, (room_height/4) * 3, "Start In " + string(ceil(objPlayer.alarm[0]/room_speed)),colourText, colourText, colourText2, colourText2, 1);
     }
 
     
