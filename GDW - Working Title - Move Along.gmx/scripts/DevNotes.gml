@@ -539,3 +539,8 @@ Changed main menu
 
 Added a new tileset for background art
 - Mayan hieroglyphs
+
+Added new background to Level Select
+- Edited new Main Menu BG for Level Select
+
+
