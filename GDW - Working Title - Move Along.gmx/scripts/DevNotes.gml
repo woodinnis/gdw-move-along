@@ -554,3 +554,7 @@ Transition between rooms now displays number of tiles moved during the level
 Brought Level Select menu buttons into sync with other menu buttons
 - Now use sprMenu
 - Text is drawn in LvlSelectGUI
+
+// 14 Decemeber, 2014 //
+
+Added new sprite art for all arrows
