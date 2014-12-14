@@ -84,6 +84,7 @@
     <background>background\bgMainMenu</background>
     <background>background\bgMayaGlyph</background>
     <background>background\bgLvlSelect</background>
+    <background>background\bgGame</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

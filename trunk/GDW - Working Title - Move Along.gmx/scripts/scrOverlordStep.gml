@@ -11,7 +11,7 @@ switch(gameState)
     {
         if(guiAlpha > 0)
         {
-            guiAlpha -= 0.01;
+            guiAlpha -= 0.025;
         }
         else
         {
@@ -51,13 +51,17 @@ switch(gameState)
             }
         }
         
+        // Keep track of total tiles used this level
+        totalTiles = tilesUsed;
+        
+        thisRoom = string(room);
         break;
     }
     case 2:
     {
         if(guiAlpha < 1)
         {
-            guiAlpha += 0.01;
+            guiAlpha += 0.025;
         }
         else        
         {
@@ -70,5 +74,4 @@ switch(gameState)
                 
         break;
     }
-    
 }

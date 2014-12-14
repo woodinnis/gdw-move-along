@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bgBGTile" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bgGame" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -135,17 +135,6 @@
     <instance objName="objRightArrow" x="288" y="512" name="inst_18278030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
-    <tile bgName="bgBGTile" x="32" y="96" w="32" h="32" xo="0" yo="0" id="10000003" name="inst_4AEB2263" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="32" y="64" w="32" h="32" xo="0" yo="0" id="10000004" name="inst_6C365104" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="32" y="32" w="32" h="32" xo="0" yo="0" id="10000005" name="inst_8BFA4666" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="64" y="32" w="32" h="32" xo="0" yo="0" id="10000006" name="inst_43AA27E2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="96" y="32" w="32" h="32" xo="0" yo="0" id="10000007" name="inst_803DA689" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="128" y="32" w="32" h="32" xo="0" yo="0" id="10000008" name="inst_7931475F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="160" y="32" w="32" h="32" xo="0" yo="0" id="10000009" name="inst_997F10FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="192" y="32" w="32" h="32" xo="0" yo="0" id="10000010" name="inst_300DCC13" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="224" y="32" w="32" h="32" xo="0" yo="0" id="10000011" name="inst_AB870819" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="256" y="32" w="32" h="32" xo="0" yo="0" id="10000012" name="inst_D9B8D29B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgBGTile" x="288" y="32" w="32" h="32" xo="0" yo="0" id="10000013" name="inst_1A2BEC7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMayaGlyph" x="64" y="64" w="110" h="118" xo="88" yo="26" id="10000015" name="inst_F9B54E89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMayaGlyph" x="352" y="512" w="110" h="118" xo="208" yo="26" id="10000016" name="inst_1AB17DE2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
