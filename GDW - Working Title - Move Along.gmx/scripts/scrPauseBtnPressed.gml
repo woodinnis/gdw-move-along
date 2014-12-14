@@ -10,7 +10,7 @@ if(objOverlord.isPaused == false)
 
     // Create instance of a restart button
     restartBtn = instance_create((room_width/4) - sprite_get_width(sprMenu)/2, room_height/2 + 150, objRestartBtn);
-    draw_text((room_width/4) - sprite_get_width(sprMenu)/2, room_height/2 + 150,"Restart");
+//    draw_text((room_width/4) - sprite_get_width(sprMenu)/2, room_height/2 + 150,"Restart");
     
     // Create instance of a menu button    
     menuBtn = instance_create((room_width/2) - sprite_get_width(sprMenuBtn)/2, room_height/2 + 175, objMenuBtn);

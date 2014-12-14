@@ -562,3 +562,10 @@ Added new sprite art for all arrows
 Added a gradient to the menu text for visibility
 - Used draw_text_colour()
 - Created a colourText2 in OverlordCreate
+
+All in-game text now uses gradient colours
+- Main Menu
+- Level Select Menu
+- Pause Menu
+- Transition screen
+- Count down timer
