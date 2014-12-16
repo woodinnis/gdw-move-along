@@ -569,3 +569,10 @@ All in-game text now uses gradient colours
 - Pause Menu
 - Transition screen
 - Count down timer
+
+// 15 December, 2014 //
+
+Added new button art
+- Created new buttons in photoshop using the up/down maya face button
+- Each button is labelled with the same styles as the menus
+
