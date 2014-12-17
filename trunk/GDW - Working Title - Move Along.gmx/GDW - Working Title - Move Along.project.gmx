@@ -89,6 +89,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\DevNotes.gml</script>
+    <script>scripts\scrWallCreate.gml</script>
     <scripts name="Overlord">
       <script>scripts\scrOverlordCreate.gml</script>
       <script>scripts\scrOverlordAlarm0.gml</script>

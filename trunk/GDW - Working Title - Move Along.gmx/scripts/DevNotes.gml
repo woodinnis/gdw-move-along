@@ -587,3 +587,7 @@ Player no longer triggers an error when leaving level 5
 - Player now moves from the final level back to the main menu
 - OverlordStep uses room_next() to check for the next room
     - As long as the next room is not room_Pause player continues through levels
+    
+Added WallCreate
+- Wall sprites are now randomly selected images
+- Selected from 81 subimages in Wall sprite
