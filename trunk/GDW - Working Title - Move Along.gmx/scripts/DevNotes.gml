@@ -576,3 +576,9 @@ Added new button art
 - Created new buttons in photoshop using the up/down maya face button
 - Each button is labelled with the same styles as the menus
 
+// 16 December, 2014 //
+
+New arrow art
+
+Resized text on all buttons
+- 36pt text in psd
