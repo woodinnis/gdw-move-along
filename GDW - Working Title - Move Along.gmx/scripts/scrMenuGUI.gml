@@ -33,7 +33,7 @@ if(room == room_menuLarge)
     instance_create(((room_width / 4) * 3) - quitXOffset, ((room_height / 3) * 2) - quitYOffset, objQuitBtn);
 //    draw_text_colour(((room_width / 4) * 3), ((room_height / 3) * 2),"Quit", colourText, colourText, colourText2, colourText2, 1);
     
-    draw_set_font(font_Fiesta_med);
+//    draw_set_font(font_Fiesta_med);
     
     // Start Button
     instance_create(room_width / 2 - startXOffset, (room_height / 3) * 2, objGameStartBtn);

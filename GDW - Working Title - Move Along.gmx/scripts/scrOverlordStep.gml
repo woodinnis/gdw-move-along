@@ -67,7 +67,14 @@ switch(gameState)
         {
             with(objPlayer)
             {
-                room_goto_next();
+                if(room_next(room) != room_Pause)
+                {                            
+                    room_goto_next();
+                }
+                else
+                {
+                    room_goto(room_menuLarge);
+                }
             }
             gameState = 0;
         }
