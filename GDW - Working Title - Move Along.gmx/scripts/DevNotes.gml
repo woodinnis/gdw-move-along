@@ -591,3 +591,11 @@ Player no longer triggers an error when leaving level 5
 Added WallCreate
 - Wall sprites are now randomly selected images
 - Selected from 81 subimages in Wall sprite
+
+// 18 December, 2014 //
+
+New sounds added
+- Audio replaced for BGMusicMenu, BGMusicGame
+- Audio trimmed for sndDoor
+- audio_stop_all() added to OverlordRoomStart now eliminates background audio overlap
+- Audio now plays in room_LvlSelect
