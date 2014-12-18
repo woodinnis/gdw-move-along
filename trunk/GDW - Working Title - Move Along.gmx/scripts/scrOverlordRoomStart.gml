@@ -11,22 +11,27 @@ tilesUsed = 0;
 //gameState = 0;
 
 // Check current room
-if(room == room_menuLarge)
+if(room == room_menuLarge || room == room_LvlSelect)
 {
     // Stop all audio that may be playing
-    audio_stop_all();
+//    audio_stop_all();
 
     // If menu music is available to play, begin playing it
     if(sound_exists(sndBGMusicMenu))
     {
-        audio_play_sound(sndBGMusicMenu,2,true);
+//        audio_stop_all();
+        if(!audio_is_playing(sndBGMusicMenu))
+        {            
+            audio_play_sound(sndBGMusicMenu,2,true);
+        }
     }
 }
 else
 {    
     // If game music is available to play, begin playing it
     if(sound_exists(sndBGMusicGame))
-    {
+    {       
+        audio_stop_all();
         if(!audio_is_playing(sndBGMusicGame))
         {            
             audio_play_sound(sndBGMusicGame,2,true);
