@@ -1,5 +1,10 @@
 // Tile can no longer be moved
 drag = false;
 
-// Change image to default
-image_index = 0;
+// Stop sound
+audio_stop_sound(sndArrowClick);
+
+// Return image to full visibility
+image_alpha = 1;
+
+

@@ -604,3 +604,13 @@ Background music flows from room to room
 Music pauses ang resumes with game
 
 New sound for ArrowTouch
+
+// 19 December, 2014 //
+
+New sounds added
+- New sound for ArrowClick
+- ArrowParentLMBReleased now stops the ArrowClick sound
+
+Added Player feedback
+- ArrowParentLMBPressed sets image_alpha to 0.5
+- ArrowParentLMBReleased sets image_alpha to 1

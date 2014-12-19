@@ -1,8 +1,8 @@
 // Tile can be moved
 drag = true;
 
-// Change image for player feedback
-image_index = 1;
+// Change image transparency for player feedback
+image_alpha = 0.5;
 
 // Increment number of tiles used
 objOverlord.tilesUsed++;
@@ -26,4 +26,3 @@ if mouse_check_button(mb_left) && position_meeting(mouse_x,mouse_y,self)
     speed = 0;
 //    sprite_index = 
 }
-
