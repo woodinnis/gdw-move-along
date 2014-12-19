@@ -23,6 +23,12 @@ if(objOverlord.isPaused == false)
     {
         audio_pause_sound(sndPlayerWalk)
     }
+
+    // Pause game music when game pauses    
+    if(audio_is_playing(sndBGMusicGame))
+    {
+        audio_pause_sound(sndBGMusicGame);
+    }
     
     // Set canWalk to false, and speed to 0
 //    objOverlord.canWalk = false;
@@ -57,6 +63,12 @@ else
     if(audio_is_paused(sndPlayerWalk))
     {
         audio_resume_sound(sndPlayerWalk)
+    }
+    
+    // Resume game music
+    if(audio_is_paused(sndBGMusicGame))
+    {
+        audio_resume_sound(sndBGMusicGame);
     }
     // Set canWalk to true, and speed to playerSpeed
 //    objOverlord.canWalk = true;

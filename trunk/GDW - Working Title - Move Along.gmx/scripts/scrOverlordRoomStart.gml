@@ -10,16 +10,21 @@ tilesUsed = 0;
 // Set game state to intro
 //gameState = 0;
 
+//audio_stop_all();
+
 // Check current room
 if(room == room_menuLarge || room == room_LvlSelect)
 {
-    // Stop all audio that may be playing
-//    audio_stop_all();
+    // Stop the main game background music if it is currently playing
+    if(audio_is_playing(sndBGMusicGame))
+    {            
+        audio_stop_sound(sndBGMusicGame);
+//        alarm[0] = room_speed * .25;
+    }      
 
     // If menu music is available to play, begin playing it
     if(sound_exists(sndBGMusicMenu))
     {
-//        audio_stop_all();
         if(!audio_is_playing(sndBGMusicMenu))
         {            
             audio_play_sound(sndBGMusicMenu,2,true);
@@ -28,10 +33,16 @@ if(room == room_menuLarge || room == room_LvlSelect)
 }
 else
 {    
+    // Stop the Main Menu background music if it is currently playing 
+    if(audio_is_playing(sndBGMusicMenu))
+    {
+        audio_stop_sound(sndBGMusicMenu);
+//        alarm[0] = room_speed * .25;
+    }
+    
     // If game music is available to play, begin playing it
     if(sound_exists(sndBGMusicGame))
-    {       
-        audio_stop_all();
+    {
         if(!audio_is_playing(sndBGMusicGame))
         {            
             audio_play_sound(sndBGMusicGame,2,true);
