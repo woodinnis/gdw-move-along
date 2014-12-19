@@ -5,7 +5,7 @@ if(objOverlord.isPaused == true)
 }
 
 // Play a sound
-audio_play_sound(sndReset, 10, false);
+//audio_play_sound(sndReset, 10, false);
 
 // Restart the room
 room_restart();
