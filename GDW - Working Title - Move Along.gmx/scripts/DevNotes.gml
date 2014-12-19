@@ -602,3 +602,5 @@ New sounds added
 
 Background music flows from room to room
 Music pauses ang resumes with game
+
+New sound for ArrowTouch
