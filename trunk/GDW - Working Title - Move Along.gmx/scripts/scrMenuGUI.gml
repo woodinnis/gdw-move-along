@@ -24,8 +24,8 @@ if(room == room_menuLarge)
 //    draw_text(room_width/2, room_height/3, "Move#Along");
     
     draw_set_font(font_Fiesta);
-    
-    // Level Select Button
+}    
+    /* Level Select Button
     instance_create((room_width / 4) - quitXOffset, ((room_height / 3) * 2) - quitYOffset, objLvlSelectBtn);
 //    draw_text_colour((room_width / 4), ((room_height / 3) * 2), "Level#Select", colourText, colourText, colourText2, colourText2, 1);
         

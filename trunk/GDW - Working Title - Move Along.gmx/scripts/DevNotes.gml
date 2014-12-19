@@ -622,3 +622,18 @@ Fixed an issue where sndGameStart was too long and too loud when moving from men
 Still having issues with buttons playing sounds at different speeds and volumes
 - All buttons are using the same sound, and call
 - All Buttons are using the same code for create, LMBPress, alarm[0]
+
+Made small changes to room_menuLarge
+- Disabled views (didn't know they were still enabled)
+- Disabled Draw Background Colour
+
+Made small changes to room_LvlSelect
+- Disabled Draw Background Colour
+
+Added new sounds
+- Reset, Menu, Quit, LvlSelectBtn
+- All use the same sound
+
+Fixed the bug causing button sounds to play at different pitches and volumes
+- Instances of buttons were created in Draw GUI events
+- The sounds were being played multiple times until the GUI was destroyed.

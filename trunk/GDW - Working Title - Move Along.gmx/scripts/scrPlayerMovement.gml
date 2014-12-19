@@ -16,7 +16,7 @@ if(objOverlord.canWalk == true)
              {
                  move_snap(sprite_width,sprite_height);
                  direction = theArrow.direction;
-                 audio_play_sound(sndArrowTouch, 10, false);   
+                 audio_play_sound(sndArrowTouch, 100, false);   
              } 
          }
     }
@@ -32,7 +32,7 @@ if(objOverlord.canWalk == true)
 //        objOverlord.canWalk = false;
         
         // Play a sound        
-        audio_play_sound(sndWall,10,false);
+        audio_play_sound(sndWall,90,false);
   
         // Reverse direction on impact
         switch(direction)
@@ -84,7 +84,7 @@ if(objOverlord.canWalk == true)
                 speed = 0;
                 
                 // Play a sound
-                audio_play_sound(sndHole,10,false);
+                audio_play_sound(sndHole,80,false);
                 
                 // Begin room reset alarm
                 //objResetBtn.alarm[0] = room_speed * 1;
@@ -108,7 +108,7 @@ if(objOverlord.canWalk == true)
         
         if(room_exists(room_next(room)))
         {
-            audio_play_sound(sndDoor,10,false);
+            audio_play_sound(sndDoor,70,false);
             
             surface_reset_target();          
             
@@ -209,7 +209,6 @@ else
 */
 
 }
-
 
 
 

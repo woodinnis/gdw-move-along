@@ -1,25 +1,32 @@
-// Adjust room view when entering new room
-//view_wport[0] = view_wview[0];
-//view_hport[0] = view_hview[0];
+// Events to perform at the beginning of rooms
+
 
 // Clear tiles used at the beginning of each room
 tilesUsed = 0;
 
-//surface_resize(application_surface, view_wview[0], view_hview[0]);
-
-// Set game state to intro
-//gameState = 0;
-
-//audio_stop_all();
 
 // Check current room
-if(room == room_menuLarge || room == room_LvlSelect)
+if(room == room_menuLarge)
 {
+    // Set Variables
+    startXOffset = sprite_get_width(sprGameStartBtn) / 2;
+    
+    quitXOffset = sprite_get_width(sprQuitBtn) / 2;
+    quitYOffset = sprite_get_height(sprQuitBtn) / 2;
+    
+    // Level Select Button
+    instance_create((room_width / 4) - quitXOffset, ((room_height / 3) * 2) - quitYOffset, objLvlSelectBtn);
+        
+    // Quit Button
+    instance_create(((room_width / 4) * 3) - quitXOffset, ((room_height / 3) * 2) - quitYOffset, objQuitBtn);
+      
+    // Start Button
+    instance_create(room_width / 2 - startXOffset, (room_height / 3) * 2, objGameStartBtn);
+
     // Stop the main game background music if it is currently playing
     if(audio_is_playing(sndBGMusicGame))
     {            
         audio_stop_sound(sndBGMusicGame);
-//        alarm[0] = room_speed * .25;
     }      
 
     // If menu music is available to play, begin playing it
@@ -27,7 +34,40 @@ if(room == room_menuLarge || room == room_LvlSelect)
     {
         if(!audio_is_playing(sndBGMusicMenu))
         {            
-            audio_play_sound(sndBGMusicMenu,2,true);
+            audio_play_sound(sndBGMusicMenu,1,true);
+        }
+    }
+}
+else if(room == room_LvlSelect)
+{
+    // Set coordinates of buttons
+    lvlIconX = sprite_get_width(sprMenu)/2;
+    
+    // Align text
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    
+    // Set font and draw title
+    draw_set_font(font_Fiesta_med);
+    draw_set_colour(colourText);
+    
+    // Create level select buttons
+    instance_create(room_width/4 - lvlIconX, room_height/2, objLvlSelect01);
+    instance_create(room_width/2 - lvlIconX, room_height/2, objLvlSelect02);
+    instance_create(room_width/4 * 3 - lvlIconX, room_height/2, objLvlSelect03);
+
+
+    instance_create(room_width/4 - lvlIconX, room_height/2 + lvlIconX + 48, objLvlSelect04);
+    instance_create(room_width/2 - lvlIconX, room_height/2 + lvlIconX + 48, objLvlSelect05);
+    
+    instance_create(room_width/2 - lvlIconX, room_height - lvlIconX * 3, objMenuBtn); 
+       
+    // If menu music is available to play, begin playing it
+    if(sound_exists(sndBGMusicMenu))
+    {
+        if(!audio_is_playing(sndBGMusicMenu))
+        {            
+            audio_play_sound(sndBGMusicMenu,1,true);
         }
     }
 }

@@ -12,9 +12,14 @@
     <sound>sound\sndDoor</sound>
     <sound>sound\sndHole</sound>
     <sound>sound\sndWall</sound>
-    <sound>sound\sndGameStart</sound>
     <sound>sound\sndPlayerWalk</sound>
-    <sound>sound\sndReset</sound>
+    <sounds name="Buttons">
+      <sound>sound\sndReset</sound>
+      <sound>sound\sndGameStart</sound>
+      <sound>sound\sndMenu</sound>
+      <sound>sound\sndQuit</sound>
+      <sound>sound\sndLvlSelectBtn</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Menu">
@@ -95,8 +100,6 @@
       <script>scripts\scrOverlordRoomStart.gml</script>
       <script>scripts\scrOverlordStep.gml</script>
       <script>scripts\scrOverlordGUI.gml</script>
-      <script>scripts\scrMenuGUI.gml</script>
-      <script>scripts\scrLvlSelectGUI.gml</script>
       <script>scripts\scrDrawTransition.gml</script>
       <script>scripts\scrOverlordRoomEnd.gml</script>
     </scripts>
@@ -183,6 +186,8 @@
       <script>scripts\scrDrawLine.gml</script>
       <script>scripts\scrOneWayLeftStep.gml</script>
       <script>scripts\scrArrowCollisionPlayer.gml</script>
+      <script>scripts\scrMenuGUI.gml</script>
+      <script>scripts\scrLvlSelectGUI.gml</script>
       <script>scripts\scrPlayerClicked.gml</script>
       <script>scripts\scrRandomArrowGenerator.gml</script>
       <script>scripts\scrArrowWallCollision.gml</script>
