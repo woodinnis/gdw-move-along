@@ -5,7 +5,7 @@
 image_index = 1;
 
 // Play game start sound
-audio_play_sound(sndDoor,10,false);
+audio_play_sound(sndGameStart,12,false);
 
 // Set alarm time
 alarm[0] = .35 * room_speed;
