@@ -614,3 +614,7 @@ New sounds added
 Added Player feedback
 - ArrowParentLMBPressed sets image_alpha to 0.5
 - ArrowParentLMBReleased sets image_alpha to 1
+
+Fixed an issue where sndGameStart was too long and too loud when moving from menuLarge to LvlSelect
+- Changed QuitBtnLMB - audio_play_sound(sndDoor,,) to audio_play_sound(sndGameStart,,)
+- Not sure why this fixed the problem :/
