@@ -618,3 +618,7 @@ Added Player feedback
 Fixed an issue where sndGameStart was too long and too loud when moving from menuLarge to LvlSelect
 - Changed QuitBtnLMB - audio_play_sound(sndDoor,,) to audio_play_sound(sndGameStart,,)
 - Not sure why this fixed the problem :/
+
+Still having issues with buttons playing sounds at different speeds and volumes
+- All buttons are using the same sound, and call
+- All Buttons are using the same code for create, LMBPress, alarm[0]
