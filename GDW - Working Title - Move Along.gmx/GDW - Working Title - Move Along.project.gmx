@@ -92,7 +92,6 @@
     <script>scripts\scrWallCreate.gml</script>
     <scripts name="Overlord">
       <script>scripts\scrOverlordCreate.gml</script>
-      <script>scripts\scrOverlordAlarm0.gml</script>
       <script>scripts\scrOverlordRoomStart.gml</script>
       <script>scripts\scrOverlordStep.gml</script>
       <script>scripts\scrOverlordGUI.gml</script>
@@ -180,6 +179,7 @@
         <script>scripts\scrLightDraw.gml</script>
         <script>scripts\scrLightOrbCreate.gml</script>
       </scripts>
+      <script>scripts\scrOverlordAlarm0.gml</script>
       <script>scripts\scrDrawLine.gml</script>
       <script>scripts\scrOneWayLeftStep.gml</script>
       <script>scripts\scrArrowCollisionPlayer.gml</script>

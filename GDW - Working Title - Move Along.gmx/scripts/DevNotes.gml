@@ -599,3 +599,6 @@ New sounds added
 - Audio trimmed for sndDoor
 - audio_stop_all() added to OverlordRoomStart now eliminates background audio overlap
 - Audio now plays in room_LvlSelect
+
+Background music flows from room to room
+Music pauses ang resumes with game
