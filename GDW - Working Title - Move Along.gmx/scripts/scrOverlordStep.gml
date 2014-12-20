@@ -55,7 +55,7 @@ switch(gameState)
         // Keep track of total tiles used this level
         totalTiles = tilesUsed;
         
-        thisRoom = string(room);
+        thisRoom = string(room_previous(room));
         break;
     }
     case 2:
