@@ -111,7 +111,6 @@
       </scripts>
       <scripts name="QuitBtn">
         <script>scripts\scrQuitBtnCreate.gml</script>
-        <script>scripts\scrQuitBtnLabel.gml</script>
         <script>scripts\scrQuitBtnLMB.gml</script>
         <script>scripts\scrQuitBtnAlarm0.gml</script>
       </scripts>
@@ -132,7 +131,6 @@
       </scripts>
       <scripts name="PauseBtn">
         <script>scripts\scrPauseBtnPressed.gml</script>
-        <script>scripts\scrPauseBtnLabels.gml</script>
       </scripts>
       <script>scripts\scrLvlSelectParentLMB.gml</script>
       <script>scripts\scrLvlSelectParentCreate.gml</script>
@@ -140,24 +138,23 @@
     </scripts>
     <scripts name="Player">
       <script>scripts\scrPlayerCreate.gml</script>
-      <script>scripts\scrPlayerMovement.gml</script>
-      <script>scripts\scrPlayerDoorCollision.gml</script>
       <script>scripts\scrPlayerAlarm0.gml</script>
+      <script>scripts\scrPlayerMovement.gml</script>
       <script>scripts\scrPlayerStep.gml</script>
     </scripts>
     <scripts name="Arrows">
       <scripts name="Parent">
-        <script>scripts\scrArrowParentMouseEnter.gml</script>
-        <script>scripts\scrArrowParentMouseLeave.gml</script>
         <script>scripts\scrArrowParentCreate.gml</script>
         <script>scripts\scrArrowStep.gml</script>
+        <script>scripts\scrArrowParentLMBPressed.gml</script>
+        <script>scripts\scrArrowParentMouseEnter.gml</script>
+        <script>scripts\scrArrowParentMouseLeave.gml</script>
+        <script>scripts\scrArrowParentLMBReleased.gml</script>
       </scripts>
       <script>scripts\scrArrowCreateLeft.gml</script>
       <script>scripts\scrArrowCreateDown.gml</script>
       <script>scripts\scrArrowCreateUp.gml</script>
       <script>scripts\scrArrowCreateRight.gml</script>
-      <script>scripts\scrArrowParentLMBReleased.gml</script>
-      <script>scripts\scrArrowParentLMBPressed.gml</script>
     </scripts>
     <scripts name="OBSOLETE">
       <scripts name="Changing">
@@ -183,7 +180,10 @@
         <script>scripts\scrLightOrbCreate.gml</script>
       </scripts>
       <script>scripts\scrOverlordAlarm0.gml</script>
+      <script>scripts\scrPlayerDoorCollision.gml</script>
+      <script>scripts\scrPauseBtnLabels.gml</script>
       <script>scripts\scrDrawLine.gml</script>
+      <script>scripts\scrQuitBtnLabel.gml</script>
       <script>scripts\scrOneWayLeftStep.gml</script>
       <script>scripts\scrArrowCollisionPlayer.gml</script>
       <script>scripts\scrMenuGUI.gml</script>
@@ -220,8 +220,8 @@
       </objects>
       <object>objects\objLvlSelectBtn</object>
       <object>objects\objQuitBtn</object>
-      <object>objects\objMenuBtn</object>
       <object>objects\objRestartBtn</object>
+      <object>objects\objMenuBtn</object>
       <object>objects\objGameStartBtn</object>
     </objects>
     <objects name="Arrows">

@@ -639,3 +639,5 @@ Fixed the bug causing button sounds to play at different pitches and volumes
 - The sounds were being played multiple times until the GUI was destroyed.
 
 Minor Changes and code cleanup to PlayerMovement
+
+Adjusted depth of MenuBtn
