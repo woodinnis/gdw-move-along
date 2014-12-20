@@ -641,3 +641,5 @@ Fixed the bug causing button sounds to play at different pitches and volumes
 Minor Changes and code cleanup to PlayerMovement
 
 Adjusted depth of MenuBtn
+
+Presing spacebar no longer pauses the game
