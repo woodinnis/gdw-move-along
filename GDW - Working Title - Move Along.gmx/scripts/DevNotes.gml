@@ -643,3 +643,5 @@ Minor Changes and code cleanup to PlayerMovement
 Adjusted depth of MenuBtn
 
 Presing spacebar no longer pauses the game
+
+Minor file optimization and organization

@@ -72,12 +72,17 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\bgTileset01</background>
     <background>background\bgMayaFace</background>
+    <background>background\bgMainMenu</background>
+    <background>background\bgGame</background>
+    <background>background\bgLvlSelect</background>
     <backgrounds name="OBSOLETE">
       <background>background\bgMaze07</background>
       <background>background\bgMaze03</background>
+      <background>background\bgTileset01</background>
+      <background>background\bgMayaGlyph</background>
       <background>background\bgMainPage_up</background>
+      <background>background\bgBGTile</background>
       <background>background\bgMainPage_down</background>
       <background>background\bgMaze04</background>
       <background>background\bgMaze06</background>
@@ -85,11 +90,6 @@
       <background>background\bgMaze02</background>
       <background>background\bgMaze01</background>
     </backgrounds>
-    <background>background\bgBGTile</background>
-    <background>background\bgMainMenu</background>
-    <background>background\bgMayaGlyph</background>
-    <background>background\bgLvlSelect</background>
-    <background>background\bgGame</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -199,13 +199,15 @@
     </scripts>
   </scripts>
   <fonts name="fonts">
-    <font>fonts\font_Fruktur</font>
-    <font>fonts\font_Fruktur_lrg</font>
-    <font>fonts\font_Fruktur_med</font>
     <font>fonts\font_Fiesta</font>
-    <font>fonts\font_Fiesta_lrg</font>
     <font>fonts\font_Fiesta_med</font>
-    <font>fonts\font_Fiesta_sml</font>
+    <fonts name="OBSOLETE">
+      <font>fonts\font_Fiesta_lrg</font>
+      <font>fonts\font_Fiesta_sml</font>
+      <font>fonts\font_Fruktur_lrg</font>
+      <font>fonts\font_Fruktur_med</font>
+      <font>fonts\font_Fruktur</font>
+    </fonts>
   </fonts>
   <objects name="objects">
     <object>objects\objOverlord</object>
@@ -261,6 +263,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menuLarge</room>
+    <room>rooms\room_LvlSelect</room>
     <rooms name="Maps">
       <room>rooms\room_Maze01</room>
       <room>rooms\room_Maze02</room>
@@ -268,8 +271,9 @@
       <room>rooms\room_Maze04</room>
       <room>rooms\room_Maze05</room>
     </rooms>
-    <room>rooms\room_Pause</room>
-    <room>rooms\room_LvlSelect</room>
+    <rooms name="OBSOLETE">
+      <room>rooms\room_Pause</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
