@@ -637,3 +637,5 @@ Added new sounds
 Fixed the bug causing button sounds to play at different pitches and volumes
 - Instances of buttons were created in Draw GUI events
 - The sounds were being played multiple times until the GUI was destroyed.
+
+Minor Changes and code cleanup to PlayerMovement

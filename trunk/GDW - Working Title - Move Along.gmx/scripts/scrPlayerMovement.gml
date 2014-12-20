@@ -3,12 +3,12 @@
 // Set moveSpeed to playerSpeed or 0 based on True/False state of canWalk
 if(objOverlord.canWalk == true)
 {
-    
-
     speed = playerSpeed; // True
     
+    // If player walks over an arrow tile
     if (place_meeting(x,y,objArrowParent))
     {
+         // Snap to x,y of arrow tile and change direction
          theArrow = instance_place(x,y,objArrowParent);
          if (x < theArrow.x + buffer && x > theArrow.x - buffer)
          {
@@ -24,16 +24,14 @@ if(objOverlord.canWalk == true)
     // If player hits a wall
     if (place_meeting(x,y,objWall))
     {
-        // Stop player movement        
-//        speed = 0;
+        // Play a sound        
+        audio_play_sound(sndWall,90,false);
+        
+        // Snap to closest x,y
         x = xprevious;
         y = yprevious;
         move_snap(sprite_width, sprite_height);
-//        objOverlord.canWalk = false;
         
-        // Play a sound        
-        audio_play_sound(sndWall,90,false);
-  
         // Reverse direction on impact
         switch(direction)
         {
@@ -58,12 +56,7 @@ if(objOverlord.canWalk == true)
                 break;
             }
         }
-              
-        // Pause the game
-        with(objPauseBtn)
-        {
-//           event_user(0);
-        }     
+                  
     }
     
     // Player encounters a hole anywhere on the map
@@ -85,10 +78,7 @@ if(objOverlord.canWalk == true)
                 
                 // Play a sound
                 audio_play_sound(sndHole,80,false);
-                
-                // Begin room reset alarm
-                //objResetBtn.alarm[0] = room_speed * 1;
-                
+                               
                 // Pause the game 
                 with(objPauseBtn)
                 {
@@ -97,29 +87,27 @@ if(objOverlord.canWalk == true)
             } 
         } 
     }
-    
-    // It makes more sense to have the door collision code here, with the rest of the 
-    // player movement code.
-    // It currently has some minor bugs, which can be addressed post-alpha
-    // 22 November, 2014
+
+    // If player walks through a door    
     if(place_meeting(x,y,objDoor))
     {
+        // Snap to x,y of door
         move_snap(sprite_width,sprite_height);
         
+        // Play door sound
+        audio_play_sound(sndDoor,70,false);
+        
+        // Move to next room
         if(room_exists(room_next(room)))
-        {
-            audio_play_sound(sndDoor,70,false);
-            
+        {            
             surface_reset_target();          
             
             // Perform room transition
             objOverlord.gameState = 2;
             objOverlord.canWalk = false;
             image_speed = 0;
-            
-            //room_goto_next();
         }
-        // if no room exists, reload current room
+        /* if no room exists, reload current room
         else
         {    
             // Reset blend mode and target
@@ -128,6 +116,7 @@ if(objOverlord.canWalk == true)
             
             room_restart()
         }
+        */   
     }
     
     /* Player encounters a One Way Wall  
