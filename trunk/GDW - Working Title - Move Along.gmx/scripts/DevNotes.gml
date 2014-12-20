@@ -648,3 +648,8 @@ Minor file optimization and organization
 
 
 Line 650 of DevNotes - Calling this version done. Here's hoping.
+
+// 20 December, 2014 //
+
+Transition screen  now shows correct level
+- Changed OverlordStep line 58 to thisRoom = string(room_previous(room))
