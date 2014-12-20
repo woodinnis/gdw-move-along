@@ -22,7 +22,7 @@ switch(gameState)
     }
     case 1:
     {
-        // Check for spacebar pressed
+        /* Check for spacebar pressed
         if(keyboard_check_pressed(vk_space))
         {   
             show_debug_message(room);
@@ -50,6 +50,7 @@ switch(gameState)
                 room_goto(global.pauseRoom);    
             }
         }
+        */
         
         // Keep track of total tiles used this level
         totalTiles = tilesUsed;
