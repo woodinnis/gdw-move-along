@@ -655,3 +655,5 @@ Transition screen  now shows correct level
 - Changed OverlordStep line 58 to thisRoom = string(room_previous(room))
 
 Added an Asset attribution list to keep track of all non-original asset sources
+
+Fixed error where sound was not restarting when game restarted from pause menu

@@ -82,11 +82,8 @@ else
     
     // If game music is available to play, begin playing it
     if(sound_exists(sndBGMusicGame))
-    {
-        if(!audio_is_playing(sndBGMusicGame))
-        {            
-            audio_play_sound(sndBGMusicGame,2,true);
-        }
+    {                    
+        audio_play_sound(sndBGMusicGame,2,true);   
     }
 }
 
